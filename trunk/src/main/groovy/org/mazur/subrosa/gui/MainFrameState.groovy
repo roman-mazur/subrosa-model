@@ -20,9 +20,12 @@ public class MainFrameState {
   /** Active document. */
   Document activeDocument
   
+  /** Editor builder. */
+  EditorBuilder editorBuilder
+  
   /** Last index for the pain. */
   private int lastIndex = -1
-  
+
   /**
    * @return active code area
    */
@@ -31,21 +34,21 @@ public class MainFrameState {
   }
   
   /**
-   * @return new component
-   */
-  private def newEditor() {
-    def b = new EditorBuilder()
-    return b.editor()
-  }
-  
-  /**
    * Add the new document.
    */
   void newDocument() {
     ++lastIndex
     def d = new Document(index : lastIndex)
-    documentAreaMap[d] = newEditor()
+    documentAreaMap[d] = editorBuilder.editor()
     activeDocument = d
+  }
+
+  /**
+   * Add an element to the active graph.
+   */
+  void addElementToActiveGraph(def element, def point) {
+    def component = documentAreaMap[activeDocument]
+    component.addElementView(element, point)
   }
   
   /**

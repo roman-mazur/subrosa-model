@@ -2,7 +2,7 @@ package org.mazur.subrosa.model;
 
 import java.util.List;
 
-import org.mazur.subrosa.gui.graph.ElementCell;
+import org.mazur.subrosa.gui.graph.ElementView;
 
 
 /**
@@ -48,7 +48,7 @@ public abstract class AbstractModelElement implements ModelElement {
   /**
    * @return a view to represent it in the jGraph component
    */
-  public abstract ElementCell getView();
+  public abstract ElementView getView();
   
   public abstract String getLabel();
  
