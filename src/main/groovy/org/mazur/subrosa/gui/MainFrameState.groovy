@@ -52,6 +52,15 @@ public class MainFrameState {
   }
   
   /**
+   * Change active document.
+   */
+  void changeActiveDocument(int index) {
+    activeDocument = documentAreaMap.find() {
+      it.key.index == index
+    }.key
+  }
+  
+  /**
    * Open a document.
    */
   void openDocument(final File file) {

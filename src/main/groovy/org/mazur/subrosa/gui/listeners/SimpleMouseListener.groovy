@@ -1,4 +1,4 @@
-package org.mazur.subrosa.gui
+package org.mazur.subrosa.gui.listeners
 
 import java.awt.event.MouseAdapter
 import java.awt.event.MouseEvent

@@ -18,14 +18,14 @@ public class XorCell extends ElementCell {
   
   private static final long serialVersionUID = -193326977245601334L;
 
-  private static final Dimension SIZE = new Dimension(50, 50);
+  private static final Dimension SIZE = new Dimension(30, 30);
   
   public XorCell(final AbstractModelElement element) {
     super(element);
     GraphConstants.setOpaque(getAttributes(), true);
     GraphConstants.setValue(getAttributes(), element.getLabel());
     GraphConstants.setBorderColor(getAttributes(), Color.BLACK);
-    GraphConstants.setGradientColor(getAttributes(), Color.BLUE);
+    GraphConstants.setGradientColor(getAttributes(), Color.GRAY);
   }
   
   @Override
