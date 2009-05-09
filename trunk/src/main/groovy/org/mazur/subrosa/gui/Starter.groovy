@@ -2,7 +2,9 @@ package org.mazur.subrosa.gui
 
 import groovy.swing.SwingBuilder
 import javax.swing.WindowConstants as WCimport java.awt.BorderLayout as BLimport org.apache.log4j.Loggerimport javax.swing.JToolBarimport javax.swing.JSplitPaneimport java.awt.Fontimport java.awt.Colorimport org.mazur.subrosa.model.ModelControllerimport org.mazur.subrosa.model.ElementsFactory
-import java.awt.event.MouseAdapter/**
+import java.awt.event.MouseAdapterimport org.mazur.subrosa.gui.listeners.SimpleMouseListener
+import org.mazur.subrosa.gui.listeners.SimpleChangeListener
+/**
  * Starter script.
  * @author Roman Mazur (mailto:mazur.roman@gmail.com)
  */
@@ -32,6 +34,9 @@ SwingBuilder.build() {
   
   /** Tabs for opened documents. */
   def documentTabs = tabbedPane()
+  documentTabs.addChangeListener(new SimpleChangeListener(closure : {
+    state.changeActiveDocument(documentTabs.selectedIndex)
+  }))
   
   /** For logs. */
   def logTextArea = textArea()
@@ -65,7 +70,7 @@ SwingBuilder.build() {
   /** Log an error. */
   def logError = { textMessageToArea(errorsTextArea, it) }
   /** Log an error. */
-  def logInfo = { textMessageToArea(infoTextArea, it) }
+  def logInfo = { textMessageToArea(logTextArea, it) }
   /** Create a user action. */
   def userAction = { Map args ->
     def n = args['name']
