@@ -1,7 +1,6 @@
 package org.mazur.subrosa.gui
 
-import groovy.swing.SwingBuilderimport org.jgraph.JGraph
-
+import org.mazur.subrosa.gui.graph.GraphComponentimport java.awt.event.MouseListener
 /**
  * Editor builder.
  * 
@@ -12,14 +11,18 @@ import groovy.swing.SwingBuilderimport org.jgraph.JGraph
  */
 public class EditorBuilder {
 
+  /** Editor mouse listener. */
+  MouseListener editorMouseListener
+  
   /**
    * @return new editor
    */
   def editor() {
-    JGraph result = new JGraph()
+    GraphComponent result = new GraphComponent()
     result.disconnectable = false
     result.gridEnabled = true
     result.gridVisible = true
+    result.addMouseListener(editorMouseListener)
     return result
   }
   

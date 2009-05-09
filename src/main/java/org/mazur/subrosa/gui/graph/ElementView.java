@@ -1,5 +1,7 @@
 package org.mazur.subrosa.gui.graph;
 
+import java.awt.Point;
+
 import javax.swing.Icon;
 
 /**
@@ -14,5 +16,10 @@ public interface ElementView {
    * @return icon
    */
   Icon getIcon();
+  
+  /**
+   * @param point the point
+   */
+  void setPosition(final Point point);
   
 }

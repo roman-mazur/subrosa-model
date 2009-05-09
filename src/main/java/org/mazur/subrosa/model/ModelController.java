@@ -2,7 +2,7 @@ package org.mazur.subrosa.model;
 
 import java.util.HashMap;
 
-import org.jgraph.graph.GraphCell;
+import org.mazur.subrosa.gui.graph.ElementView;
 
 /**
  * Version: $Id$
@@ -13,7 +13,7 @@ import org.jgraph.graph.GraphCell;
 public class ModelController {
 
   /** Elements map. */
-  private HashMap<GraphCell, AbstractModelElement> elementsMap = new HashMap<GraphCell, AbstractModelElement>();
+  private HashMap<ElementView, AbstractModelElement> elementsMap = new HashMap<ElementView, AbstractModelElement>();
   
   public void addElement(final AbstractModelElement e) {
     elementsMap.put(e.getView(), e);

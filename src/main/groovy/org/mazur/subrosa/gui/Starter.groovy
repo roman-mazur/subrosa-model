@@ -2,7 +2,7 @@ package org.mazur.subrosa.gui
 
 import groovy.swing.SwingBuilder
 import javax.swing.WindowConstants as WCimport java.awt.BorderLayout as BLimport org.apache.log4j.Loggerimport javax.swing.JToolBarimport javax.swing.JSplitPaneimport java.awt.Fontimport java.awt.Colorimport org.mazur.subrosa.model.ModelControllerimport org.mazur.subrosa.model.ElementsFactory
-/**
+import java.awt.event.MouseAdapter/**
  * Starter script.
  * @author Roman Mazur (mailto:mazur.roman@gmail.com)
  */
@@ -16,7 +16,7 @@ Color INFO_COLOR = new Color(40, 165, 90), ERROR_COLOR = Color.RED
 def actionsHandlers = [:]
 
 /** Main state. */
-MainFrameState state = new MainFrameState()
+MainFrameState state
 
 /** Controller. */
 ModelController controller = new ModelController()
@@ -57,6 +57,15 @@ SwingBuilder.build() {
     statusLabel.text = ' ERROR: ' + msg
     statusLabel.foreground = ERROR_COLOR
   }
+  /** Write a message to the text area. */
+  def textMessageToArea = { def area, String msg ->
+    Date d = new Date()
+    area.text += "\n[$d] -> $msg" 
+  }
+  /** Log an error. */
+  def logError = { textMessageToArea(errorsTextArea, it) }
+  /** Log an error. */
+  def logInfo = { textMessageToArea(infoTextArea, it) }
   /** Create a user action. */
   def userAction = { Map args ->
     def n = args['name']
@@ -96,15 +105,34 @@ SwingBuilder.build() {
   )
   
   /** Add a new element to the model. */
-  def addNewElement = userAction(
-    closure : {
-      def e = state.lastElementToCreate
-      if (!e) { return }
-      infoStatus("Element $e was added.")
+  def addNewElement = { def event ->
+    def eKey = state.lastElementToCreate
+    if (!eKey) { return }
+    def className = configuration.elements()[eKey]
+    if (!className) {
+      def msg = "Element $eKey not found"
+      errorStatus(msg)
+      logError(msg)
+      return 
     }
-  )
+    def element = eFactory.createElement(className)
+    state.addElementToActiveGraph(element, event.point)
+    def msg = "Element '$eKey' was added."
+    infoStatus(msg)
+    logInfo(msg)
+  }
   
   // ===================================== MAIN =====================================
+  
+  // actions are formed -> create the state instance
+  state = new MainFrameState(
+    editorBuilder : new EditorBuilder(
+      editorMouseListener : new SimpleMouseListener(
+        // add a new element when clicking on the graph
+        clicked : addNewElement
+      )
+    )
+  )
   
   /** Main frame of the program. */
   def f = frame(title : 'Subrosa model', pack : true, defaultCloseOperation : WC.EXIT_ON_CLOSE) {
@@ -127,8 +155,16 @@ SwingBuilder.build() {
       }
     }
     toolBar(constraints : BL.EAST, orientation : JToolBar.VERTICAL) {
+      button(action : action(
+        name : 'cursor',
+        closure : { state.lastElementToCreate = null }
+      ))
       configuration.elements().each() {
-        button(text : it.key)
+        final def eName = it.key
+        button(action : action(
+          name : eName,
+          closure : { state.lastElementToCreate = eName }
+        ))
       }
     }
     widget(statusLabel, constraints : BL.SOUTH)
