@@ -13,7 +13,7 @@ import org.jgraph.graph.CellViewRenderer;
 import org.jgraph.graph.EdgeView;
 import org.jgraph.graph.GraphConstants;
 import org.jgraph.graph.VertexRenderer;
-import org.jgraph.graph.VertexView;
+import org.mazur.subrosa.gui.graph.ElementCell;
 
 /**
  * View with a circle shape.
@@ -22,14 +22,13 @@ import org.jgraph.graph.VertexView;
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
  *
  */
-public class EllipseView extends VertexView {
+public class EllipseView extends SimpleJGraphVertexView {
   private static final long serialVersionUID = 1114954642878175104L;
 
   /** Renderer. */
   public static transient EllipseViewRenderer renderer = new EllipseViewRenderer();
 
-  public EllipseView() { super(); }
-  public EllipseView(Object cell) { super(cell); }
+  public EllipseView(final ElementCell cell) { super(cell); }
 
   /**
    * @return the intersection of the bounding rectangle and the

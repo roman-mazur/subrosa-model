@@ -2,6 +2,7 @@ package org.mazur.subrosa.model.elements;
 
 import java.util.List;
 
+import org.mazur.subrosa.gui.graph.EditException;
 import org.mazur.subrosa.gui.graph.ElementCell;
 import org.mazur.subrosa.gui.graph.XorCell;
 import org.mazur.subrosa.model.AbstractModelElement;
@@ -18,6 +19,9 @@ public class XorElement extends AbstractModelElement {
 
   private static final long serialVersionUID = -5862703245886927046L;
 
+  /** Max input count. */
+  private int maxInputCount = 5;
+  
   /** View. */
   private XorCell view = new XorCell(this);
   
@@ -40,4 +44,14 @@ public class XorElement extends AbstractModelElement {
   @Override
   public String getLabel() { return "xor"; }
 
+  public int getMaxInputCount() { return maxInputCount; }
+  public void setMaxInputCount(final int maxInputCount) { this.maxInputCount = maxInputCount; }
+
+  @Override
+  protected boolean validateConnection(final AbstractModelElement source) {
+    if (getInputs().size() >= maxInputCount) {
+      throw new EditException("Maimum inputs count is " + maxInputCount);
+    }
+    return true;
+  }
 }

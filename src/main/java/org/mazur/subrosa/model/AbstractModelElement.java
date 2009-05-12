@@ -1,7 +1,9 @@
 package org.mazur.subrosa.model;
 
+import java.util.LinkedList;
 import java.util.List;
 
+import org.jfree.util.Log;
 import org.mazur.subrosa.gui.graph.ElementView;
 
 
@@ -17,10 +19,16 @@ public abstract class AbstractModelElement implements ModelElement {
   private static final long serialVersionUID = -2276833922428686502L;
 
   /** Inputs and outputs. */
-  private List<Interface> inputs, outputs;
+  private List<Interface> inputs = new LinkedList<Interface>(), outputs = new LinkedList<Interface>();
   
   /** Current value. */
-  private ModelValue currentValue;
+  private ModelValue currentValue = nullValue();
+  
+  /** Element notes. */
+  private String notes = "";
+  
+  public String getNotes() { return notes; }
+  public void setNotes(final String notes) { this.notes = notes; }
   
   /**
    * @return output value
@@ -33,8 +41,12 @@ public abstract class AbstractModelElement implements ModelElement {
    * @return the current value
    */
   public ModelValue getCurrentValue() {
+    Log.debug("Get current value " + currentValue);
     return currentValue;
   }
+  
+  public List<Interface> getInputs() { return inputs; }
+  public List<Interface> getOutputs() { return outputs; }
   
   @Override
   public ModelValue nullValue() {
@@ -42,6 +54,7 @@ public abstract class AbstractModelElement implements ModelElement {
     if (outputs != null) {
       for (Interface i : outputs) { d += i.dimension(); }
     }
+    Log.debug("Get null value " + d);
     return Interface.nullValue(d);
   }
   
@@ -52,4 +65,13 @@ public abstract class AbstractModelElement implements ModelElement {
   
   public abstract String getLabel();
  
+  protected abstract boolean validateConnection(final AbstractModelElement source);
+  
+  public Interface connect(final AbstractModelElement source) {
+    if (!validateConnection(source)) { return null; }
+    Interface i = new Interface(source, this);
+    inputs.add(i);
+    source.outputs.add(i);
+    return i;
+  }
 }
