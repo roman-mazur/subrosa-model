@@ -101,4 +101,13 @@ public class MainFrameState {
       return false
     }
   }
+  
+  /**
+   * Start debugger.
+   */
+  void startDebugger() {
+    def debugger = new Debugger(controller : activeDocument.controller)
+    debugger.prepare()
+    debugger.showFrame()
+  }
 }

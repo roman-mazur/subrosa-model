@@ -32,58 +32,42 @@ public class Interface implements Serializable, ModelValue {
   /**
    * @return the source
    */
-  public AbstractModelElement getSource() {
-    return source;
-  }
+  public AbstractModelElement getSource() { return source; }
 
   /**
    * @return the target
    */
-  public AbstractModelElement getTarget() {
-    return target;
-  }
+  public AbstractModelElement getTarget() { return target; }
 
   /**
    * @return the sourceRange
    */
-  public Range getSourceRange() {
-    return sourceRange;
-  }
+  public Range getSourceRange() { return sourceRange; }
 
   /**
    * @return the targetRange
    */
-  public Range getTargetRange() {
-    return targetRange;
-  }
+  public Range getTargetRange() { return targetRange; }
 
   /**
    * @param source the source to set
    */
-  public void setSource(final AbstractModelElement source) {
-    this.source = source;
-  }
+  public void setSource(final AbstractModelElement source) { this.source = source; }
 
   /**
    * @param target the target to set
    */
-  public void setTarget(final AbstractModelElement target) {
-    this.target = target;
-  }
+  public void setTarget(final AbstractModelElement target) { this.target = target; }
 
   /**
    * @param sourceRange the sourceRange to set
    */
-  public void setSourceRange(final Range sourceRange) {
-    this.sourceRange = sourceRange;
-  }
+  public void setSourceRange(final Range sourceRange) { this.sourceRange = sourceRange; }
 
   /**
    * @param targetRange the targetRange to set
    */
-  public void setTargetRange(final Range targetRange) {
-    this.targetRange = targetRange;
-  }
+  public void setTargetRange(final Range targetRange) { this.targetRange = targetRange; }
 
   public Interface(final AbstractModelElement source, final AbstractModelElement target) {
     this.source = source;
