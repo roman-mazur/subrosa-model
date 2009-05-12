@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.mazur.subrosa.gui.graph.EditException;
 import org.mazur.subrosa.gui.graph.ElementCell;
-import org.mazur.subrosa.gui.graph.XorCell;
+import org.mazur.subrosa.gui.graph.cells.XorCell;
 import org.mazur.subrosa.model.AbstractModelElement;
 import org.mazur.subrosa.model.ModelValue;
 import org.mazur.subrosa.model.utils.ArrayModelValue;

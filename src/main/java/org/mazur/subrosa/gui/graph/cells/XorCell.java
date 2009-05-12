@@ -1,4 +1,4 @@
-package org.mazur.subrosa.gui.graph;
+package org.mazur.subrosa.gui.graph.cells;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -11,6 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.JSpinner;
 
 import org.jgraph.graph.GraphConstants;
+import org.mazur.subrosa.gui.graph.ElementCell;
 import org.mazur.subrosa.gui.graph.editors.CommonEditorContainer;
 import org.mazur.subrosa.model.AbstractModelElement;
 import org.mazur.subrosa.model.elements.XorElement;
