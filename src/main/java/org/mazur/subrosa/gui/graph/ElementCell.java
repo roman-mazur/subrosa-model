@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.geom.Rectangle2D;
+import java.io.Serializable;
 
 import javax.swing.Icon;
 import javax.swing.JComponent;
@@ -37,7 +38,8 @@ public abstract class ElementCell extends DefaultGraphCell implements ElementVie
     GraphConstants.setOpaque(getAttributes(), true);
     GraphConstants.setValue(getAttributes(), element.getNotes());
     GraphConstants.setBorderColor(getAttributes(), Color.BLACK);
-    GraphConstants.setValue(getAttributes(), new Object() {
+    GraphConstants.setValue(getAttributes(), new Serializable() {
+      private static final long serialVersionUID = -8543339879134531198L;
       @Override
       public String toString() { return element.getNotes(); }
     });

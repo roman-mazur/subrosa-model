@@ -11,6 +11,7 @@ import org.mazur.subrosa.model.ModelValue;
  *
  */
 public class BitSetModelValue implements ModelValue {
+  private static final long serialVersionUID = 4084212021292376016L;
 
   /** Set. */
   private BitSet set = new BitSet();

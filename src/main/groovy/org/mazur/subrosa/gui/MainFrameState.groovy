@@ -1,6 +1,6 @@
 package org.mazur.subrosa.gui
 
-import groovy.swing.SwingBuilderimport java.io.Fileimport java.io.FileWriter
+import groovy.swing.SwingBuilderimport java.io.Fileimport java.io.FileWriterimport org.mazur.subrosa.model.ModelControllerimport javax.swing.text.rtf.MockAttributeSetimport java.io.FileInputStreamimport java.io.FileOutputStream
 /**
  * State of the main frame.
  * 
@@ -38,7 +38,7 @@ public class MainFrameState {
    */
   void newDocument() {
     ++lastIndex
-    def d = new Document(index : lastIndex)
+    def d = new Document(index : lastIndex, controller : new ModelController())
     documentAreaMap[d] = editorBuilder.editor()
     activeDocument = d
   }
@@ -49,6 +49,7 @@ public class MainFrameState {
   void addElementToActiveGraph(def element, def point) {
     def component = documentAreaMap[activeDocument]
     component.addElementView(element, point)
+    activeDocument.controller.addElement(element)
   }
   
   /**
@@ -64,10 +65,18 @@ public class MainFrameState {
    * Open a document.
    */
   void openDocument(final File file) {
-    ++lastIndex
-    def d = new Document(index : lastIndex, name : file.name, sourceFile : file)
-    documentAreaMap[d] = newEditor()
-    activeDocument = d
+    try {
+      ModelController ctl = new ModelController()
+      ctl.loadModel(new FileInputStream(file))
+      ++lastIndex
+      def d = new Document(index : lastIndex, name : file.name, sourceFile : file, controller : ctl)
+      def editor = editorBuilder.editor()
+      documentAreaMap[d] = editor
+      activeDocument = d
+      ctl.display(editor)
+    } catch (Exception e) {
+      e.printStackTrace()
+    }
   }
   
   /**
@@ -84,9 +93,12 @@ public class MainFrameState {
    */
   boolean saveDocument() {
     if (!activeDocument.sourceFile) { return false }
-    def w = new FileWriter(activeDocument.sourceFile)
-    //w << documentAreaMap[activeDocument].text
-    w.close()
-    return true
+    try {
+      activeDocument.controller.saveModel(new FileOutputStream(activeDocument.sourceFile))
+      return true
+    } catch (Exception e) {
+      e.printStackTrace()
+      return false
+    }
   }
 }

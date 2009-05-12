@@ -4,7 +4,7 @@ import groovy.swing.SwingBuilder
 import javax.swing.WindowConstants as WCimport java.awt.BorderLayout as BLimport org.apache.log4j.Loggerimport javax.swing.JToolBarimport javax.swing.JSplitPaneimport java.awt.Fontimport java.awt.Colorimport org.mazur.subrosa.model.ModelControllerimport org.mazur.subrosa.model.ElementsFactory
 import java.awt.event.MouseAdapterimport org.mazur.subrosa.gui.listeners.SimpleMouseListener
 import org.mazur.subrosa.gui.listeners.SimpleChangeListener
-/**
+import javax.swing.JFileChooser/**
  * Starter script.
  * @author Roman Mazur (mailto:mazur.roman@gmail.com)
  */
@@ -20,13 +20,14 @@ def actionsHandlers = [:]
 /** Main state. */
 MainFrameState state
 
-/** Controller. */
-ModelController controller = new ModelController()
-
 /** Elements factory. */
 ElementsFactory eFactory = new ElementsFactory()
 
+/** Configuration object. */
 Config configuration = new Config()
+
+/** Main frame. */
+def mainFrame
 
 SwingBuilder.build() {
   
@@ -45,6 +46,10 @@ SwingBuilder.build() {
   
   /** Label for status. */
   def statusLabel = label()
+
+  /** Files chooser. */
+  JFileChooser filesChooser = new JFileChooser()
+  
   
   // =================================== HELPERS ====================================
 
@@ -109,6 +114,52 @@ SwingBuilder.build() {
     }
   )
   
+  /** Open document action. */
+  def openDocumentAction = userAction(
+    name : 'Open', mnemonic : 'O',
+    accelerator : 'ctrl O',
+    keyStroke : 'ctrl O',
+    closure : {
+      int res = filesChooser.showOpenDialog(mainFrame)
+      if (res == JFileChooser.APPROVE_OPTION) {
+        state.openDocument(filesChooser.selectedFile)
+        addDocToTab()
+        infoStatus("The document was opened.")
+      }
+    }
+  )
+  
+  /** Save as document action. */
+  def saveAsDocumentAction = userAction(
+    name : 'Save as', mnemonic : 'A',
+    accelerator : 'ctrl shift S',
+    keyStroke : 'ctrl shift S',
+    closure : {
+      log.info "Execute 'save as' action"
+      int res = filesChooser.showSaveDialog(mainFrame)
+      if (res == JFileChooser.APPROVE_OPTION) {
+        state.saveDocument(filesChooser.selectedFile)
+        documentTabs.setTitleAt(state.activeDocument.index, state.activeDocument.name)
+        infoStatus("The document was saved.")
+      }
+    }
+  )
+
+  /** Save a document document. */
+  def saveDocumentAction = userAction(
+    name : 'Save', mnemonic : 'S',
+    accelerator : 'ctrl S',
+    keyStroke : 'ctrl S',
+    closure : {
+      log.info "Execute 'save' action"
+      if (!state.saveDocument()) {
+        saveAsDocumentAction.actionPerformed(null)
+      } else {
+        infoStatus("The document was saved.")
+      }
+    }
+  )
+  
   /** Add a new element to the model. */
   def addNewElement = { def event ->
     def eKey = state.lastElementToCreate
@@ -141,10 +192,13 @@ SwingBuilder.build() {
   )
   
   /** Main frame of the program. */
-  def f = frame(title : 'Subrosa model', pack : true, defaultCloseOperation : WC.EXIT_ON_CLOSE) {
+  mainFrame = frame(title : 'Subrosa model', pack : true, defaultCloseOperation : WC.EXIT_ON_CLOSE) {
     menuBar() {
       menu(text : 'File') {
         menuItem(action : newDocumentAction)
+        menuItem(action : openDocumentAction)
+        menuItem(action : saveDocumentAction)
+        menuItem(action : saveAsDocumentAction)
       }
       menu(text : 'Options')
       menu(text : 'Help')
@@ -175,7 +229,7 @@ SwingBuilder.build() {
     }
     widget(statusLabel, constraints : BL.SOUTH)
   }
-  f.show()
+  mainFrame.show()
 }
 
  

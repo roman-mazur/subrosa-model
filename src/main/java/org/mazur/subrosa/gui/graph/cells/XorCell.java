@@ -27,7 +27,7 @@ public class XorCell extends ElementCell {
   private static final Dimension SIZE = new Dimension(30, 30);
   
   /** Editor. */
-  private EditorContainer editor = new EditorContainer();
+  private transient EditorContainer editor = new EditorContainer();
   
   public XorCell(final AbstractModelElement element) {
     super(element);
@@ -39,7 +39,10 @@ public class XorCell extends ElementCell {
   protected Dimension getSize() { return SIZE; }
   
   @Override
-  public JComponent getEditorComponent() { return editor.getMainPanel(); }
+  public JComponent getEditorComponent() { 
+    if (editor == null) { editor = new EditorContainer(); }
+    return editor.getMainPanel(); 
+  }
   
   /**
    * Cell editor components.
@@ -51,7 +54,7 @@ public class XorCell extends ElementCell {
     
     /** Constructor. */
     EditorContainer() {
-      super();
+      super(getElement());
       final XorElement xe = (XorElement)getElement();
       inputsCountSpinner.setValue(xe.getMaxInputCount());
       getApplyButton().addActionListener(new ActionListener() {
@@ -62,12 +65,6 @@ public class XorCell extends ElementCell {
       });
     }
 
-    @Override
-    protected String getNotesValue() { return getElement().getNotes(); }
-    @Override
-    protected void setNotesValue(final String value) {
-      getElement().setNotes(value);
-    }
     @Override
     protected JComponent createTopComponent() {
       inputsCountSpinner = new JSpinner();

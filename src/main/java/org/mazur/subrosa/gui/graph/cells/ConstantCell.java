@@ -28,7 +28,7 @@ public class ConstantCell extends ElementCell {
   /** Cell size. */
   private static final Dimension SIZE = new Dimension(45, 25);
   
-  private EditorContainer editor = new EditorContainer();
+  private transient EditorContainer editor = new EditorContainer();
   
   @Override
   protected Dimension getSize() { return SIZE; }
@@ -40,12 +40,15 @@ public class ConstantCell extends ElementCell {
   }
 
   @Override
-  public JComponent getEditorComponent() { return editor.getMainPanel(); }
+  public JComponent getEditorComponent() {
+    if (editor == null) { editor = new EditorContainer(); }
+    return editor.getMainPanel(); 
+  }
 
   private final class EditorContainer extends CommonEditorContainer {
     private JSpinner valueSpinner, dimensionSpinner;
     EditorContainer() {
-      super();
+      super(getElement());
       final ConstantElement ce = (ConstantElement)getElement();
       valueSpinner.setValue(ce.getValue());
       dimensionSpinner.setValue(ce.getDimension());
@@ -56,13 +59,6 @@ public class ConstantCell extends ElementCell {
           ce.setDimension((Integer)dimensionSpinner.getValue());
         }
       });
-    }
-    @Override
-    protected String getNotesValue() { return getElement().getNotes(); }
-    @Override
-    protected void setNotesValue(final String value) {
-      getElement().setNotes(value);
-      GraphConstants.setValue(getAttributes(), value);
     }
 
     @Override

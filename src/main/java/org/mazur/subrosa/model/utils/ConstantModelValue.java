@@ -9,7 +9,7 @@ import org.mazur.subrosa.model.ModelValue;
  *
  */
 public class ConstantModelValue implements ModelValue {
-
+  private static final long serialVersionUID = 3065096792986847600L;
   /** Value and dimension. */
   private int value, dimension;
   

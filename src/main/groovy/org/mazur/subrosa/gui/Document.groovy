@@ -1,6 +1,6 @@
 package org.mazur.subrosa.gui
 
-/**
+import org.mazur.subrosa.model.ModelController/**
  * Gromula document.
  * 
  * Version: $Id: Document.groovy 8 2009-04-27 20:15:17Z mazur.roman $
@@ -18,4 +18,7 @@ public class Document {
 
   /** Index for the pane. */
   int index
+  
+  /** Model controller. */
+  ModelController controller
 }

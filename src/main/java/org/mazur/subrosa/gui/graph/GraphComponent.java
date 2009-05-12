@@ -22,6 +22,7 @@ import org.jgraph.JGraph;
 import org.jgraph.graph.BasicMarqueeHandler;
 import org.jgraph.graph.CellView;
 import org.jgraph.graph.DefaultGraphCell;
+import org.jgraph.graph.DefaultGraphModel;
 import org.jgraph.graph.GraphConstants;
 import org.jgraph.graph.PortView;
 import org.mazur.subrosa.model.AbstractModelElement;
@@ -39,6 +40,7 @@ public class GraphComponent extends JGraph {
   private static final Logger LOG = Logger.getLogger(GraphComponent.class);
   
   public GraphComponent() {
+    super(new DefaultGraphModel());
     getGraphLayoutCache().setFactory(new CellViewsFactory());
     setMarqueeHandler(new MarqeeHandler());
     setPortsVisible(true);
