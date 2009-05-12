@@ -1,5 +1,7 @@
 package org.mazur.subrosa.model.utils;
 
+import java.io.Serializable;
+
 /**
  * Range.
  * 
@@ -8,8 +10,9 @@ package org.mazur.subrosa.model.utils;
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
  *
  */
-public class Range {
-
+public class Range implements Serializable {
+  private static final long serialVersionUID = 8481416034517812505L;
+  
   /** Two values. */
   private int min, max;
   
@@ -20,7 +23,7 @@ public class Range {
    */
   public Range(final int min, final int max) {
     this.min = min;
-    this.max = min;
+    this.max = max;
   }
   
   /**

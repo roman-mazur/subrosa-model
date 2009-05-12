@@ -74,4 +74,8 @@ public abstract class AbstractModelElement implements ModelElement {
     source.outputs.add(i);
     return i;
   }
+  
+  public boolean hasConnections() {
+    return !inputs.isEmpty() || !outputs.isEmpty();
+  }
 }

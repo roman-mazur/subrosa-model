@@ -1,5 +1,7 @@
 package org.mazur.subrosa.model;
 
+import java.io.Serializable;
+
 /**
  * Model value.
  * 
@@ -8,7 +10,7 @@ package org.mazur.subrosa.model;
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
  *
  */
-public interface ModelValue {
+public interface ModelValue extends Serializable {
 
   /**
    * @return cardinality (bits count)

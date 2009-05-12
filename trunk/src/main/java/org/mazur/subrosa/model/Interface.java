@@ -60,28 +60,28 @@ public class Interface implements Serializable, ModelValue {
   /**
    * @param source the source to set
    */
-  public void setSource(AbstractModelElement source) {
+  public void setSource(final AbstractModelElement source) {
     this.source = source;
   }
 
   /**
    * @param target the target to set
    */
-  public void setTarget(AbstractModelElement target) {
+  public void setTarget(final AbstractModelElement target) {
     this.target = target;
   }
 
   /**
    * @param sourceRange the sourceRange to set
    */
-  public void setSourceRange(Range sourceRange) {
+  public void setSourceRange(final Range sourceRange) {
     this.sourceRange = sourceRange;
   }
 
   /**
    * @param targetRange the targetRange to set
    */
-  public void setTargetRange(Range targetRange) {
+  public void setTargetRange(final Range targetRange) {
     this.targetRange = targetRange;
   }
 
@@ -101,6 +101,7 @@ public class Interface implements Serializable, ModelValue {
     ModelValue mv = NULL_VALUES_CACHE.get(dimension);
     if (mv != null) { return null; }
     mv = new ModelValue() {
+      private static final long serialVersionUID = -2300679701642884695L;
       @Override
       public int dimension() { return dimension; }
       @Override

@@ -9,7 +9,7 @@ import org.mazur.subrosa.model.ModelValue;
  *
  */
 public class ArrayModelValue implements ModelValue {
-
+  private static final long serialVersionUID = 5538198965199323043L;
   /** Values. */
   private boolean[] v;
 
