@@ -2,8 +2,8 @@ package org.mazur.subrosa.model.elements;
 
 import java.util.List;
 
-import org.mazur.subrosa.gui.graph.ConstantCell;
 import org.mazur.subrosa.gui.graph.ElementView;
+import org.mazur.subrosa.gui.graph.cells.ConstantCell;
 import org.mazur.subrosa.model.AbstractModelElement;
 import org.mazur.subrosa.model.ModelValue;
 import org.mazur.subrosa.model.utils.ConstantModelValue;

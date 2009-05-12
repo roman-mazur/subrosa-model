@@ -1357,3 +1357,13 @@ org.mazur.subrosa.gui.graph.EditException: Maimum inputs count is 5
 2009-05-11 17:39:22,234 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@1e09eab
 2009-05-11 17:39:22,234 DEBUG - Connected. Draw it.
 2009-05-11 17:39:31,954 DEBUG - call editor component
+2009-05-12 15:40:54,607 DEBUG - Handler for New: null
+2009-05-12 15:41:00,535 DEBUG - New editor container.
+2009-05-12 15:41:00,612 DEBUG - new vertex view
+2009-05-12 15:41:04,269 DEBUG - New editor container.
+2009-05-12 15:41:04,300 DEBUG - new vertex view
+2009-05-12 15:41:07,015 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 15:41:07,027 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@1ed1dbe
+2009-05-12 15:41:07,035 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@12549c4
+2009-05-12 15:41:07,048 DEBUG - Connected. Draw it.
+2009-05-12 15:41:10,635 DEBUG - call editor component
