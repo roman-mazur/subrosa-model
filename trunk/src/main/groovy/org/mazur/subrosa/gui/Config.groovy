@@ -12,7 +12,8 @@ public class Config {
 
   /** List of elements. */
   private final static def ELEMENTS_LIST = [
-    'xor' : 'org.mazur.subrosa.model.elements.XorElement'                                            
+    'xor' : 'org.mazur.subrosa.model.elements.XorElement',                                            
+    'const' : 'org.mazur.subrosa.model.elements.ConstantElement'                                            
   ]
   
   public def elements() { return ELEMENTS_LIST }

@@ -4,6 +4,8 @@ import java.awt.Point;
 
 import javax.swing.Icon;
 
+import org.mazur.subrosa.model.AbstractModelElement;
+
 /**
  * Version: $Id$
  *
@@ -22,4 +24,8 @@ public interface ElementView {
    */
   void setPosition(final Point point);
   
+  /**
+   * @return the model element
+   */
+  AbstractModelElement getElement();
 }

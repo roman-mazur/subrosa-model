@@ -24,3 +24,1336 @@
 2009-05-09 15:10:26,603 DEBUG - Handler for New: null
 2009-05-09 15:10:31,842 DEBUG - Handler for New: null
 2009-05-09 15:30:15,784 DEBUG - Handler for New: null
+2009-05-09 16:42:55,504 DEBUG - Handler for New: null
+2009-05-09 16:44:04,359 DEBUG - Handler for New: null
+2009-05-09 16:47:16,033 DEBUG - Handler for New: null
+2009-05-09 16:51:02,626 DEBUG - Handler for New: null
+2009-05-10 12:19:37,788 DEBUG - Handler for New: null
+2009-05-10 12:27:41,338 DEBUG - Handler for New: null
+2009-05-10 12:27:44,363 DEBUG - New editor container.
+2009-05-10 12:27:45,706 DEBUG - New editor container.
+2009-05-10 12:27:45,755 DEBUG - get editor
+2009-05-10 12:27:45,756 DEBUG - new RealElementEditor
+2009-05-10 12:27:45,757 DEBUG - new BusinessElementEditor
+2009-05-10 12:27:45,882 DEBUG - New editor container.
+2009-05-10 12:28:04,870 DEBUG - New editor container.
+2009-05-10 12:28:13,520 DEBUG - New editor container.
+2009-05-10 12:28:30,048 DEBUG - get editor
+2009-05-10 12:28:30,048 DEBUG - new RealElementEditor
+2009-05-10 12:28:30,048 DEBUG - new BusinessElementEditor
+2009-05-10 12:28:39,822 DEBUG - get editor
+2009-05-10 12:28:39,822 DEBUG - new RealElementEditor
+2009-05-10 12:28:39,822 DEBUG - new BusinessElementEditor
+2009-05-10 12:28:46,439 DEBUG - get editor
+2009-05-10 12:28:46,439 DEBUG - new RealElementEditor
+2009-05-10 12:28:46,439 DEBUG - new BusinessElementEditor
+2009-05-10 12:28:56,434 DEBUG - New editor container.
+2009-05-10 12:29:05,945 DEBUG - get editor
+2009-05-10 12:29:05,945 DEBUG - new RealElementEditor
+2009-05-10 12:29:05,945 DEBUG - new BusinessElementEditor
+2009-05-10 12:39:29,965 DEBUG - Handler for New: null
+2009-05-10 12:39:35,657 DEBUG - New editor container.
+2009-05-10 12:39:35,687 DEBUG - new RealElementEditor
+2009-05-10 12:39:35,688 DEBUG - new BusinessElementEditor
+2009-05-10 12:39:51,709 DEBUG - New editor container.
+2009-05-10 12:39:51,710 DEBUG - new RealElementEditor
+2009-05-10 12:39:51,710 DEBUG - new BusinessElementEditor
+2009-05-10 12:39:59,644 DEBUG - new RealElementEditor
+2009-05-10 12:39:59,644 DEBUG - new BusinessElementEditor
+2009-05-10 12:39:59,646 DEBUG - new RealElementEditor
+2009-05-10 12:39:59,646 DEBUG - new BusinessElementEditor
+2009-05-10 12:39:59,941 DEBUG - new RealElementEditor
+2009-05-10 12:39:59,942 DEBUG - new BusinessElementEditor
+2009-05-10 12:39:59,942 DEBUG - new RealElementEditor
+2009-05-10 12:39:59,942 DEBUG - new BusinessElementEditor
+2009-05-10 12:39:59,942 DEBUG - new RealElementEditor
+2009-05-10 12:39:59,942 DEBUG - new BusinessElementEditor
+2009-05-10 12:39:59,943 DEBUG - new RealElementEditor
+2009-05-10 12:39:59,943 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:00,774 DEBUG - new RealElementEditor
+2009-05-10 12:40:00,775 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:00,775 DEBUG - new RealElementEditor
+2009-05-10 12:40:00,775 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:00,775 DEBUG - new RealElementEditor
+2009-05-10 12:40:00,775 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:00,775 DEBUG - new RealElementEditor
+2009-05-10 12:40:00,776 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:00,950 DEBUG - new RealElementEditor
+2009-05-10 12:40:00,950 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:00,951 DEBUG - new RealElementEditor
+2009-05-10 12:40:00,951 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:00,952 DEBUG - new RealElementEditor
+2009-05-10 12:40:00,952 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:00,952 DEBUG - new RealElementEditor
+2009-05-10 12:40:00,952 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,444 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,444 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,444 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,444 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,444 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,444 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,445 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,445 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,609 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,609 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,609 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,609 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,609 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,609 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,610 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,610 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,783 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,783 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,783 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,783 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,784 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,784 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:01,784 DEBUG - new RealElementEditor
+2009-05-10 12:40:01,784 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,112 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,112 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,112 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,112 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,113 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,113 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,113 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,113 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,364 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,364 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,364 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,364 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,365 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,365 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,365 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,365 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,604 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,605 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,605 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,605 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,605 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,605 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,606 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,606 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,982 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,982 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,983 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,983 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,983 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,983 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:02,983 DEBUG - new RealElementEditor
+2009-05-10 12:40:02,983 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:03,172 DEBUG - new RealElementEditor
+2009-05-10 12:40:03,172 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:03,172 DEBUG - new RealElementEditor
+2009-05-10 12:40:03,173 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:03,173 DEBUG - new RealElementEditor
+2009-05-10 12:40:03,173 DEBUG - new BusinessElementEditor
+2009-05-10 12:40:03,173 DEBUG - new RealElementEditor
+2009-05-10 12:40:03,173 DEBUG - new BusinessElementEditor
+2009-05-10 12:41:35,133 DEBUG - Handler for New: null
+2009-05-10 12:41:40,260 DEBUG - New editor container.
+2009-05-10 12:41:40,274 DEBUG - new RealElementEditor
+2009-05-10 12:41:40,275 DEBUG - new BusinessElementEditor
+2009-05-10 12:41:46,769 DEBUG - new RealElementEditor
+2009-05-10 12:41:46,769 DEBUG - new BusinessElementEditor
+2009-05-10 12:41:46,771 DEBUG - new RealElementEditor
+2009-05-10 12:41:46,771 DEBUG - new BusinessElementEditor
+2009-05-10 12:41:46,910 DEBUG - new RealElementEditor
+2009-05-10 12:41:46,911 DEBUG - new BusinessElementEditor
+2009-05-10 12:41:46,911 DEBUG - new RealElementEditor
+2009-05-10 12:41:46,911 DEBUG - new BusinessElementEditor
+2009-05-10 12:42:53,274 DEBUG - Handler for New: null
+2009-05-10 12:42:55,638 DEBUG - New editor container.
+2009-05-10 12:42:55,651 DEBUG - new view
+2009-05-10 12:42:55,652 DEBUG - new RealElementEditor
+2009-05-10 12:42:55,653 DEBUG - new BusinessElementEditor
+2009-05-10 12:42:59,011 DEBUG - new view
+2009-05-10 12:42:59,011 DEBUG - new RealElementEditor
+2009-05-10 12:42:59,011 DEBUG - new BusinessElementEditor
+2009-05-10 12:42:59,014 DEBUG - new view
+2009-05-10 12:42:59,014 DEBUG - new RealElementEditor
+2009-05-10 12:42:59,014 DEBUG - new BusinessElementEditor
+2009-05-10 12:42:59,133 DEBUG - new view
+2009-05-10 12:42:59,133 DEBUG - new RealElementEditor
+2009-05-10 12:42:59,133 DEBUG - new BusinessElementEditor
+2009-05-10 12:42:59,133 DEBUG - new view
+2009-05-10 12:42:59,133 DEBUG - new RealElementEditor
+2009-05-10 12:42:59,133 DEBUG - new BusinessElementEditor
+2009-05-10 12:47:18,322 DEBUG - Handler for New: null
+2009-05-10 12:47:20,834 DEBUG - New editor container.
+2009-05-10 12:47:20,847 DEBUG - new view
+2009-05-10 12:47:20,848 DEBUG - new RealElementEditor
+2009-05-10 12:47:20,849 DEBUG - new BusinessElementEditor
+2009-05-10 12:47:44,899 DEBUG - New editor container.
+2009-05-10 12:47:44,899 DEBUG - new view
+2009-05-10 12:47:44,899 DEBUG - new RealElementEditor
+2009-05-10 12:47:44,899 DEBUG - new BusinessElementEditor
+2009-05-10 12:47:49,193 DEBUG - New editor container.
+2009-05-10 12:47:49,194 DEBUG - new view
+2009-05-10 12:47:49,194 DEBUG - new RealElementEditor
+2009-05-10 12:47:49,194 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:20,069 DEBUG - Handler for New: null
+2009-05-10 12:49:22,842 DEBUG - New editor container.
+2009-05-10 12:49:22,855 DEBUG - new view
+2009-05-10 12:49:22,856 DEBUG - new RealElementEditor
+2009-05-10 12:49:22,857 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:24,250 DEBUG - New editor container.
+2009-05-10 12:49:24,251 DEBUG - new view
+2009-05-10 12:49:24,251 DEBUG - new RealElementEditor
+2009-05-10 12:49:24,251 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:25,211 DEBUG - New editor container.
+2009-05-10 12:49:25,211 DEBUG - new view
+2009-05-10 12:49:25,212 DEBUG - new RealElementEditor
+2009-05-10 12:49:25,212 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:28,170 DEBUG - new view
+2009-05-10 12:49:28,170 DEBUG - new RealElementEditor
+2009-05-10 12:49:28,171 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:28,173 DEBUG - new view
+2009-05-10 12:49:28,173 DEBUG - new RealElementEditor
+2009-05-10 12:49:28,173 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:29,087 DEBUG - new view
+2009-05-10 12:49:29,087 DEBUG - new RealElementEditor
+2009-05-10 12:49:29,087 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:30,489 DEBUG - new view
+2009-05-10 12:49:30,489 DEBUG - new RealElementEditor
+2009-05-10 12:49:30,489 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:31,967 DEBUG - new view
+2009-05-10 12:49:31,967 DEBUG - new RealElementEditor
+2009-05-10 12:49:31,967 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:39,316 DEBUG - new view
+2009-05-10 12:49:39,316 DEBUG - new RealElementEditor
+2009-05-10 12:49:39,317 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:40,377 DEBUG - new view
+2009-05-10 12:49:40,377 DEBUG - new RealElementEditor
+2009-05-10 12:49:40,377 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:40,377 DEBUG - new view
+2009-05-10 12:49:40,377 DEBUG - new RealElementEditor
+2009-05-10 12:49:40,378 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:40,378 DEBUG - new view
+2009-05-10 12:49:40,378 DEBUG - new RealElementEditor
+2009-05-10 12:49:40,378 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:40,378 DEBUG - new view
+2009-05-10 12:49:40,378 DEBUG - new RealElementEditor
+2009-05-10 12:49:40,378 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:40,432 DEBUG - new view
+2009-05-10 12:49:40,432 DEBUG - new RealElementEditor
+2009-05-10 12:49:40,432 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:40,432 DEBUG - new view
+2009-05-10 12:49:40,433 DEBUG - new RealElementEditor
+2009-05-10 12:49:40,433 DEBUG - new BusinessElementEditor
+2009-05-10 12:49:42,549 DEBUG - new view
+2009-05-10 12:49:42,549 DEBUG - new RealElementEditor
+2009-05-10 12:49:42,549 DEBUG - new BusinessElementEditor
+2009-05-10 12:51:03,676 DEBUG - Handler for New: null
+2009-05-10 12:51:06,076 DEBUG - New editor container.
+2009-05-10 12:51:06,090 DEBUG - new view
+2009-05-10 12:51:12,091 DEBUG - new view
+2009-05-10 12:51:12,093 DEBUG - new view
+2009-05-10 12:51:12,725 DEBUG - new view
+2009-05-10 12:51:18,143 DEBUG - new view
+2009-05-10 12:51:18,144 DEBUG - new view
+2009-05-10 12:51:18,144 DEBUG - new view
+2009-05-10 12:51:18,144 DEBUG - new view
+2009-05-10 12:51:18,196 DEBUG - new RealElementEditor
+2009-05-10 12:51:18,197 DEBUG - new BusinessElementEditor
+2009-05-10 12:51:18,200 DEBUG - new view
+2009-05-10 12:51:18,200 DEBUG - new view
+2009-05-10 12:51:22,703 DEBUG - new view
+2009-05-10 12:51:59,069 DEBUG - Handler for New: null
+2009-05-10 12:52:01,745 DEBUG - New editor container.
+2009-05-10 12:52:01,758 DEBUG - new view
+2009-05-10 12:52:08,958 DEBUG - new view
+2009-05-10 12:52:08,961 DEBUG - new view
+2009-05-10 12:52:09,089 DEBUG - new RealElementEditor
+2009-05-10 12:52:09,089 DEBUG - new BusinessElementEditor
+2009-05-10 12:52:09,091 DEBUG - new view
+2009-05-10 12:52:09,091 DEBUG - new view
+2009-05-10 12:52:10,817 DEBUG - new view
+2009-05-10 12:57:08,007 DEBUG - Handler for New: null
+2009-05-10 12:57:10,599 DEBUG - New editor container.
+2009-05-10 12:57:13,170 DEBUG - New editor container.
+2009-05-10 12:58:43,725 DEBUG - Handler for New: null
+2009-05-10 12:58:46,301 DEBUG - New editor container.
+2009-05-10 12:58:46,313 DEBUG - new view
+2009-05-10 12:58:49,641 DEBUG - new view
+2009-05-10 12:58:49,643 DEBUG - new view
+2009-05-10 12:58:49,774 DEBUG - new RealElementEditor
+2009-05-10 12:58:49,775 DEBUG - new BusinessElementEditor
+2009-05-10 12:58:49,778 DEBUG - new view
+2009-05-10 12:58:49,778 DEBUG - new view
+2009-05-10 12:59:27,663 DEBUG - Handler for New: null
+2009-05-10 12:59:32,244 DEBUG - New editor container.
+2009-05-10 12:59:32,257 DEBUG - new view
+2009-05-10 12:59:34,517 DEBUG - new view
+2009-05-10 12:59:34,520 DEBUG - new view
+2009-05-10 12:59:34,753 DEBUG - new RealElementEditor
+2009-05-10 12:59:34,753 DEBUG - new BusinessElementEditor
+2009-05-10 12:59:34,756 DEBUG - new view
+2009-05-10 12:59:34,757 DEBUG - new view
+2009-05-10 12:59:54,693 DEBUG - new view
+2009-05-10 12:59:56,333 DEBUG - new view
+2009-05-10 12:59:56,333 DEBUG - new view
+2009-05-10 12:59:56,471 DEBUG - new RealElementEditor
+2009-05-10 12:59:56,471 DEBUG - new BusinessElementEditor
+2009-05-10 12:59:56,473 DEBUG - new view
+2009-05-10 12:59:56,474 DEBUG - new view
+2009-05-10 13:00:01,142 DEBUG - new view
+2009-05-10 13:00:35,316 DEBUG - New editor container.
+2009-05-10 13:00:35,316 DEBUG - new view
+2009-05-10 13:00:37,814 DEBUG - new view
+2009-05-10 13:00:37,815 DEBUG - new view
+2009-05-10 13:00:37,952 DEBUG - new RealElementEditor
+2009-05-10 13:00:37,952 DEBUG - new BusinessElementEditor
+2009-05-10 13:00:37,954 DEBUG - new view
+2009-05-10 13:00:37,955 DEBUG - new view
+2009-05-10 13:00:39,595 DEBUG - new view
+2009-05-10 13:00:39,595 DEBUG - new view
+2009-05-10 13:00:39,595 DEBUG - new view
+2009-05-10 13:00:39,733 DEBUG - new RealElementEditor
+2009-05-10 13:00:39,733 DEBUG - new BusinessElementEditor
+2009-05-10 13:00:39,735 DEBUG - new view
+2009-05-10 13:00:39,736 DEBUG - new view
+2009-05-10 13:00:41,350 DEBUG - new view
+2009-05-10 13:00:41,351 DEBUG - new view
+2009-05-10 13:00:41,351 DEBUG - new view
+2009-05-10 13:00:41,501 DEBUG - new RealElementEditor
+2009-05-10 13:00:41,501 DEBUG - new BusinessElementEditor
+2009-05-10 13:00:41,503 DEBUG - new view
+2009-05-10 13:00:41,503 DEBUG - new view
+2009-05-10 13:00:42,853 DEBUG - new view
+2009-05-10 13:00:42,854 DEBUG - new view
+2009-05-10 13:00:42,854 DEBUG - new view
+2009-05-10 13:00:43,003 DEBUG - new RealElementEditor
+2009-05-10 13:00:43,003 DEBUG - new BusinessElementEditor
+2009-05-10 13:00:43,005 DEBUG - new view
+2009-05-10 13:00:43,006 DEBUG - new view
+2009-05-10 13:00:44,532 DEBUG - new view
+2009-05-10 13:00:44,533 DEBUG - new view
+2009-05-10 13:00:44,533 DEBUG - new view
+2009-05-10 13:00:44,658 DEBUG - new RealElementEditor
+2009-05-10 13:00:44,658 DEBUG - new BusinessElementEditor
+2009-05-10 13:00:44,660 DEBUG - new view
+2009-05-10 13:00:44,660 DEBUG - new view
+2009-05-10 13:00:47,044 DEBUG - new view
+2009-05-10 13:02:59,035 DEBUG - Handler for New: null
+2009-05-10 13:03:04,150 DEBUG - New editor container.
+2009-05-10 13:03:04,163 DEBUG - new view
+2009-05-10 13:03:07,266 DEBUG - new view
+2009-05-10 13:03:07,268 DEBUG - new view
+2009-05-10 13:03:07,398 DEBUG - new RealElementEditor
+2009-05-10 13:03:07,399 DEBUG - new BusinessElementEditor
+2009-05-10 13:03:07,403 DEBUG - new view
+2009-05-10 13:03:07,403 DEBUG - new view
+2009-05-10 13:03:19,467 DEBUG - new view
+2009-05-10 13:03:58,611 DEBUG - Handler for New: null
+2009-05-10 13:04:02,489 DEBUG - New editor container.
+2009-05-10 13:04:02,503 DEBUG - new view
+2009-05-10 13:04:04,570 DEBUG - new view
+2009-05-10 13:04:04,573 DEBUG - new view
+2009-05-10 13:04:04,705 DEBUG - new RealElementEditor
+2009-05-10 13:04:04,705 DEBUG - new BusinessElementEditor
+2009-05-10 13:04:04,710 DEBUG - new view
+2009-05-10 13:04:04,710 DEBUG - new view
+2009-05-10 13:05:07,774 DEBUG - Handler for New: null
+2009-05-10 13:05:10,528 DEBUG - New editor container.
+2009-05-10 13:05:10,542 DEBUG - new view
+2009-05-10 13:05:13,886 DEBUG - new view
+2009-05-10 13:05:13,888 DEBUG - new view
+2009-05-10 13:05:14,020 DEBUG - new RealElementEditor
+2009-05-10 13:05:14,021 DEBUG - new BusinessElementEditor
+2009-05-10 13:05:14,031 DEBUG - new view
+2009-05-10 13:05:14,031 DEBUG - new view
+2009-05-10 13:06:21,228 DEBUG - new view
+2009-05-10 13:07:09,032 DEBUG - new view
+2009-05-10 13:07:09,032 DEBUG - new view
+2009-05-10 13:07:09,158 DEBUG - new RealElementEditor
+2009-05-10 13:07:09,158 DEBUG - new BusinessElementEditor
+2009-05-10 13:07:09,161 DEBUG - new view
+2009-05-10 13:07:09,162 DEBUG - new view
+2009-05-10 13:24:22,431 DEBUG - Handler for New: null
+2009-05-10 13:24:23,679 DEBUG - New editor container.
+2009-05-10 13:24:23,687 DEBUG - new view
+2009-05-10 13:24:26,714 DEBUG - new view
+2009-05-10 13:24:26,716 DEBUG - new view
+2009-05-10 13:24:26,835 DEBUG - new RealElementEditor
+2009-05-10 13:24:26,836 DEBUG - new BusinessElementEditor
+2009-05-10 13:24:26,848 DEBUG - new view
+2009-05-10 13:24:26,848 DEBUG - new view
+2009-05-10 13:24:29,690 DEBUG - new view
+2009-05-10 13:24:31,417 DEBUG - new view
+2009-05-10 13:24:31,418 DEBUG - new view
+2009-05-10 13:24:31,556 DEBUG - new RealElementEditor
+2009-05-10 13:24:31,557 DEBUG - new BusinessElementEditor
+2009-05-10 13:24:31,560 DEBUG - new view
+2009-05-10 13:24:31,560 DEBUG - new view
+2009-05-10 13:25:01,848 DEBUG - new view
+2009-05-10 13:25:03,589 DEBUG - new view
+2009-05-10 13:25:03,589 DEBUG - new view
+2009-05-10 13:25:03,728 DEBUG - new RealElementEditor
+2009-05-10 13:25:03,728 DEBUG - new BusinessElementEditor
+2009-05-10 13:25:03,731 DEBUG - new view
+2009-05-10 13:25:03,732 DEBUG - new view
+2009-05-10 13:25:05,207 DEBUG - new view
+2009-05-10 13:25:06,316 DEBUG - new view
+2009-05-10 13:25:06,316 DEBUG - new view
+2009-05-10 13:25:07,049 DEBUG - new view
+2009-05-10 13:25:07,049 DEBUG - new view
+2009-05-10 13:25:07,049 DEBUG - new view
+2009-05-10 13:25:07,050 DEBUG - new view
+2009-05-10 13:25:07,099 DEBUG - new RealElementEditor
+2009-05-10 13:25:07,099 DEBUG - new BusinessElementEditor
+2009-05-10 13:25:07,104 DEBUG - new view
+2009-05-10 13:25:07,105 DEBUG - new view
+2009-05-10 13:25:55,930 DEBUG - Handler for New: null
+2009-05-10 13:25:58,438 DEBUG - New editor container.
+2009-05-10 13:25:58,446 DEBUG - new view
+2009-05-10 13:26:00,999 DEBUG - new view
+2009-05-10 13:26:01,002 DEBUG - new view
+2009-05-10 13:26:01,114 DEBUG - new RealElementEditor
+2009-05-10 13:26:01,115 DEBUG - new BusinessElementEditor
+2009-05-10 13:26:01,121 DEBUG - new view
+2009-05-10 13:26:01,121 DEBUG - new view
+2009-05-10 13:27:10,333 DEBUG - Handler for New: null
+2009-05-10 13:27:12,716 DEBUG - New editor container.
+2009-05-10 13:27:12,722 DEBUG - new view
+2009-05-10 13:27:15,181 DEBUG - new view
+2009-05-10 13:27:15,184 DEBUG - new view
+2009-05-10 13:27:15,290 DEBUG - new RealElementEditor
+2009-05-10 13:27:15,291 DEBUG - new BusinessElementEditor
+2009-05-10 13:27:15,297 DEBUG - new view
+2009-05-10 13:27:15,297 DEBUG - new view
+2009-05-10 13:27:18,662 DEBUG - new view
+2009-05-10 13:28:27,698 DEBUG - Handler for New: null
+2009-05-10 13:28:32,769 DEBUG - New editor container.
+2009-05-10 13:28:32,776 DEBUG - new view
+2009-05-10 13:28:35,865 DEBUG - new view
+2009-05-10 13:28:35,867 DEBUG - new view
+2009-05-10 13:28:35,986 DEBUG - new RealElementEditor
+2009-05-10 13:28:35,987 DEBUG - new BusinessElementEditor
+2009-05-10 13:28:35,993 DEBUG - new view
+2009-05-10 13:28:35,993 DEBUG - new view
+2009-05-10 13:38:23,516 DEBUG - Handler for New: null
+2009-05-10 13:38:27,178 DEBUG - New editor container.
+2009-05-10 13:38:27,186 DEBUG - new view
+2009-05-10 13:38:31,146 DEBUG - new view
+2009-05-10 13:38:31,149 DEBUG - new view
+2009-05-10 13:38:31,292 DEBUG - new RealElementEditor
+2009-05-10 13:38:31,293 DEBUG - new BusinessElementEditor
+2009-05-10 13:38:31,299 DEBUG - new view
+2009-05-10 13:38:31,299 DEBUG - new view
+2009-05-10 13:38:45,977 DEBUG - new view
+2009-05-10 13:39:01,768 DEBUG - new view
+2009-05-10 13:39:01,769 DEBUG - new view
+2009-05-10 13:39:02,652 DEBUG - new view
+2009-05-10 13:39:02,652 DEBUG - new view
+2009-05-10 13:39:02,652 DEBUG - new view
+2009-05-10 13:39:02,653 DEBUG - new view
+2009-05-10 13:39:02,703 DEBUG - new RealElementEditor
+2009-05-10 13:39:02,703 DEBUG - new BusinessElementEditor
+2009-05-10 13:39:02,709 DEBUG - new view
+2009-05-10 13:39:02,709 DEBUG - new view
+2009-05-10 13:39:22,488 DEBUG - new view
+2009-05-10 13:57:29,148 DEBUG - Handler for New: null
+2009-05-10 13:57:34,506 DEBUG - New editor container.
+2009-05-10 13:57:34,516 DEBUG - new view
+2009-05-10 13:57:37,700 DEBUG - new view
+2009-05-10 13:57:37,702 DEBUG - new view
+2009-05-10 13:57:39,146 DEBUG - new view
+2009-05-10 13:57:45,168 DEBUG - new view
+2009-05-10 13:57:45,169 DEBUG - new view
+2009-05-10 13:57:49,308 DEBUG - new view
+2009-05-10 13:57:49,309 DEBUG - new view
+2009-05-10 13:57:49,309 DEBUG - new view
+2009-05-10 13:57:49,309 DEBUG - new view
+2009-05-10 13:57:49,364 DEBUG - new RealElementEditor
+2009-05-10 13:57:49,365 DEBUG - new BusinessElementEditor
+2009-05-10 13:57:49,371 DEBUG - new view
+2009-05-10 13:57:49,371 DEBUG - new view
+2009-05-10 13:57:52,629 DEBUG - new view
+2009-05-10 13:57:53,498 DEBUG - new view
+2009-05-10 13:57:53,498 DEBUG - new view
+2009-05-10 13:57:55,897 DEBUG - new view
+2009-05-10 13:58:01,770 DEBUG - new view
+2009-05-10 13:58:07,234 DEBUG - new view
+2009-05-10 13:58:07,234 DEBUG - new view
+2009-05-10 13:58:07,891 DEBUG - new view
+2009-05-10 14:28:21,767 DEBUG - Handler for New: null
+2009-05-10 14:28:25,936 DEBUG - New editor container.
+2009-05-10 14:30:13,677 DEBUG - Handler for New: null
+2009-05-10 14:30:19,066 DEBUG - New editor container.
+2009-05-10 14:30:19,086 DEBUG - new view
+2009-05-10 14:30:24,038 DEBUG - new view
+2009-05-10 14:30:24,041 DEBUG - new view
+2009-05-10 14:30:24,160 DEBUG - new RealElementEditor
+2009-05-10 14:30:24,161 DEBUG - new BusinessElementEditor
+2009-05-10 14:30:24,167 DEBUG - new view
+2009-05-10 14:30:24,167 DEBUG - new view
+2009-05-10 14:30:29,969 DEBUG - new view
+2009-05-10 14:30:33,682 DEBUG - New editor container.
+2009-05-10 14:30:33,688 DEBUG - new view
+2009-05-10 14:30:54,777 DEBUG - new view
+2009-05-10 14:30:54,777 DEBUG - new view
+2009-05-10 14:30:54,903 DEBUG - New editor container.
+2009-05-10 14:30:54,908 DEBUG - new view
+2009-05-10 14:30:54,909 DEBUG - new view
+2009-05-10 14:30:58,501 DEBUG - new view
+2009-05-10 14:30:58,501 DEBUG - new view
+2009-05-10 14:30:59,259 DEBUG - new view
+2009-05-10 14:31:00,295 DEBUG - new view
+2009-05-10 14:31:00,295 DEBUG - new view
+2009-05-10 14:31:00,295 DEBUG - new view
+2009-05-10 14:31:00,295 DEBUG - new view
+2009-05-10 14:31:00,344 DEBUG - new RealElementEditor
+2009-05-10 14:31:00,344 DEBUG - new BusinessElementEditor
+2009-05-10 14:31:00,352 DEBUG - new view
+2009-05-10 14:31:00,352 DEBUG - new view
+2009-05-10 14:34:01,745 DEBUG - Handler for New: null
+2009-05-10 14:34:05,250 DEBUG - New editor container.
+2009-05-10 14:34:05,270 DEBUG - new view
+2009-05-10 14:34:08,478 DEBUG - new view
+2009-05-10 14:34:08,480 DEBUG - new view
+2009-05-10 14:34:08,592 DEBUG - new RealElementEditor
+2009-05-10 14:34:08,593 DEBUG - new BusinessElementEditor
+2009-05-10 14:34:08,601 DEBUG - new view
+2009-05-10 14:34:08,601 DEBUG - new view
+2009-05-10 14:34:36,809 DEBUG - new view
+2009-05-10 14:41:28,360 DEBUG - Handler for New: null
+2009-05-10 14:41:31,221 DEBUG - New editor container.
+2009-05-10 14:41:31,243 DEBUG - new view
+2009-05-10 14:41:40,908 DEBUG - New editor container.
+2009-05-10 14:41:40,914 DEBUG - new view
+2009-05-10 14:42:10,048 DEBUG - Handler for New: null
+2009-05-10 14:42:13,432 DEBUG - New editor container.
+2009-05-10 14:42:13,453 DEBUG - new view
+2009-05-10 14:42:19,657 DEBUG - new view
+2009-05-10 14:42:19,659 DEBUG - new view
+2009-05-10 14:42:19,777 DEBUG - new RealElementEditor
+2009-05-10 14:42:19,778 DEBUG - new BusinessElementEditor
+2009-05-10 14:42:19,785 DEBUG - new view
+2009-05-10 14:42:19,786 DEBUG - new view
+2009-05-10 14:42:28,402 DEBUG - new view
+2009-05-10 14:42:31,035 DEBUG - New editor container.
+2009-05-10 14:42:31,041 DEBUG - new view
+2009-05-10 14:42:32,203 DEBUG - new view
+2009-05-10 14:42:32,204 DEBUG - new view
+2009-05-10 14:42:32,278 DEBUG - New editor container.
+2009-05-10 14:42:32,281 DEBUG - new view
+2009-05-10 14:42:32,282 DEBUG - new view
+2009-05-10 14:42:32,329 DEBUG - new RealElementEditor
+2009-05-10 14:42:32,329 DEBUG - new BusinessElementEditor
+2009-05-10 14:42:32,335 DEBUG - new view
+2009-05-10 14:42:32,336 DEBUG - new view
+2009-05-10 14:42:32,456 DEBUG - New editor container.
+2009-05-10 14:42:32,459 DEBUG - new view
+2009-05-10 14:42:32,460 DEBUG - new view
+2009-05-10 14:42:34,842 DEBUG - new view
+2009-05-10 14:42:34,970 DEBUG - New editor container.
+2009-05-10 14:42:34,975 DEBUG - new view
+2009-05-10 15:46:19,876 DEBUG - Handler for New: null
+2009-05-10 15:46:24,370 DEBUG - New editor container.
+2009-05-10 15:46:24,371 DEBUG - new view
+2009-05-10 15:46:26,929 DEBUG - New editor container.
+2009-05-10 15:46:26,929 DEBUG - new view
+2009-05-10 15:46:28,365 DEBUG - new view
+2009-05-10 15:46:28,365 DEBUG - new view
+2009-05-10 15:46:29,677 DEBUG - new view
+2009-05-10 15:46:32,626 DEBUG - new view
+2009-05-10 15:46:33,844 DEBUG - new view
+2009-05-10 15:46:36,154 DEBUG - new view
+2009-05-10 15:48:06,362 DEBUG - Handler for New: null
+2009-05-10 15:48:09,811 DEBUG - New editor container.
+2009-05-10 15:48:09,843 DEBUG - new view
+2009-05-10 15:48:14,071 DEBUG - New editor container.
+2009-05-10 15:48:14,071 DEBUG - new view
+2009-05-10 15:48:15,834 DEBUG - new view
+2009-05-10 15:48:15,834 DEBUG - new view
+2009-05-10 15:48:16,974 DEBUG - new view
+2009-05-10 15:49:22,383 DEBUG - Handler for New: null
+2009-05-10 15:49:26,846 DEBUG - New editor container.
+2009-05-10 15:49:26,847 DEBUG - new view
+2009-05-10 15:49:30,716 DEBUG - new view
+2009-05-10 15:49:30,716 DEBUG - new view
+2009-05-10 15:49:31,372 DEBUG - new view
+2009-05-10 15:49:32,698 DEBUG - new view
+2009-05-10 15:49:40,639 DEBUG - New editor container.
+2009-05-10 15:49:40,639 DEBUG - new view
+2009-05-10 15:49:46,225 DEBUG - Connect cells
+2009-05-10 15:49:56,460 DEBUG - new view
+2009-05-10 15:49:56,460 DEBUG - new view
+2009-05-10 15:49:57,241 DEBUG - new view
+2009-05-10 15:49:58,629 DEBUG - new view
+2009-05-10 15:49:58,629 DEBUG - new view
+2009-05-10 15:49:59,207 DEBUG - new view
+2009-05-10 15:53:03,717 DEBUG - Handler for New: null
+2009-05-10 15:53:14,077 DEBUG - New editor container.
+2009-05-10 15:53:14,078 DEBUG - new view
+2009-05-10 15:53:18,805 DEBUG - new view
+2009-05-10 15:53:18,805 DEBUG - new view
+2009-05-10 15:53:19,118 DEBUG - new RealElementEditor
+2009-05-10 15:53:19,118 DEBUG - new BusinessElementEditor
+2009-05-10 15:53:19,118 DEBUG - new view
+2009-05-10 15:53:19,118 DEBUG - new view
+2009-05-10 15:53:23,252 DEBUG - new view
+2009-05-10 15:53:27,121 DEBUG - New editor container.
+2009-05-10 15:53:27,121 DEBUG - new view
+2009-05-10 15:53:29,057 DEBUG - new view
+2009-05-10 15:53:29,057 DEBUG - new view
+2009-05-10 15:53:29,245 DEBUG - new RealElementEditor
+2009-05-10 15:53:29,245 DEBUG - new BusinessElementEditor
+2009-05-10 15:53:29,354 DEBUG - new view
+2009-05-10 15:53:29,354 DEBUG - new view
+2009-05-10 15:53:33,644 DEBUG - new view
+2009-05-10 15:53:45,673 DEBUG - Connect cells
+2009-05-10 15:53:51,680 DEBUG - New editor container.
+2009-05-10 15:53:51,681 DEBUG - new view
+2009-05-10 15:54:05,315 DEBUG - Connect cells
+2009-05-10 15:56:41,668 DEBUG - Handler for New: null
+2009-05-10 15:56:44,524 DEBUG - New editor container.
+2009-05-10 15:56:44,541 DEBUG - new view
+2009-05-10 15:56:53,370 DEBUG - new view
+2009-05-10 15:56:53,370 DEBUG - new view
+2009-05-10 15:56:56,928 DEBUG - new view
+2009-05-10 15:57:22,194 DEBUG - Handler for New: null
+2009-05-10 15:57:22,531 DEBUG - Handler for New: null
+2009-05-10 15:57:26,353 DEBUG - New editor container.
+2009-05-10 15:57:26,354 DEBUG - new view
+2009-05-10 15:57:30,066 DEBUG - new view
+2009-05-10 15:57:30,066 DEBUG - new view
+2009-05-10 15:57:33,843 DEBUG - new view
+2009-05-10 15:57:33,843 DEBUG - new view
+2009-05-10 15:57:33,843 DEBUG - new view
+2009-05-10 15:57:33,843 DEBUG - new view
+2009-05-10 15:57:33,922 DEBUG - new RealElementEditor
+2009-05-10 15:57:33,922 DEBUG - new BusinessElementEditor
+2009-05-10 15:57:33,937 DEBUG - new view
+2009-05-10 15:57:33,937 DEBUG - new view
+2009-05-10 15:57:38,898 DEBUG - new view
+2009-05-10 15:57:40,381 DEBUG - new view
+2009-05-10 15:57:40,381 DEBUG - new view
+2009-05-10 15:57:40,476 DEBUG - new view
+2009-05-10 15:57:41,817 DEBUG - new view
+2009-05-10 15:57:51,989 DEBUG - new view
+2009-05-10 15:57:51,989 DEBUG - new view
+2009-05-10 15:58:36,435 DEBUG - new view
+2009-05-10 15:58:36,435 DEBUG - new view
+2009-05-10 15:58:38,776 DEBUG - new view
+2009-05-10 15:58:38,776 DEBUG - new view
+2009-05-10 15:58:38,776 DEBUG - new view
+2009-05-10 15:58:38,776 DEBUG - new view
+2009-05-10 15:58:39,744 DEBUG - new view
+2009-05-10 15:58:39,744 DEBUG - new view
+2009-05-10 15:58:39,744 DEBUG - new view
+2009-05-10 15:58:39,744 DEBUG - new view
+2009-05-10 15:58:39,838 DEBUG - new RealElementEditor
+2009-05-10 15:58:39,838 DEBUG - new BusinessElementEditor
+2009-05-10 15:58:39,838 DEBUG - new view
+2009-05-10 15:58:39,838 DEBUG - new view
+2009-05-10 15:58:43,583 DEBUG - new view
+2009-05-10 15:58:49,699 DEBUG - new view
+2009-05-10 15:58:49,699 DEBUG - new view
+2009-05-10 15:58:49,871 DEBUG - new RealElementEditor
+2009-05-10 15:58:49,871 DEBUG - new BusinessElementEditor
+2009-05-10 15:58:49,887 DEBUG - new view
+2009-05-10 15:58:49,887 DEBUG - new view
+2009-05-10 15:58:51,229 DEBUG - new view
+2009-05-10 15:59:31,142 DEBUG - Handler for New: null
+2009-05-10 15:59:34,185 DEBUG - New editor container.
+2009-05-10 15:59:34,186 DEBUG - new view
+2009-05-10 15:59:36,230 DEBUG - New editor container.
+2009-05-10 15:59:36,230 DEBUG - new view
+2009-05-10 15:59:39,538 DEBUG - Connect cells
+2009-05-10 16:06:07,583 DEBUG - Handler for New: null
+2009-05-10 16:06:59,323 DEBUG - Handler for New: null
+2009-05-10 16:09:23,728 DEBUG - Handler for New: null
+2009-05-10 16:09:31,264 DEBUG - New editor container.
+2009-05-10 16:09:31,296 DEBUG - new view
+2009-05-10 16:09:33,262 DEBUG - New editor container.
+2009-05-10 16:09:33,262 DEBUG - new view
+2009-05-10 16:09:36,398 DEBUG - Connect cells 
+2009-05-10 16:10:34,145 DEBUG - Handler for New: null
+2009-05-10 16:10:37,796 DEBUG - New editor container.
+2009-05-10 16:10:37,797 DEBUG - new view
+2009-05-10 16:10:39,653 DEBUG - New editor container.
+2009-05-10 16:10:39,653 DEBUG - new view
+2009-05-10 16:10:42,182 DEBUG - Connect cells class org.mazur.subrosa.gui.graph.ConstantCell
+2009-05-10 16:15:08,186 DEBUG - Handler for New: null
+2009-05-10 16:15:10,433 DEBUG - New editor container.
+2009-05-10 16:15:10,466 DEBUG - new view
+2009-05-10 16:15:12,104 DEBUG - New editor container.
+2009-05-10 16:15:12,104 DEBUG - new view
+2009-05-10 16:15:14,632 DEBUG - Connect cells class org.mazur.subrosa.gui.graph.ConstantCell
+2009-05-10 16:15:23,104 DEBUG - new view
+2009-05-10 16:15:23,104 DEBUG - new view
+2009-05-10 16:15:27,863 DEBUG - new view
+2009-05-10 16:15:27,863 DEBUG - new view
+2009-05-10 16:44:37,882 DEBUG - Handler for New: null
+2009-05-10 16:45:02,500 DEBUG - New editor container.
+2009-05-10 16:45:02,517 DEBUG - new view
+2009-05-10 16:45:04,280 DEBUG - New editor container.
+2009-05-10 16:45:04,295 DEBUG - new view
+2009-05-10 16:45:08,399 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 16:45:17,214 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.ConstantElement
+2009-05-10 16:47:26,205 DEBUG - Handler for New: null
+2009-05-10 16:47:35,441 DEBUG - New editor container.
+2009-05-10 16:47:35,442 DEBUG - new view
+2009-05-10 16:47:38,281 DEBUG - New editor container.
+2009-05-10 16:47:38,282 DEBUG - new view
+2009-05-10 16:47:41,262 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.ConstantElement
+2009-05-10 16:47:43,774 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.ConstantElement
+2009-05-10 16:47:45,600 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 16:48:42,129 DEBUG - Handler for New: null
+2009-05-10 16:48:44,564 DEBUG - New editor container.
+2009-05-10 16:48:44,596 DEBUG - new view
+2009-05-10 16:48:47,248 DEBUG - New editor container.
+2009-05-10 16:48:47,263 DEBUG - new view
+2009-05-10 16:48:49,636 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 16:49:40,056 DEBUG - new view
+2009-05-10 16:49:40,057 DEBUG - new view
+2009-05-10 16:49:40,228 DEBUG - new RealElementEditor
+2009-05-10 16:49:40,228 DEBUG - new BusinessElementEditor
+2009-05-10 16:49:40,244 DEBUG - new view
+2009-05-10 16:49:40,244 DEBUG - new view
+2009-05-10 16:49:44,752 DEBUG - new view
+2009-05-10 16:49:47,093 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 16:49:47,093 ERROR - Edit exception.
+org.mazur.subrosa.gui.graph.EditException: Maimum inputs count is 0
+	at org.mazur.subrosa.model.elements.XorElement.validateConnection(XorElement.java:53)
+	at org.mazur.subrosa.model.AbstractModelElement.connect(AbstractModelElement.java:68)
+	at org.mazur.subrosa.gui.graph.GraphComponent.connect(GraphComponent.java:62)
+	at org.mazur.subrosa.gui.graph.GraphComponent.access$1(GraphComponent.java:57)
+	at org.mazur.subrosa.gui.graph.GraphComponent$MarqeeHandler.mouseReleased(GraphComponent.java:249)
+	at org.jgraph.plaf.basic.BasicGraphUI$MouseHandler.mouseReleased(Unknown Source)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+2009-05-10 16:50:27,601 DEBUG - Handler for New: null
+2009-05-10 16:50:32,656 DEBUG - New editor container.
+2009-05-10 16:50:32,657 DEBUG - new view
+2009-05-10 16:50:34,514 DEBUG - New editor container.
+2009-05-10 16:50:34,529 DEBUG - new view
+2009-05-10 16:50:35,653 DEBUG - new view
+2009-05-10 16:50:35,653 DEBUG - new view
+2009-05-10 16:50:35,717 DEBUG - new view
+2009-05-10 16:50:35,779 DEBUG - new RealElementEditor
+2009-05-10 16:50:35,779 DEBUG - new BusinessElementEditor
+2009-05-10 16:50:35,795 DEBUG - new view
+2009-05-10 16:50:35,795 DEBUG - new view
+2009-05-10 16:50:38,977 DEBUG - new view
+2009-05-10 16:50:41,240 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 16:50:41,240 ERROR - Edit exception.
+org.mazur.subrosa.gui.graph.EditException: Maimum inputs count is 0
+	at org.mazur.subrosa.model.elements.XorElement.validateConnection(XorElement.java:53)
+	at org.mazur.subrosa.model.AbstractModelElement.connect(AbstractModelElement.java:68)
+	at org.mazur.subrosa.gui.graph.GraphComponent.connect(GraphComponent.java:62)
+	at org.mazur.subrosa.gui.graph.GraphComponent.access$1(GraphComponent.java:57)
+	at org.mazur.subrosa.gui.graph.GraphComponent$MarqeeHandler.mouseReleased(GraphComponent.java:254)
+	at org.jgraph.plaf.basic.BasicGraphUI$MouseHandler.mouseReleased(Unknown Source)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+2009-05-10 17:13:55,235 DEBUG - Handler for New: null
+2009-05-10 17:14:00,321 DEBUG - New editor container.
+2009-05-10 17:14:00,354 DEBUG - new view
+2009-05-10 17:14:02,148 DEBUG - New editor container.
+2009-05-10 17:14:02,148 DEBUG - new view
+2009-05-10 17:14:05,175 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 17:15:47,848 DEBUG - Handler for New: null
+2009-05-10 17:15:52,498 DEBUG - New editor container.
+2009-05-10 17:15:52,499 DEBUG - new view
+2009-05-10 17:15:55,104 DEBUG - New editor container.
+2009-05-10 17:15:55,215 DEBUG - new view
+2009-05-10 17:15:57,617 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 17:16:25,691 DEBUG - Handler for New: null
+2009-05-10 17:16:28,313 DEBUG - New editor container.
+2009-05-10 17:16:28,345 DEBUG - new view
+2009-05-10 17:16:30,139 DEBUG - New editor container.
+2009-05-10 17:16:30,139 DEBUG - new view
+2009-05-10 17:16:32,340 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 17:16:32,340 DEBUG - Connected. Draw it.
+2009-05-10 17:16:38,581 DEBUG - new view
+2009-05-10 17:16:38,581 DEBUG - new view
+2009-05-10 17:16:39,689 DEBUG - new view
+2009-05-10 17:16:46,679 DEBUG - new view
+2009-05-10 17:16:46,679 DEBUG - new view
+2009-05-10 17:16:47,788 DEBUG - new view
+2009-05-10 17:17:05,276 DEBUG - new view
+2009-05-10 17:17:05,276 DEBUG - new view
+2009-05-10 17:17:08,070 DEBUG - new view
+2009-05-10 17:17:11,066 DEBUG - New editor container.
+2009-05-10 17:17:11,082 DEBUG - new view
+2009-05-10 17:17:13,017 DEBUG - New editor container.
+2009-05-10 17:17:13,017 DEBUG - new view
+2009-05-10 17:17:14,843 DEBUG - New editor container.
+2009-05-10 17:17:14,843 DEBUG - new view
+2009-05-10 17:17:16,872 DEBUG - New editor container.
+2009-05-10 17:17:16,888 DEBUG - new view
+2009-05-10 17:17:19,229 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 17:17:19,229 DEBUG - Connected. Draw it.
+2009-05-10 17:17:21,195 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 17:17:21,195 DEBUG - Connected. Draw it.
+2009-05-10 17:17:24,067 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 17:17:24,067 DEBUG - Connected. Draw it.
+2009-05-10 17:17:27,016 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 17:17:27,016 DEBUG - Connected. Draw it.
+2009-05-10 17:17:29,404 DEBUG - New editor container.
+2009-05-10 17:17:29,404 DEBUG - new view
+2009-05-10 17:17:31,589 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 17:17:31,589 ERROR - Edit exception.
+org.mazur.subrosa.gui.graph.EditException: Maimum inputs count is 5
+	at org.mazur.subrosa.model.elements.XorElement.validateConnection(XorElement.java:53)
+	at org.mazur.subrosa.model.AbstractModelElement.connect(AbstractModelElement.java:69)
+	at org.mazur.subrosa.gui.graph.GraphComponent.connect(GraphComponent.java:63)
+	at org.mazur.subrosa.gui.graph.GraphComponent.access$1(GraphComponent.java:58)
+	at org.mazur.subrosa.gui.graph.GraphComponent$MarqeeHandler.mouseReleased(GraphComponent.java:257)
+	at org.jgraph.plaf.basic.BasicGraphUI$MouseHandler.mouseReleased(Unknown Source)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+2009-05-10 17:17:41,231 DEBUG - new view
+2009-05-10 17:17:41,231 DEBUG - new view
+2009-05-10 17:17:42,012 DEBUG - new view
+2009-05-10 17:17:43,307 DEBUG - new view
+2009-05-10 17:17:43,307 DEBUG - new view
+2009-05-10 17:17:45,570 DEBUG - new view
+2009-05-10 17:17:47,333 DEBUG - new view
+2009-05-10 17:17:47,333 DEBUG - new view
+2009-05-10 17:17:48,879 DEBUG - new view
+2009-05-10 17:17:50,128 DEBUG - new view
+2009-05-10 17:17:50,128 DEBUG - new view
+2009-05-10 17:17:51,954 DEBUG - new view
+2009-05-10 17:17:53,406 DEBUG - new view
+2009-05-10 17:17:53,406 DEBUG - new view
+2009-05-10 17:17:55,123 DEBUG - new view
+2009-05-10 17:17:56,871 DEBUG - new view
+2009-05-10 17:17:56,871 DEBUG - new view
+2009-05-10 17:17:58,884 DEBUG - new view
+2009-05-10 17:18:48,025 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.ConstantElement
+2009-05-10 17:18:53,876 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.ConstantElement
+2009-05-10 17:18:56,654 DEBUG - New editor container.
+2009-05-10 17:18:56,654 DEBUG - new view
+2009-05-10 17:18:58,902 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 17:18:58,902 DEBUG - Connected. Draw it.
+2009-05-10 17:19:01,523 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-10 17:19:01,523 DEBUG - Connected. Draw it.
+2009-05-10 17:19:03,724 DEBUG - new view
+2009-05-10 17:19:03,724 DEBUG - new view
+2009-05-10 17:19:05,566 DEBUG - new view
+2009-05-10 17:19:23,429 DEBUG - new view
+2009-05-10 17:19:23,429 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,979 DEBUG - new view
+2009-05-10 17:19:31,980 DEBUG - new view
+2009-05-10 17:19:31,980 DEBUG - new view
+2009-05-10 17:19:31,980 DEBUG - new view
+2009-05-10 17:19:35,802 DEBUG - new view
+2009-05-10 17:19:35,802 DEBUG - new view
+2009-05-10 17:19:35,802 DEBUG - new view
+2009-05-10 17:19:35,802 DEBUG - new view
+2009-05-10 17:19:35,802 DEBUG - new view
+2009-05-10 17:19:35,802 DEBUG - new view
+2009-05-10 17:19:35,802 DEBUG - new view
+2009-05-10 17:19:35,802 DEBUG - new view
+2009-05-10 17:19:39,359 DEBUG - new view
+2009-05-10 17:19:39,359 DEBUG - new view
+2009-05-10 17:19:40,515 DEBUG - new view
+2009-05-10 17:19:42,138 DEBUG - new view
+2009-05-10 17:19:42,138 DEBUG - new view
+2009-05-10 17:19:43,730 DEBUG - new view
+2009-05-10 17:19:53,372 DEBUG - new view
+2009-05-10 17:19:53,372 DEBUG - new view
+2009-05-10 17:19:55,089 DEBUG - new view
+2009-05-10 17:19:55,089 DEBUG - new view
+2009-05-10 17:19:55,089 DEBUG - new view
+2009-05-10 17:19:55,089 DEBUG - new view
+2009-05-10 17:19:55,199 DEBUG - new RealElementEditor
+2009-05-10 17:19:55,215 DEBUG - new BusinessElementEditor
+2009-05-10 17:19:55,215 DEBUG - new view
+2009-05-10 17:19:55,215 DEBUG - new view
+2009-05-10 17:20:02,828 DEBUG - new view
+2009-05-10 17:20:04,685 DEBUG - new view
+2009-05-10 17:20:04,685 DEBUG - new view
+2009-05-10 17:20:07,120 DEBUG - new view
+2009-05-10 17:20:39,709 DEBUG - new view
+2009-05-10 17:20:39,709 DEBUG - new view
+2009-05-10 17:20:39,897 DEBUG - new RealElementEditor
+2009-05-10 17:20:39,897 DEBUG - new BusinessElementEditor
+2009-05-10 17:20:39,897 DEBUG - new view
+2009-05-10 17:20:39,897 DEBUG - new view
+2009-05-10 17:20:46,387 DEBUG - new view
+2009-05-10 17:20:48,432 DEBUG - new view
+2009-05-10 17:20:48,432 DEBUG - new view
+2009-05-10 17:20:48,651 DEBUG - new RealElementEditor
+2009-05-10 17:20:48,651 DEBUG - new BusinessElementEditor
+2009-05-10 17:20:48,651 DEBUG - new view
+2009-05-10 17:20:48,651 DEBUG - new view
+2009-05-10 17:20:51,443 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,525 DEBUG - new view
+2009-05-10 17:20:59,526 DEBUG - new view
+2009-05-10 17:20:59,526 DEBUG - new view
+2009-05-10 17:20:59,526 DEBUG - new view
+2009-05-11 16:11:13,044 DEBUG - Handler for New: null
+2009-05-11 16:11:16,789 DEBUG - New editor container.
+2009-05-11 16:11:16,853 DEBUG - new view
+2009-05-11 16:11:19,255 DEBUG - New editor container.
+2009-05-11 16:11:19,255 DEBUG - new view
+2009-05-11 16:11:21,861 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:11:21,862 DEBUG - Connected. Draw it.
+2009-05-11 16:11:24,577 DEBUG - new view
+2009-05-11 16:11:24,577 DEBUG - new view
+2009-05-11 16:11:25,732 DEBUG - new view
+2009-05-11 16:11:32,101 DEBUG - new view
+2009-05-11 16:11:32,101 DEBUG - new view
+2009-05-11 16:11:32,289 DEBUG - new RealElementEditor
+2009-05-11 16:11:32,289 DEBUG - new BusinessElementEditor
+2009-05-11 16:11:32,305 DEBUG - new view
+2009-05-11 16:11:32,305 DEBUG - new view
+2009-05-11 16:11:39,278 DEBUG - new view
+2009-05-11 16:11:40,714 DEBUG - new view
+2009-05-11 16:11:40,714 DEBUG - new view
+2009-05-11 16:11:41,948 DEBUG - new view
+2009-05-11 16:11:42,994 DEBUG - new view
+2009-05-11 16:11:42,994 DEBUG - new view
+2009-05-11 16:11:43,166 DEBUG - new RealElementEditor
+2009-05-11 16:11:43,166 DEBUG - new BusinessElementEditor
+2009-05-11 16:11:43,166 DEBUG - new view
+2009-05-11 16:11:43,166 DEBUG - new view
+2009-05-11 16:11:48,096 DEBUG - new view
+2009-05-11 16:11:49,329 DEBUG - new view
+2009-05-11 16:11:49,329 DEBUG - new view
+2009-05-11 16:11:49,486 DEBUG - new RealElementEditor
+2009-05-11 16:11:49,486 DEBUG - new BusinessElementEditor
+2009-05-11 16:11:49,486 DEBUG - new view
+2009-05-11 16:11:49,486 DEBUG - new view
+2009-05-11 16:11:54,198 DEBUG - new view
+2009-05-11 16:11:56,632 DEBUG - new view
+2009-05-11 16:11:56,632 DEBUG - new view
+2009-05-11 16:12:01,438 DEBUG - new view
+2009-05-11 16:12:01,438 DEBUG - new view
+2009-05-11 16:12:01,595 DEBUG - new RealElementEditor
+2009-05-11 16:12:01,595 DEBUG - new BusinessElementEditor
+2009-05-11 16:12:01,611 DEBUG - new view
+2009-05-11 16:12:01,611 DEBUG - new view
+2009-05-11 16:12:06,665 DEBUG - new view
+2009-05-11 16:12:07,649 DEBUG - new view
+2009-05-11 16:12:07,649 DEBUG - new view
+2009-05-11 16:12:08,554 DEBUG - new view
+2009-05-11 16:12:09,818 DEBUG - new view
+2009-05-11 16:12:09,818 DEBUG - new view
+2009-05-11 16:12:09,960 DEBUG - new RealElementEditor
+2009-05-11 16:12:09,960 DEBUG - new BusinessElementEditor
+2009-05-11 16:12:09,960 DEBUG - new view
+2009-05-11 16:12:09,960 DEBUG - new view
+2009-05-11 16:12:12,081 DEBUG - new view
+2009-05-11 16:12:12,706 DEBUG - new view
+2009-05-11 16:12:13,190 DEBUG - new view
+2009-05-11 16:12:13,190 DEBUG - new view
+2009-05-11 16:12:13,190 DEBUG - new view
+2009-05-11 16:12:13,190 DEBUG - new view
+2009-05-11 16:12:13,238 DEBUG - new RealElementEditor
+2009-05-11 16:12:13,238 DEBUG - new BusinessElementEditor
+2009-05-11 16:12:13,238 DEBUG - new view
+2009-05-11 16:12:13,238 DEBUG - new view
+2009-05-11 16:12:19,067 DEBUG - new view
+2009-05-11 16:12:21,939 DEBUG - new view
+2009-05-11 16:12:21,939 DEBUG - new view
+2009-05-11 16:12:22,096 DEBUG - new RealElementEditor
+2009-05-11 16:12:22,096 DEBUG - new BusinessElementEditor
+2009-05-11 16:12:22,096 DEBUG - new view
+2009-05-11 16:12:22,096 DEBUG - new view
+2009-05-11 16:12:26,932 DEBUG - new view
+2009-05-11 16:12:27,947 DEBUG - new view
+2009-05-11 16:12:27,947 DEBUG - new view
+2009-05-11 16:12:28,073 DEBUG - new RealElementEditor
+2009-05-11 16:12:28,073 DEBUG - new BusinessElementEditor
+2009-05-11 16:12:28,073 DEBUG - new view
+2009-05-11 16:12:28,073 DEBUG - new view
+2009-05-11 16:12:35,139 DEBUG - new view
+2009-05-11 16:12:39,243 DEBUG - new view
+2009-05-11 16:12:39,243 DEBUG - new view
+2009-05-11 16:12:39,353 DEBUG - new view
+2009-05-11 16:12:39,541 DEBUG - new view
+2009-05-11 16:12:39,541 DEBUG - new view
+2009-05-11 16:12:39,541 DEBUG - new view
+2009-05-11 16:12:39,541 DEBUG - new view
+2009-05-11 16:12:41,881 DEBUG - new view
+2009-05-11 16:12:41,881 DEBUG - new view
+2009-05-11 16:12:41,881 DEBUG - new view
+2009-05-11 16:12:41,881 DEBUG - new view
+2009-05-11 16:12:41,944 DEBUG - new RealElementEditor
+2009-05-11 16:12:41,944 DEBUG - new BusinessElementEditor
+2009-05-11 16:12:41,944 DEBUG - new view
+2009-05-11 16:12:41,944 DEBUG - new view
+2009-05-11 16:12:45,938 DEBUG - new view
+2009-05-11 16:12:46,812 DEBUG - new view
+2009-05-11 16:12:46,812 DEBUG - new view
+2009-05-11 16:12:47,046 DEBUG - new view
+2009-05-11 16:12:49,028 DEBUG - new view
+2009-05-11 16:12:49,028 DEBUG - new view
+2009-05-11 16:12:49,622 DEBUG - new view
+2009-05-11 16:12:50,777 DEBUG - new view
+2009-05-11 16:12:50,777 DEBUG - new view
+2009-05-11 16:12:51,261 DEBUG - new view
+2009-05-11 16:12:51,792 DEBUG - new view
+2009-05-11 16:12:51,792 DEBUG - new view
+2009-05-11 16:12:51,792 DEBUG - new view
+2009-05-11 16:12:51,792 DEBUG - new view
+2009-05-11 16:12:51,824 DEBUG - new RealElementEditor
+2009-05-11 16:12:51,824 DEBUG - new BusinessElementEditor
+2009-05-11 16:12:51,839 DEBUG - new view
+2009-05-11 16:12:51,839 DEBUG - new view
+2009-05-11 16:12:55,537 DEBUG - new view
+2009-05-11 16:13:00,063 DEBUG - new view
+2009-05-11 16:13:00,063 DEBUG - new view
+2009-05-11 16:13:05,555 DEBUG - new view
+2009-05-11 16:13:05,555 DEBUG - new view
+2009-05-11 16:13:05,727 DEBUG - new RealElementEditor
+2009-05-11 16:13:05,727 DEBUG - new BusinessElementEditor
+2009-05-11 16:13:05,727 DEBUG - new view
+2009-05-11 16:13:05,727 DEBUG - new view
+2009-05-11 16:13:10,080 DEBUG - new view
+2009-05-11 16:13:11,922 DEBUG - new view
+2009-05-11 16:13:11,922 DEBUG - new view
+2009-05-11 16:13:14,980 DEBUG - new view
+2009-05-11 16:13:19,381 DEBUG - new view
+2009-05-11 16:13:19,381 DEBUG - new view
+2009-05-11 16:13:20,630 DEBUG - new view
+2009-05-11 16:13:24,890 DEBUG - New editor container.
+2009-05-11 16:13:24,890 DEBUG - new view
+2009-05-11 16:13:26,716 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:13:26,716 DEBUG - Connected. Draw it.
+2009-05-11 16:13:30,227 DEBUG - New editor container.
+2009-05-11 16:13:30,243 DEBUG - new view
+2009-05-11 16:13:31,476 DEBUG - New editor container.
+2009-05-11 16:13:31,477 DEBUG - new view
+2009-05-11 16:13:32,897 DEBUG - New editor container.
+2009-05-11 16:13:32,898 DEBUG - new view
+2009-05-11 16:13:34,396 DEBUG - New editor container.
+2009-05-11 16:13:34,397 DEBUG - new view
+2009-05-11 16:13:36,690 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:13:36,690 DEBUG - Connected. Draw it.
+2009-05-11 16:13:38,953 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:13:38,953 DEBUG - Connected. Draw it.
+2009-05-11 16:13:40,576 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:13:40,576 DEBUG - Connected. Draw it.
+2009-05-11 16:13:42,512 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:13:42,513 ERROR - Edit exception.
+org.mazur.subrosa.gui.graph.EditException: Maimum inputs count is 5
+	at org.mazur.subrosa.model.elements.XorElement.validateConnection(XorElement.java:53)
+	at org.mazur.subrosa.model.AbstractModelElement.connect(AbstractModelElement.java:68)
+	at org.mazur.subrosa.gui.graph.GraphComponent.connect(GraphComponent.java:63)
+	at org.mazur.subrosa.gui.graph.GraphComponent.access$1(GraphComponent.java:58)
+	at org.mazur.subrosa.gui.graph.GraphComponent$MarqeeHandler.mouseReleased(GraphComponent.java:257)
+	at org.jgraph.plaf.basic.BasicGraphUI$MouseHandler.mouseReleased(Unknown Source)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+2009-05-11 16:13:46,990 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.ConstantElement
+2009-05-11 16:13:49,705 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:13:49,705 ERROR - Edit exception.
+org.mazur.subrosa.gui.graph.EditException: Maimum inputs count is 5
+	at org.mazur.subrosa.model.elements.XorElement.validateConnection(XorElement.java:53)
+	at org.mazur.subrosa.model.AbstractModelElement.connect(AbstractModelElement.java:68)
+	at org.mazur.subrosa.gui.graph.GraphComponent.connect(GraphComponent.java:63)
+	at org.mazur.subrosa.gui.graph.GraphComponent.access$1(GraphComponent.java:58)
+	at org.mazur.subrosa.gui.graph.GraphComponent$MarqeeHandler.mouseReleased(GraphComponent.java:257)
+	at org.jgraph.plaf.basic.BasicGraphUI$MouseHandler.mouseReleased(Unknown Source)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+2009-05-11 16:13:51,859 DEBUG - new view
+2009-05-11 16:13:51,859 DEBUG - new view
+2009-05-11 16:13:51,986 DEBUG - new RealElementEditor
+2009-05-11 16:13:51,986 DEBUG - new BusinessElementEditor
+2009-05-11 16:13:52,001 DEBUG - new view
+2009-05-11 16:13:52,001 DEBUG - new view
+2009-05-11 16:13:55,246 DEBUG - new view
+2009-05-11 16:13:57,166 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:13:57,166 DEBUG - Connected. Draw it.
+2009-05-11 16:41:55,798 DEBUG - Handler for New: null
+2009-05-11 16:41:59,091 DEBUG - New editor container.
+2009-05-11 16:41:59,092 DEBUG - new view
+2009-05-11 16:42:01,229 DEBUG - New editor container.
+2009-05-11 16:42:01,245 DEBUG - new view
+2009-05-11 16:42:02,899 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:42:02,899 DEBUG - Connected. Draw it.
+2009-05-11 16:42:15,755 DEBUG - new view
+2009-05-11 16:42:15,755 DEBUG - new view
+2009-05-11 16:42:16,458 DEBUG - new view
+2009-05-11 16:42:18,720 DEBUG - new view
+2009-05-11 16:42:20,125 DEBUG - new view
+2009-05-11 16:42:20,125 DEBUG - new view
+2009-05-11 16:42:20,828 DEBUG - new view
+2009-05-11 16:42:24,447 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:42:24,447 DEBUG - Connected. Draw it.
+2009-05-11 16:42:24,447 DEBUG - new view
+2009-05-11 16:42:26,445 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:42:26,445 DEBUG - Connected. Draw it.
+2009-05-11 16:42:26,445 DEBUG - new view
+2009-05-11 16:42:28,255 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:42:28,255 DEBUG - Connected. Draw it.
+2009-05-11 16:42:28,255 DEBUG - new view
+2009-05-11 16:42:30,300 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:42:30,300 DEBUG - Connected. Draw it.
+2009-05-11 16:42:30,300 DEBUG - new view
+2009-05-11 16:42:32,235 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 16:42:32,235 ERROR - Edit exception.
+org.mazur.subrosa.gui.graph.EditException: Maimum inputs count is 5
+	at org.mazur.subrosa.model.elements.XorElement.validateConnection(XorElement.java:53)
+	at org.mazur.subrosa.model.AbstractModelElement.connect(AbstractModelElement.java:68)
+	at org.mazur.subrosa.gui.graph.GraphComponent.connect(GraphComponent.java:63)
+	at org.mazur.subrosa.gui.graph.GraphComponent.access$1(GraphComponent.java:58)
+	at org.mazur.subrosa.gui.graph.GraphComponent$MarqeeHandler.mouseReleased(GraphComponent.java:257)
+	at org.jgraph.plaf.basic.BasicGraphUI$MouseHandler.mouseReleased(Unknown Source)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:272)
+	at java.awt.Component.processMouseEvent(Component.java:6041)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3265)
+	at java.awt.Component.processEvent(Component.java:5806)
+	at java.awt.Container.processEvent(Container.java:2058)
+	at java.awt.Component.dispatchEventImpl(Component.java:4413)
+	at java.awt.Container.dispatchEventImpl(Container.java:2116)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4322)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3986)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3916)
+	at java.awt.Container.dispatchEventImpl(Container.java:2102)
+	at java.awt.Window.dispatchEventImpl(Window.java:2440)
+	at java.awt.Component.dispatchEvent(Component.java:4243)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:183)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:173)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:168)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:160)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:121)
+2009-05-11 16:42:37,618 DEBUG - new view
+2009-05-11 16:42:37,618 DEBUG - new view
+2009-05-11 16:42:38,789 DEBUG - new view
+2009-05-11 16:42:50,490 DEBUG - new view
+2009-05-11 16:42:50,490 DEBUG - new view
+2009-05-11 16:43:03,408 DEBUG - new view
+2009-05-11 16:43:03,408 DEBUG - new view
+2009-05-11 16:43:04,111 DEBUG - new view
+2009-05-11 16:43:04,111 DEBUG - new view
+2009-05-11 16:43:04,111 DEBUG - new view
+2009-05-11 16:43:04,111 DEBUG - new view
+2009-05-11 16:43:05,109 DEBUG - new view
+2009-05-11 16:43:05,109 DEBUG - new view
+2009-05-11 16:43:05,109 DEBUG - new view
+2009-05-11 16:43:05,125 DEBUG - new view
+2009-05-11 16:43:05,251 DEBUG - new RealElementEditor
+2009-05-11 16:43:05,251 DEBUG - new BusinessElementEditor
+2009-05-11 16:43:05,251 DEBUG - new view
+2009-05-11 16:43:05,251 DEBUG - new view
+2009-05-11 16:43:08,652 DEBUG - new view
+2009-05-11 16:43:20,321 DEBUG - new view
+2009-05-11 16:43:20,321 DEBUG - new view
+2009-05-11 16:43:23,224 DEBUG - new view
+2009-05-11 16:43:28,685 DEBUG - new view
+2009-05-11 16:43:28,685 DEBUG - new view
+2009-05-11 16:43:31,978 DEBUG - new view
+2009-05-11 16:43:37,361 DEBUG - new view
+2009-05-11 16:43:37,361 DEBUG - new view
+2009-05-11 16:43:38,641 DEBUG - new view
+2009-05-11 16:43:39,531 DEBUG - new view
+2009-05-11 16:43:39,531 DEBUG - new view
+2009-05-11 16:43:39,531 DEBUG - new view
+2009-05-11 16:43:39,531 DEBUG - new view
+2009-05-11 16:43:39,609 DEBUG - new RealElementEditor
+2009-05-11 16:43:39,609 DEBUG - new BusinessElementEditor
+2009-05-11 16:43:39,609 DEBUG - new view
+2009-05-11 16:43:39,625 DEBUG - new view
+2009-05-11 16:43:45,677 DEBUG - new view
+2009-05-11 17:23:14,441 DEBUG - Handler for New: null
+2009-05-11 17:23:18,155 DEBUG - New editor container.
+2009-05-11 17:23:18,156 DEBUG - new vertex view
+2009-05-11 17:23:20,355 DEBUG - New editor container.
+2009-05-11 17:23:20,355 DEBUG - new vertex view
+2009-05-11 17:23:22,104 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 17:24:41,377 DEBUG - Handler for New: null
+2009-05-11 17:24:43,983 DEBUG - New editor container.
+2009-05-11 17:24:43,984 DEBUG - new vertex view
+2009-05-11 17:24:46,106 DEBUG - New editor container.
+2009-05-11 17:24:46,106 DEBUG - new vertex view
+2009-05-11 17:24:48,026 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 17:25:56,612 DEBUG - Handler for New: null
+2009-05-11 17:25:59,515 DEBUG - New editor container.
+2009-05-11 17:25:59,516 DEBUG - new vertex view
+2009-05-11 17:26:23,602 DEBUG - New editor container.
+2009-05-11 17:26:23,602 DEBUG - new vertex view
+2009-05-11 17:26:28,486 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 17:27:23,968 DEBUG - Handler for New: null
+2009-05-11 17:27:26,231 DEBUG - New editor container.
+2009-05-11 17:27:26,232 DEBUG - new vertex view
+2009-05-11 17:27:27,621 DEBUG - New editor container.
+2009-05-11 17:27:27,621 DEBUG - new vertex view
+2009-05-11 17:27:29,291 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 17:27:29,291 DEBUG - source.getCurrentValue() = null
+2009-05-11 17:28:46,897 DEBUG - Handler for New: null
+2009-05-11 17:28:48,942 DEBUG - New editor container.
+2009-05-11 17:28:48,974 DEBUG - new vertex view
+2009-05-11 17:28:50,050 DEBUG - New editor container.
+2009-05-11 17:28:50,051 DEBUG - new vertex view
+2009-05-11 17:28:51,923 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 17:28:51,923 DEBUG - source.getCurrentValue() = null
+2009-05-11 17:30:11,885 DEBUG - Handler for New: null
+2009-05-11 17:30:13,883 DEBUG - New editor container.
+2009-05-11 17:30:13,884 DEBUG - new vertex view
+2009-05-11 17:30:18,798 DEBUG - New editor container.
+2009-05-11 17:30:18,798 DEBUG - new vertex view
+2009-05-11 17:30:20,437 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 17:30:20,437 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.Interface$1@509df8
+2009-05-11 17:30:20,437 DEBUG - Connected. Draw it.
+2009-05-11 17:33:55,915 DEBUG - Handler for New: null
+2009-05-11 17:33:57,351 DEBUG - New editor container.
+2009-05-11 17:33:57,368 DEBUG - new vertex view
+2009-05-11 17:34:02,625 DEBUG - New editor container.
+2009-05-11 17:34:02,625 DEBUG - new vertex view
+2009-05-11 17:34:04,529 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 17:34:04,529 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.Interface$1@1dbb27d
+2009-05-11 17:34:04,529 DEBUG - Connected. Draw it.
+2009-05-11 17:34:06,152 DEBUG - call editor component
+2009-05-11 17:35:27,063 DEBUG - Handler for New: null
+2009-05-11 17:35:30,823 DEBUG - New editor container.
+2009-05-11 17:35:30,871 DEBUG - new vertex view
+2009-05-11 17:35:33,211 DEBUG - New editor container.
+2009-05-11 17:35:33,227 DEBUG - new vertex view
+2009-05-11 17:35:35,646 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 17:35:35,646 DEBUG - source.getCurrentValue() = null
+2009-05-11 17:36:09,729 DEBUG - Handler for New: null
+2009-05-11 17:36:12,335 DEBUG - New editor container.
+2009-05-11 17:36:12,336 DEBUG - new vertex view
+2009-05-11 17:36:14,458 DEBUG - New editor container.
+2009-05-11 17:36:14,458 DEBUG - new vertex view
+2009-05-11 17:36:16,409 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 17:36:16,409 DEBUG - source.getCurrentValue() = null
+2009-05-11 17:37:18,586 DEBUG - Handler for New: null
+2009-05-11 17:37:22,658 DEBUG - New editor container.
+2009-05-11 17:37:22,675 DEBUG - new vertex view
+2009-05-11 17:37:23,879 DEBUG - New editor container.
+2009-05-11 17:37:23,880 DEBUG - new vertex view
+2009-05-11 17:37:25,159 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 17:37:25,160 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@1d1082f
+2009-05-11 17:37:25,160 DEBUG - source.getCurrentValue() = null
+2009-05-11 17:39:15,430 DEBUG - Handler for New: null
+2009-05-11 17:39:18,832 DEBUG - New editor container.
+2009-05-11 17:39:18,833 DEBUG - new vertex view
+2009-05-11 17:39:20,689 DEBUG - New editor container.
+2009-05-11 17:39:20,689 DEBUG - new vertex view
+2009-05-11 17:39:22,234 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-11 17:39:22,234 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@1db4492
+2009-05-11 17:39:22,234 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@1e09eab
+2009-05-11 17:39:22,234 DEBUG - Connected. Draw it.
+2009-05-11 17:39:31,954 DEBUG - call editor component

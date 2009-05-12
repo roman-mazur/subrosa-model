@@ -122,6 +122,7 @@ SwingBuilder.build() {
     }
     def element = eFactory.createElement(className)
     state.addElementToActiveGraph(element, event.point)
+    state.lastElementToCreate = null
     def msg = "Element '$eKey' was added."
     infoStatus(msg)
     logInfo(msg)
