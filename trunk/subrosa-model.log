@@ -3031,3 +3031,416 @@ org.mazur.subrosa.gui.graph.EditException: Maimum inputs count is 5
 2009-05-12 19:25:25,421 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
 2009-05-12 19:25:25,421 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@1e2c9bf
 2009-05-12 19:25:25,421 DEBUG - source.getCurrentValue() = null
+2009-05-12 22:14:05,475 DEBUG - Handler for New: null
+2009-05-12 22:14:08,498 DEBUG - New editor container.
+2009-05-12 22:14:08,524 DEBUG - new vertex view
+2009-05-12 22:14:11,196 DEBUG - New editor container.
+2009-05-12 22:14:11,200 DEBUG - new vertex view
+2009-05-12 22:14:14,076 DEBUG - New editor container.
+2009-05-12 22:14:14,080 DEBUG - new vertex view
+2009-05-12 22:14:16,918 DEBUG - New editor container.
+2009-05-12 22:14:16,927 DEBUG - new vertex view
+2009-05-12 22:14:19,515 DEBUG - New editor container.
+2009-05-12 22:14:19,526 DEBUG - new vertex view
+2009-05-12 22:14:21,931 DEBUG - New editor container.
+2009-05-12 22:14:21,937 DEBUG - new vertex view
+2009-05-12 22:14:24,387 DEBUG - New editor container.
+2009-05-12 22:14:24,393 DEBUG - new vertex view
+2009-05-12 22:14:26,362 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:14:26,363 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@136c55
+2009-05-12 22:14:26,364 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@16a4a67
+2009-05-12 22:14:26,364 DEBUG - Connected. Draw it.
+2009-05-12 22:14:27,834 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:14:27,834 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@107f742
+2009-05-12 22:14:27,834 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@1fa490e
+2009-05-12 22:14:27,834 DEBUG - Connected. Draw it.
+2009-05-12 22:14:29,426 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:14:29,426 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@1e8e144
+2009-05-12 22:14:29,426 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@1d592a
+2009-05-12 22:14:29,426 DEBUG - Connected. Draw it.
+2009-05-12 22:14:31,041 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:14:31,042 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@59a735
+2009-05-12 22:14:31,042 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@1f09a31
+2009-05-12 22:14:31,042 DEBUG - Connected. Draw it.
+2009-05-12 22:14:32,466 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:14:32,466 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@1a93f38
+2009-05-12 22:14:32,466 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.Interface$1@75b3ee
+2009-05-12 22:14:32,466 DEBUG - Connected. Draw it.
+2009-05-12 22:14:33,801 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:14:33,801 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@537935
+2009-05-12 22:14:33,802 DEBUG - source.getCurrentValue() = null
+2009-05-12 22:14:47,577 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:14:47,577 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@537935
+2009-05-12 22:14:47,577 DEBUG - source.getCurrentValue() = null
+2009-05-12 22:14:51,785 INFO - Execute 'debug' action
+2009-05-12 22:14:51,786 DEBUG - Handler for Debug: null
+2009-05-12 22:16:01,426 DEBUG - new vertex view
+2009-05-12 22:16:01,427 DEBUG - new vertex view
+2009-05-12 22:16:01,427 DEBUG - new vertex view
+2009-05-12 22:16:01,427 DEBUG - new vertex view
+2009-05-12 22:16:01,427 DEBUG - new vertex view
+2009-05-12 22:16:01,427 DEBUG - new vertex view
+2009-05-12 22:16:01,428 DEBUG - new vertex view
+2009-05-12 22:16:01,436 DEBUG - new vertex view
+2009-05-12 22:16:01,436 DEBUG - new vertex view
+2009-05-12 22:16:01,436 DEBUG - new vertex view
+2009-05-12 22:16:01,436 DEBUG - new vertex view
+2009-05-12 22:16:01,436 DEBUG - new vertex view
+2009-05-12 22:16:01,436 DEBUG - new vertex view
+2009-05-12 22:16:01,436 DEBUG - new vertex view
+2009-05-12 22:16:05,334 DEBUG - new vertex view
+2009-05-12 22:16:05,334 DEBUG - new vertex view
+2009-05-12 22:16:05,334 DEBUG - new vertex view
+2009-05-12 22:16:05,334 DEBUG - new vertex view
+2009-05-12 22:16:05,334 DEBUG - new vertex view
+2009-05-12 22:16:05,335 DEBUG - new vertex view
+2009-05-12 22:16:05,335 DEBUG - new vertex view
+2009-05-12 22:16:07,044 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:16:07,044 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@537935
+2009-05-12 22:16:07,044 DEBUG - source.getCurrentValue() = null
+2009-05-12 22:16:09,516 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:16:09,516 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@1057305
+2009-05-12 22:16:09,516 DEBUG - source.getCurrentValue() = null
+2009-05-12 22:16:12,092 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:16:12,092 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@1a93f38
+2009-05-12 22:16:12,092 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.Interface$1@75b3ee
+2009-05-12 22:16:12,092 DEBUG - Connected. Draw it.
+2009-05-12 22:16:15,899 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:16:15,900 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@107f742
+2009-05-12 22:16:15,900 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@9e75f6
+2009-05-12 22:16:15,900 DEBUG - Connected. Draw it.
+2009-05-12 22:16:18,267 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:16:18,268 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@537935
+2009-05-12 22:16:18,268 DEBUG - source.getCurrentValue() = null
+2009-05-12 22:17:37,487 DEBUG - new vertex view
+2009-05-12 22:17:37,488 DEBUG - new vertex view
+2009-05-12 22:17:37,488 DEBUG - new vertex view
+2009-05-12 22:17:37,488 DEBUG - new vertex view
+2009-05-12 22:17:37,488 DEBUG - new vertex view
+2009-05-12 22:17:37,488 DEBUG - new vertex view
+2009-05-12 22:17:37,488 DEBUG - new vertex view
+2009-05-12 22:17:37,490 DEBUG - new vertex view
+2009-05-12 22:17:37,491 DEBUG - new vertex view
+2009-05-12 22:17:37,491 DEBUG - new vertex view
+2009-05-12 22:17:37,491 DEBUG - new vertex view
+2009-05-12 22:17:37,491 DEBUG - new vertex view
+2009-05-12 22:17:37,491 DEBUG - new vertex view
+2009-05-12 22:17:37,491 DEBUG - new vertex view
+2009-05-12 22:18:57,919 DEBUG - Handler for New: null
+2009-05-12 22:19:00,559 DEBUG - New editor container.
+2009-05-12 22:19:00,587 DEBUG - new vertex view
+2009-05-12 22:19:02,891 DEBUG - New editor container.
+2009-05-12 22:19:02,896 DEBUG - new vertex view
+2009-05-12 22:19:06,115 DEBUG - New editor container.
+2009-05-12 22:19:06,119 DEBUG - new vertex view
+2009-05-12 22:19:07,320 DEBUG - new vertex view
+2009-05-12 22:19:07,322 DEBUG - new vertex view
+2009-05-12 22:19:08,530 DEBUG - new vertex view
+2009-05-12 22:19:13,081 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:19:13,086 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@63e563
+2009-05-12 22:19:13,086 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.Interface$1@690247
+2009-05-12 22:19:13,087 DEBUG - Connected. Draw it.
+2009-05-12 22:19:13,095 DEBUG - new vertex view
+2009-05-12 22:19:14,801 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:19:14,801 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@16a4a67
+2009-05-12 22:19:14,802 DEBUG - source.getCurrentValue() = null
+2009-05-12 22:19:17,573 DEBUG - New editor container.
+2009-05-12 22:19:17,582 DEBUG - new vertex view
+2009-05-12 22:19:19,945 DEBUG - new vertex view
+2009-05-12 22:19:19,946 DEBUG - new vertex view
+2009-05-12 22:19:21,137 DEBUG - new vertex view
+2009-05-12 22:19:23,025 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:19:23,025 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@643edd
+2009-05-12 22:19:23,026 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@159d87f
+2009-05-12 22:19:23,026 DEBUG - Connected. Draw it.
+2009-05-12 22:19:23,026 DEBUG - new vertex view
+2009-05-12 22:19:24,753 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:19:24,753 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@643edd
+2009-05-12 22:19:24,753 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@17210a5
+2009-05-12 22:19:24,753 DEBUG - Connected. Draw it.
+2009-05-12 22:19:24,754 DEBUG - new vertex view
+2009-05-12 22:19:26,529 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:19:26,529 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@643edd
+2009-05-12 22:19:26,529 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@14e9851
+2009-05-12 22:19:26,529 DEBUG - Connected. Draw it.
+2009-05-12 22:19:26,530 DEBUG - new vertex view
+2009-05-12 22:19:30,413 DEBUG - New editor container.
+2009-05-12 22:19:30,432 DEBUG - new vertex view
+2009-05-12 22:19:33,360 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:19:33,360 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@f01d52
+2009-05-12 22:19:33,360 DEBUG - source.getCurrentValue() = null
+2009-05-12 22:19:35,984 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:19:35,984 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@f01d52
+2009-05-12 22:19:35,985 DEBUG - source.getCurrentValue() = null
+2009-05-12 22:19:37,856 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:19:37,856 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@1b0de2e
+2009-05-12 22:19:37,856 DEBUG - source.getCurrentValue() = null
+2009-05-12 22:19:42,128 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:19:42,128 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@63e563
+2009-05-12 22:19:42,128 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.Interface$1@690247
+2009-05-12 22:19:42,128 DEBUG - Connected. Draw it.
+2009-05-12 22:19:46,361 DEBUG - New editor container.
+2009-05-12 22:19:46,367 DEBUG - new vertex view
+2009-05-12 22:19:47,991 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:19:47,992 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@1b70f9e
+2009-05-12 22:19:47,992 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@1627c16
+2009-05-12 22:19:47,992 DEBUG - Connected. Draw it.
+2009-05-12 22:19:49,703 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:19:49,703 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@1b70f9e
+2009-05-12 22:19:49,703 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@b68e0e
+2009-05-12 22:19:49,704 DEBUG - Connected. Draw it.
+2009-05-12 22:19:52,295 INFO - Execute 'save' action
+2009-05-12 22:19:52,297 INFO - Execute 'save as' action
+2009-05-12 22:19:57,178 DEBUG - Handler for Save as: null
+2009-05-12 22:19:57,178 DEBUG - Handler for Save: null
+2009-05-12 22:20:09,596 DEBUG - Handler for Open: null
+2009-05-12 22:20:11,518 INFO - Execute 'save as' action
+2009-05-12 22:20:16,124 DEBUG - Handler for Save as: null
+2009-05-12 22:20:20,225 DEBUG - new vertex view
+2009-05-12 22:20:20,225 DEBUG - new vertex view
+2009-05-12 22:20:20,226 DEBUG - new vertex view
+2009-05-12 22:20:20,226 DEBUG - new vertex view
+2009-05-12 22:20:20,226 DEBUG - new vertex view
+2009-05-12 22:20:20,227 DEBUG - new vertex view
+2009-05-12 22:20:20,284 DEBUG - Handler for Open: null
+2009-05-12 22:20:24,909 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 22:20:24,909 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@13a3d36
+2009-05-12 22:20:24,910 DEBUG - source.getCurrentValue() = null
+2009-05-12 23:13:32,569 DEBUG - Handler for New: null
+2009-05-12 23:13:36,543 DEBUG - New editor container.
+2009-05-12 23:13:36,571 DEBUG - new vertex view
+2009-05-12 23:13:38,992 DEBUG - New editor container.
+2009-05-12 23:13:38,997 DEBUG - new vertex view
+2009-05-12 23:13:41,136 INFO - Execute 'debug' action
+2009-05-12 23:13:41,143 DEBUG - rows=1
+2009-05-12 23:13:41,144 DEBUG - columns=2
+2009-05-12 23:13:41,218 DEBUG - Handler for Debug: null
+2009-05-12 23:14:01,993 INFO - Execute 'debug' action
+2009-05-12 23:14:01,993 DEBUG - rows=1
+2009-05-12 23:14:01,993 DEBUG - columns=2
+2009-05-12 23:14:02,014 DEBUG - Handler for Debug: null
+2009-05-12 23:14:08,792 INFO - Execute 'debug' action
+2009-05-12 23:14:08,792 DEBUG - rows=1
+2009-05-12 23:14:08,792 DEBUG - columns=2
+2009-05-12 23:14:08,809 DEBUG - Handler for Debug: null
+2009-05-12 23:14:15,158 DEBUG - New editor container.
+2009-05-12 23:14:15,162 DEBUG - new vertex view
+2009-05-12 23:14:16,938 INFO - Execute 'debug' action
+2009-05-12 23:14:16,938 DEBUG - rows=1
+2009-05-12 23:14:16,938 DEBUG - columns=3
+2009-05-12 23:14:16,956 DEBUG - Handler for Debug: null
+2009-05-12 23:14:22,493 DEBUG - New editor container.
+2009-05-12 23:14:22,498 DEBUG - new vertex view
+2009-05-12 23:14:24,761 INFO - Execute 'debug' action
+2009-05-12 23:14:24,761 DEBUG - rows=2
+2009-05-12 23:14:24,761 DEBUG - columns=4
+2009-05-12 23:14:24,783 DEBUG - Handler for Debug: null
+2009-05-12 23:14:44,516 DEBUG - New editor container.
+2009-05-12 23:14:44,521 DEBUG - new vertex view
+2009-05-12 23:14:44,644 DEBUG - new RealElementEditor
+2009-05-12 23:14:44,645 DEBUG - new BusinessElementEditor
+2009-05-12 23:14:44,645 DEBUG - Redraw
+2009-05-12 23:14:44,646 DEBUG - Size: java.awt.Dimension[width=201,height=139]
+2009-05-12 23:14:44,662 DEBUG - new vertex view
+2009-05-12 23:14:44,664 DEBUG - new vertex view
+2009-05-12 23:14:45,492 DEBUG - new vertex view
+2009-05-12 23:14:47,248 INFO - Execute 'debug' action
+2009-05-12 23:14:47,254 DEBUG - rows=2
+2009-05-12 23:14:47,255 DEBUG - columns=5
+2009-05-12 23:14:47,404 DEBUG - Handler for Debug: null
+2009-05-12 23:14:53,276 DEBUG - New editor container.
+2009-05-12 23:14:53,292 DEBUG - new vertex view
+2009-05-12 23:14:54,388 INFO - Execute 'debug' action
+2009-05-12 23:14:54,388 DEBUG - rows=2
+2009-05-12 23:14:54,388 DEBUG - columns=6
+2009-05-12 23:14:54,410 DEBUG - Handler for Debug: null
+2009-05-12 23:15:00,803 DEBUG - New editor container.
+2009-05-12 23:15:00,807 DEBUG - new vertex view
+2009-05-12 23:15:01,730 INFO - Execute 'debug' action
+2009-05-12 23:15:01,730 DEBUG - rows=2
+2009-05-12 23:15:01,730 DEBUG - columns=7
+2009-05-12 23:15:01,755 DEBUG - Handler for Debug: null
+2009-05-12 23:15:08,043 DEBUG - New editor container.
+2009-05-12 23:15:08,047 DEBUG - new vertex view
+2009-05-12 23:15:13,090 DEBUG - New editor container.
+2009-05-12 23:15:13,095 DEBUG - new vertex view
+2009-05-12 23:15:17,786 DEBUG - New editor container.
+2009-05-12 23:15:17,791 DEBUG - new vertex view
+2009-05-12 23:15:18,850 INFO - Execute 'debug' action
+2009-05-12 23:15:18,850 DEBUG - rows=3
+2009-05-12 23:15:18,850 DEBUG - columns=10
+2009-05-12 23:15:19,080 DEBUG - Handler for Debug: null
+2009-05-12 23:15:36,073 DEBUG - New editor container.
+2009-05-12 23:15:36,077 DEBUG - new vertex view
+2009-05-12 23:15:39,649 DEBUG - New editor container.
+2009-05-12 23:15:39,654 DEBUG - new vertex view
+2009-05-12 23:15:42,345 DEBUG - New editor container.
+2009-05-12 23:15:42,350 DEBUG - new vertex view
+2009-05-12 23:15:45,456 DEBUG - New editor container.
+2009-05-12 23:15:45,461 DEBUG - new vertex view
+2009-05-12 23:15:50,656 DEBUG - New editor container.
+2009-05-12 23:15:50,661 DEBUG - new vertex view
+2009-05-12 23:15:52,181 INFO - Execute 'debug' action
+2009-05-12 23:15:52,185 DEBUG - rows=3
+2009-05-12 23:15:52,187 DEBUG - columns=15
+2009-05-12 23:15:52,325 DEBUG - Handler for Debug: null
+2009-05-12 23:16:07,751 DEBUG - New editor container.
+2009-05-12 23:16:07,757 DEBUG - new vertex view
+2009-05-12 23:16:08,711 INFO - Execute 'debug' action
+2009-05-12 23:16:08,711 DEBUG - rows=4
+2009-05-12 23:16:08,711 DEBUG - columns=16
+2009-05-12 23:16:08,735 DEBUG - Handler for Debug: null
+2009-05-12 23:16:19,982 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-12 23:16:19,983 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@1f2e95f
+2009-05-12 23:16:19,983 DEBUG - source.getCurrentValue() = null
+2009-05-12 23:39:15,701 DEBUG - Handler for New: null
+2009-05-12 23:39:18,527 DEBUG - New editor container.
+2009-05-12 23:39:18,553 DEBUG - new vertex view
+2009-05-12 23:39:24,319 DEBUG - New editor container.
+2009-05-12 23:39:24,324 DEBUG - new vertex view
+2009-05-12 23:39:31,871 INFO - Execute 'debug' action
+2009-05-12 23:39:31,878 DEBUG - rows=1
+2009-05-12 23:39:31,879 DEBUG - columns=2
+2009-05-12 23:39:31,969 DEBUG - Handler for Debug: null
+2009-05-12 23:40:38,352 DEBUG - Handler for New: null
+2009-05-12 23:40:45,308 INFO - Execute 'debug' action
+2009-05-12 23:40:45,319 DEBUG - rows=0
+2009-05-12 23:41:04,020 DEBUG - New editor container.
+2009-05-12 23:41:04,068 DEBUG - new vertex view
+2009-05-12 23:41:04,423 DEBUG - new vertex view
+2009-05-12 23:41:04,425 DEBUG - new vertex view
+2009-05-12 23:41:04,505 DEBUG - new vertex view
+2009-05-12 23:41:31,516 DEBUG - Handler for New: null
+2009-05-12 23:41:41,017 DEBUG - New editor container.
+2009-05-12 23:41:41,063 DEBUG - new vertex view
+2009-05-12 23:41:43,211 INFO - Execute 'debug' action
+2009-05-12 23:41:43,219 DEBUG - rows=1
+2009-05-12 23:41:43,221 DEBUG - columns=1
+2009-05-12 23:41:43,387 DEBUG - Handler for Debug: null
+2009-05-12 23:50:58,127 DEBUG - Handler for New: null
+2009-05-12 23:51:01,412 DEBUG - New editor container.
+2009-05-12 23:51:01,438 DEBUG - new vertex view
+2009-05-12 23:51:03,520 DEBUG - New editor container.
+2009-05-12 23:51:03,528 DEBUG - new vertex view
+2009-05-12 23:51:05,534 INFO - Execute 'debug' action
+2009-05-12 23:51:05,541 DEBUG - rows=1
+2009-05-12 23:51:05,542 DEBUG - columns=1
+2009-05-12 23:56:04,494 DEBUG - Handler for New: null
+2009-05-12 23:56:07,651 DEBUG - New editor container.
+2009-05-12 23:56:07,677 DEBUG - new vertex view
+2009-05-12 23:56:10,420 DEBUG - New editor container.
+2009-05-12 23:56:10,425 DEBUG - new vertex view
+2009-05-12 23:56:12,170 INFO - Execute 'debug' action
+2009-05-12 23:56:12,177 DEBUG - rows=1
+2009-05-12 23:56:12,178 DEBUG - columns=2
+2009-05-12 23:57:00,077 DEBUG - Handler for New: null
+2009-05-12 23:57:02,465 DEBUG - New editor container.
+2009-05-12 23:57:02,490 DEBUG - new vertex view
+2009-05-12 23:57:05,049 DEBUG - New editor container.
+2009-05-12 23:57:05,053 DEBUG - new vertex view
+2009-05-12 23:57:06,925 INFO - Execute 'debug' action
+2009-05-12 23:57:06,932 DEBUG - rows=1
+2009-05-12 23:57:06,933 DEBUG - columns=2
+2009-05-12 23:58:28,736 DEBUG - Handler for New: null
+2009-05-12 23:58:33,171 DEBUG - New editor container.
+2009-05-12 23:58:33,197 DEBUG - new vertex view
+2009-05-12 23:58:36,284 DEBUG - New editor container.
+2009-05-12 23:58:36,288 DEBUG - new vertex view
+2009-05-12 23:58:39,305 INFO - Execute 'debug' action
+2009-05-12 23:58:39,315 DEBUG - rows=1
+2009-05-12 23:58:39,317 DEBUG - columns=2
+2009-05-12 23:59:17,531 DEBUG - Handler for New: null
+2009-05-12 23:59:22,096 DEBUG - New editor container.
+2009-05-12 23:59:22,122 DEBUG - new vertex view
+2009-05-12 23:59:26,633 DEBUG - New editor container.
+2009-05-12 23:59:26,638 DEBUG - new vertex view
+2009-05-12 23:59:28,577 INFO - Execute 'debug' action
+2009-05-12 23:59:28,588 DEBUG - rows=1
+2009-05-12 23:59:28,589 DEBUG - columns=2
+2009-05-12 23:59:28,692 DEBUG - Handler for Debug: null
+2009-05-13 00:00:09,460 DEBUG - new vertex view
+2009-05-13 00:00:09,462 DEBUG - new vertex view
+2009-05-13 00:00:09,607 DEBUG - new RealElementEditor
+2009-05-13 00:00:09,607 DEBUG - new BusinessElementEditor
+2009-05-13 00:00:09,608 DEBUG - Redraw
+2009-05-13 00:00:09,608 DEBUG - Size: java.awt.Dimension[width=201,height=139]
+2009-05-13 00:00:09,614 DEBUG - new vertex view
+2009-05-13 00:00:09,615 DEBUG - new vertex view
+2009-05-13 00:00:13,849 DEBUG - new vertex view
+2009-05-13 00:00:15,901 DEBUG - new vertex view
+2009-05-13 00:00:15,902 DEBUG - new vertex view
+2009-05-13 00:00:17,525 DEBUG - new vertex view
+2009-05-13 00:00:18,781 DEBUG - new vertex view
+2009-05-13 00:00:18,781 DEBUG - new vertex view
+2009-05-13 00:00:20,013 DEBUG - new vertex view
+2009-05-13 00:00:21,357 DEBUG - new vertex view
+2009-05-13 00:00:21,358 DEBUG - new vertex view
+2009-05-13 00:00:21,597 DEBUG - new vertex view
+2009-05-13 00:00:22,461 DEBUG - new vertex view
+2009-05-13 00:00:22,461 DEBUG - new vertex view
+2009-05-13 00:00:22,621 DEBUG - new RealElementEditor
+2009-05-13 00:00:22,621 DEBUG - new BusinessElementEditor
+2009-05-13 00:00:22,621 DEBUG - Redraw
+2009-05-13 00:00:22,622 DEBUG - Size: java.awt.Dimension[width=201,height=139]
+2009-05-13 00:00:22,627 DEBUG - new vertex view
+2009-05-13 00:00:22,627 DEBUG - new vertex view
+2009-05-13 00:00:25,663 DEBUG - new vertex view
+2009-05-13 00:00:26,877 DEBUG - new vertex view
+2009-05-13 00:00:26,877 DEBUG - new vertex view
+2009-05-13 00:00:26,989 DEBUG - new vertex view
+2009-05-13 00:00:28,397 DEBUG - new vertex view
+2009-05-13 00:00:29,708 DEBUG - new vertex view
+2009-05-13 00:00:29,772 DEBUG - new RealElementEditor
+2009-05-13 00:00:29,774 DEBUG - new BusinessElementEditor
+2009-05-13 00:00:29,774 DEBUG - Redraw
+2009-05-13 00:00:29,775 DEBUG - Size: java.awt.Dimension[width=203,height=141]
+2009-05-13 00:00:29,779 DEBUG - new vertex view
+2009-05-13 00:00:29,779 DEBUG - new vertex view
+2009-05-13 00:00:32,046 DEBUG - new vertex view
+2009-05-13 00:00:35,582 INFO - Execute 'debug' action
+2009-05-13 00:00:35,588 DEBUG - rows=1
+2009-05-13 00:00:35,590 DEBUG - columns=2
+2009-05-13 00:00:35,762 DEBUG - Handler for Debug: null
+2009-05-13 00:02:37,596 DEBUG - Handler for New: null
+2009-05-13 00:02:40,589 DEBUG - New editor container.
+2009-05-13 00:02:40,614 DEBUG - new vertex view
+2009-05-13 00:02:45,965 DEBUG - New editor container.
+2009-05-13 00:02:45,970 DEBUG - new vertex view
+2009-05-13 00:02:48,013 INFO - Execute 'debug' action
+2009-05-13 00:02:48,025 DEBUG - rows=1
+2009-05-13 00:02:48,025 DEBUG - columns=2
+2009-05-13 00:03:31,139 DEBUG - Handler for New: null
+2009-05-13 00:03:35,193 DEBUG - New editor container.
+2009-05-13 00:03:35,218 DEBUG - new vertex view
+2009-05-13 00:03:37,579 INFO - Execute 'debug' action
+2009-05-13 00:03:37,586 DEBUG - rows=1
+2009-05-13 00:03:37,587 DEBUG - columns=1
+2009-05-13 00:03:37,868 DEBUG - Handler for Debug: null
+2009-05-13 00:03:51,514 DEBUG - New editor container.
+2009-05-13 00:03:51,526 DEBUG - new vertex view
+2009-05-13 00:03:53,521 INFO - Execute 'debug' action
+2009-05-13 00:03:53,524 DEBUG - rows=1
+2009-05-13 00:03:53,525 DEBUG - columns=2
+2009-05-13 00:03:53,564 DEBUG - Handler for Debug: null
+2009-05-13 00:06:54,584 DEBUG - Handler for New: null
+2009-05-13 00:06:58,246 DEBUG - New editor container.
+2009-05-13 00:06:58,273 DEBUG - new vertex view
+2009-05-13 00:07:01,280 DEBUG - New editor container.
+2009-05-13 00:07:01,285 DEBUG - new vertex view
+2009-05-13 00:07:03,159 INFO - Execute 'debug' action
+2009-05-13 00:07:03,166 DEBUG - rows=1
+2009-05-13 00:07:03,167 DEBUG - columns=2
+2009-05-13 00:07:03,344 DEBUG - Handler for Debug: null
+2009-05-13 00:07:50,010 DEBUG - Handler for New: null
+2009-05-13 00:07:53,171 DEBUG - New editor container.
+2009-05-13 00:07:53,197 DEBUG - new vertex view
+2009-05-13 00:07:55,740 INFO - Execute 'debug' action
+2009-05-13 00:07:55,747 DEBUG - rows=1
+2009-05-13 00:07:55,748 DEBUG - columns=1
+2009-05-13 00:07:55,853 DEBUG - Handler for Debug: null
+2009-05-13 00:08:00,299 DEBUG - New editor container.
+2009-05-13 00:08:00,304 DEBUG - new vertex view
+2009-05-13 00:08:03,083 INFO - Execute 'debug' action
+2009-05-13 00:08:03,084 DEBUG - rows=1
+2009-05-13 00:08:03,084 DEBUG - columns=2
+2009-05-13 00:08:03,115 DEBUG - Handler for Debug: null

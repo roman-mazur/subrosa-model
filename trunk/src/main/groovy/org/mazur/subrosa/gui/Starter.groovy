@@ -4,7 +4,7 @@ import groovy.swing.SwingBuilder
 import javax.swing.WindowConstants as WCimport java.awt.BorderLayout as BLimport org.apache.log4j.Loggerimport javax.swing.JToolBarimport javax.swing.JSplitPaneimport java.awt.Fontimport java.awt.Colorimport org.mazur.subrosa.model.ModelControllerimport org.mazur.subrosa.model.ElementsFactory
 import java.awt.event.MouseAdapterimport org.mazur.subrosa.gui.listeners.SimpleMouseListener
 import org.mazur.subrosa.gui.listeners.SimpleChangeListener
-import javax.swing.JFileChooser/**
+import javax.swing.JFileChooserimport javax.swing.filechooser.FileNameExtensionFilter/**
  * Starter script.
  * @author Roman Mazur (mailto:mazur.roman@gmail.com)
  */
@@ -49,7 +49,7 @@ SwingBuilder.build() {
 
   /** Files chooser. */
   JFileChooser filesChooser = new JFileChooser()
-  
+  filesChooser.fileFilter = new FileNameExtensionFilter("Subrosa files", "srm")
   
   // =================================== HELPERS ====================================
 
@@ -179,6 +179,16 @@ SwingBuilder.build() {
     logInfo(msg)
   }
   
+  def debugAction = userAction(
+    name : 'Debug', mnemonic : 'D',
+    accelerator : 'ctrl D',
+    keyStroke : 'ctrl D',
+    closure : {
+      log.info "Execute 'debug' action"
+      state.startDebugger()
+    }
+  )
+  
   // ===================================== MAIN =====================================
   
   // actions are formed -> create the state instance
@@ -199,6 +209,9 @@ SwingBuilder.build() {
         menuItem(action : openDocumentAction)
         menuItem(action : saveDocumentAction)
         menuItem(action : saveAsDocumentAction)
+      }
+      menu(text : 'Analyze') {
+        menuItem(action : debugAction)
       }
       menu(text : 'Options')
       menu(text : 'Help')
