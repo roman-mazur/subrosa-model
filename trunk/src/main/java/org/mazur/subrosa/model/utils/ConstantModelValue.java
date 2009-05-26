@@ -24,4 +24,8 @@ public class ConstantModelValue implements ModelValue {
   @Override
   public boolean get(final int index) { return (value & (1 << index)) != 0; }
   
+  @Override
+  public String toString() {
+    return "ModelValue[value=" + value + ", dim: " + dimension() + "]";
+  }
 }

@@ -2,6 +2,7 @@ package org.mazur.subrosa.model.elements;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.mazur.subrosa.gui.graph.EditException;
 import org.mazur.subrosa.gui.graph.ElementCell;
 import org.mazur.subrosa.gui.graph.cells.XorCell;
@@ -16,7 +17,8 @@ import org.mazur.subrosa.model.utils.ArrayModelValue;
  *
  */
 public class XorElement extends AbstractModelElement {
-
+  /** Logger. */
+  private static final Logger LOG = Logger.getLogger(XorElement.class);
   private static final long serialVersionUID = -5862703245886927046L;
 
   /** Max input count. */
@@ -30,14 +32,17 @@ public class XorElement extends AbstractModelElement {
 
   @Override
   public ModelValue calculate(final List<? extends ModelValue> input) {
+    LOG.debug("Xor intputs: " + input);
     if (input == null) { return null; }
     int d = input.get(0).dimension();
+    LOG.debug("Dimension: " + d);
     ArrayModelValue mv = new ArrayModelValue(d);
     for (int i = 0; i < d; i++) {
       boolean temp = false;
       for (ModelValue in : input) { temp |= in.get(i); }
       mv.set(i, temp);
     }
+    LOG.debug("Result: " + mv);
     return mv;
   }
 
