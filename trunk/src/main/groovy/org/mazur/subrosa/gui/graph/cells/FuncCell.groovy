@@ -35,7 +35,12 @@ public class FuncCell extends ElementCell {
   }
 
   @Override
-  public JComponent getEditorComponent() { return editor.mainPanel }
+  public JComponent getEditorComponent() {
+    if (!editor) {
+      editor = new EditorContainer(this.element as FunctionElement)
+    }
+    return editor.mainPanel 
+  }
 
   @Override
   protected Dimension getSize() { return SIZE }
@@ -56,14 +61,15 @@ private class EditorContainer extends CommonEditorContainer {
     def result
     SwingBuilder.build() {
       result = panel() {
-        panel() {
+        borderLayout()
+        label(text : ' Code:', constraints : BL.NORTH)
+        panel(constraints : BL.CENTER) {
           borderLayout()
-          label(text : ' Code:', constraints : BL.NORTH)
           scrollPane(constraints : BL.CENTER, preferredSize : [230, 100]) {
             codeArea = textArea()
           }
+          widget(applyButton, constraints : BL.EAST)
         }
-        widget(applyButton)
       }
     }
     return result
