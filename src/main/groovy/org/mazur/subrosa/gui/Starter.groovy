@@ -141,6 +141,7 @@ SwingBuilder.build() {
         state.saveDocument(filesChooser.selectedFile)
         documentTabs.setTitleAt(state.activeDocument.index, state.activeDocument.name)
         infoStatus("The document was saved.")
+        logInfo("The document was saved.")
       }
     }
   )
@@ -156,6 +157,7 @@ SwingBuilder.build() {
         saveAsDocumentAction.actionPerformed(null)
       } else {
         infoStatus("The document was saved.")
+        logInfo("The document was saved.")
       }
     }
   )
@@ -179,6 +181,7 @@ SwingBuilder.build() {
     logInfo(msg)
   }
   
+  /** Start debugger. */
   def debugAction = userAction(
     name : 'Debug', mnemonic : 'D',
     accelerator : 'ctrl D',
@@ -186,6 +189,28 @@ SwingBuilder.build() {
     closure : {
       log.info "Execute 'debug' action"
       state.startDebugger()
+    }
+  )
+  
+  /** Start generator editor. */
+  def genEditorAction = userAction(
+    name : 'Generator', mnemonic : 'G',
+    accelerator : 'ctrl G',
+    keyStroke : 'ctrl G',
+    closure : {
+      log.info "Execute 'generator' action"
+      state.startGenEditor()
+    }
+  )
+  
+  /** Start generator. */
+  def startGeneratorAction = userAction(
+    name : 'Start generator', mnemonic : 'G',
+    accelerator : 'ctrl shift G',
+    keyStroke : 'ctrl shift G',
+    closure : {
+      log.info "Execute 'start generator' action"
+      state.startGenerator()
     }
   )
   
@@ -210,8 +235,12 @@ SwingBuilder.build() {
         menuItem(action : saveDocumentAction)
         menuItem(action : saveAsDocumentAction)
       }
+      menu(text : 'Edit') {
+        menuItem(action : genEditorAction)
+      }
       menu(text : 'Analyze') {
         menuItem(action : debugAction)
+        menuItem(action : startGeneratorAction)
       }
       menu(text : 'Options')
       menu(text : 'Help')

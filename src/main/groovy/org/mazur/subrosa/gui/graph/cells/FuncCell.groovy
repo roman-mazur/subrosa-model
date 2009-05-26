@@ -3,7 +3,7 @@ package org.mazur.subrosa.gui.graph.cells
 import java.awt.Dimension
 import java.awt.event.ActionEvent
 import java.awt.event.ActionListener
-import groovy.swing.SwingBuilderimport java.awt.BorderLayout as BL
+import groovy.swing.SwingBuilderimport java.awt.BorderLayout as BLimport org.jgraph.graph.GraphConstants
 import javax.swing.JComponent
 import javax.swing.JTextArea
 
@@ -30,6 +30,7 @@ public class FuncCell extends ElementCell {
   
   public FuncCell(final AbstractModelElement element) {
     super(element)
+    GraphConstants.setIcon(getAttributes(), getIcon());
     editor = new EditorContainer(element as FunctionElement)
   }
 
@@ -58,7 +59,7 @@ private class EditorContainer extends CommonEditorContainer {
         panel() {
           borderLayout()
           label(text : ' Code:', constraints : BL.NORTH)
-          scrollPane(constraints : BL.CENTER) {
+          scrollPane(constraints : BL.CENTER, preferredSize : [230, 100]) {
             codeArea = textArea()
           }
         }

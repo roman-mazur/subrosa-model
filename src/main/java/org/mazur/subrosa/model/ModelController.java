@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map.Entry;
 
-import org.jfree.util.Log;
+import org.apache.log4j.Logger;
 import org.mazur.subrosa.gui.graph.ElementView;
 import org.mazur.subrosa.gui.graph.GraphComponent;
 import org.mazur.subrosa.model.elements.ConstantElement;
@@ -23,10 +23,19 @@ import org.mazur.subrosa.model.elements.ConstantElement;
  *
  */
 public class ModelController {
-
+  
+  /** Logger. */
+  private static final Logger LOG = Logger.getLogger(ModelController.class);
+  
+  /** Current format version. */
+  private static final int CURRENT_VERSION = 1;
+  
   /** Elements map. */
   private HashMap<ElementView, AbstractModelElement> elementsMap = new HashMap<ElementView, AbstractModelElement>(),
           inputsMap = new HashMap<ElementView, AbstractModelElement>();
+  
+  /** Generator code. */
+  private String generatorCode;
   
   /**
    * @return the elementsMap
@@ -42,6 +51,15 @@ public class ModelController {
   
   public void saveModel(final OutputStream out) throws IOException {
     ObjectOutputStream output = new ObjectOutputStream(out);
+    output.writeInt(CURRENT_VERSION);
+    byte[] bytes = null;
+    int bytesLen = 0;
+    if (generatorCode != null) {
+      bytes = generatorCode.getBytes();
+      bytesLen = bytes.length;
+    }
+    output.writeInt(bytesLen);
+    if (bytesLen > 0) { output.write(bytes); }
     for (Entry<ElementView, AbstractModelElement> e : elementsMap.entrySet()) {
       output.writeObject(e.getValue());
       output.flush();
@@ -51,12 +69,20 @@ public class ModelController {
   
   public void loadModel(final InputStream in) throws IOException {
     ObjectInputStream input = new ObjectInputStream(in);
+    int v = input.readInt();
+    LOG.info("Version: " + v);
+    int bytesLen = input.readInt();
+    if (bytesLen > 0) {
+      byte[] bytes = new byte[bytesLen];
+      input.read(bytes);
+      generatorCode = new String(bytes);
+    }
     while (true) {
       try {
         AbstractModelElement e = (AbstractModelElement)input.readObject();
         addElement(e);
       } catch (Exception e) {
-        Log.debug("Exception in read", e);
+        LOG.debug("Exception in read", e);
         break;
       }
     }
@@ -85,4 +111,7 @@ public class ModelController {
   public Collection<AbstractModelElement> getInputs() {
     return inputsMap.values();
   }
+  
+  public String getGeneratorCode() { return generatorCode; }
+  public void setGeneratorCode(final String generatorCode) { this.generatorCode = generatorCode; }
 }
