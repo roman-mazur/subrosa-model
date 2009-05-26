@@ -31,4 +31,9 @@ public class BitSetModelValue implements ModelValue {
       public void process(final int index) { set.set(index, v.get(index)); }
     });
   }
+  
+  @Override
+  public String toString() {
+    return "ModelValue[values=" + set + ", dim: " + dimension() + "]";
+  }
 }

@@ -6,6 +6,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map.Entry;
@@ -27,6 +28,13 @@ public class ModelController {
   private HashMap<ElementView, AbstractModelElement> elementsMap = new HashMap<ElementView, AbstractModelElement>(),
           inputsMap = new HashMap<ElementView, AbstractModelElement>();
   
+  /**
+   * @return the elementsMap
+   */
+  public HashMap<ElementView, AbstractModelElement> getElementsMap() {
+    return elementsMap;
+  }
+
   public void addElement(final AbstractModelElement e) {
     elementsMap.put(e.getView(), e);
     if (e instanceof ConstantElement) { inputsMap.put(e.getView(), e); }
@@ -72,5 +80,9 @@ public class ModelController {
         component.getGraphLayoutCache().insert(i.getView());
       }
     }
+  }
+  
+  public Collection<AbstractModelElement> getInputs() {
+    return inputsMap.values();
   }
 }

@@ -1,5 +1,7 @@
 package org.mazur.subrosa.model.utils;
 
+import java.util.Arrays;
+
 import org.mazur.subrosa.model.ModelValue;
 
 /**
@@ -24,4 +26,9 @@ public class ArrayModelValue implements ModelValue {
   public boolean get(final int index) { return v[index]; };
   
   public void set(final int index, final boolean value) { v[index] = value; }
+  
+  @Override
+  public String toString() {
+    return "ModelValue[values=" + Arrays.toString(v) + ", dim: " + dimension() + "]";
+  }
 }

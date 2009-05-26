@@ -3444,3 +3444,2168 @@ org.mazur.subrosa.gui.graph.EditException: Maimum inputs count is 5
 2009-05-13 00:08:03,084 DEBUG - rows=1
 2009-05-13 00:08:03,084 DEBUG - columns=2
 2009-05-13 00:08:03,115 DEBUG - Handler for Debug: null
+2009-05-13 00:14:34,413 DEBUG - Handler for New: null
+2009-05-13 00:14:37,580 DEBUG - New editor container.
+2009-05-13 00:14:37,606 DEBUG - new vertex view
+2009-05-13 00:14:40,221 DEBUG - New editor container.
+2009-05-13 00:14:40,225 DEBUG - new vertex view
+2009-05-13 00:14:42,109 INFO - Execute 'debug' action
+2009-05-13 00:14:42,116 DEBUG - rows=1
+2009-05-13 00:14:42,117 DEBUG - columns=2
+2009-05-13 00:14:42,238 DEBUG - Handler for Debug: null
+2009-05-13 00:14:46,459 DEBUG - Next step start
+2009-05-13 00:15:15,752 DEBUG - Handler for New: null
+2009-05-13 00:15:18,569 DEBUG - New editor container.
+2009-05-13 00:15:18,595 DEBUG - new vertex view
+2009-05-13 00:15:22,730 DEBUG - New editor container.
+2009-05-13 00:15:22,735 DEBUG - new vertex view
+2009-05-13 00:15:24,762 INFO - Execute 'debug' action
+2009-05-13 00:15:24,769 DEBUG - rows=1
+2009-05-13 00:15:24,770 DEBUG - columns=2
+2009-05-13 00:15:25,021 DEBUG - Handler for Debug: null
+2009-05-13 00:15:26,729 DEBUG - Next step start
+2009-05-13 00:15:26,732 DEBUG - Next step finish
+2009-05-13 00:15:35,656 DEBUG - Next step start
+2009-05-13 00:15:35,657 DEBUG - Next step finish
+2009-05-13 00:15:36,272 DEBUG - Next step start
+2009-05-13 00:15:36,273 DEBUG - Next step finish
+2009-05-13 00:15:36,456 DEBUG - Next step start
+2009-05-13 00:15:36,457 DEBUG - Next step finish
+2009-05-13 00:15:36,640 DEBUG - Next step start
+2009-05-13 00:15:36,641 DEBUG - Next step finish
+2009-05-13 00:15:36,816 DEBUG - Next step start
+2009-05-13 00:15:36,817 DEBUG - Next step finish
+2009-05-13 00:15:37,016 DEBUG - Next step start
+2009-05-13 00:15:37,017 DEBUG - Next step finish
+2009-05-13 00:15:37,369 DEBUG - Next step start
+2009-05-13 00:15:37,369 DEBUG - Next step finish
+2009-05-13 00:15:37,536 DEBUG - Next step start
+2009-05-13 00:15:37,537 DEBUG - Next step finish
+2009-05-13 00:15:37,728 DEBUG - Next step start
+2009-05-13 00:15:37,729 DEBUG - Next step finish
+2009-05-13 00:15:37,904 DEBUG - Next step start
+2009-05-13 00:15:37,905 DEBUG - Next step finish
+2009-05-13 00:15:38,072 DEBUG - Next step start
+2009-05-13 00:15:38,073 DEBUG - Next step finish
+2009-05-13 00:15:38,256 DEBUG - Next step start
+2009-05-13 00:15:38,257 DEBUG - Next step finish
+2009-05-13 00:15:38,432 DEBUG - Next step start
+2009-05-13 00:15:38,433 DEBUG - Next step finish
+2009-05-13 00:15:38,624 DEBUG - Next step start
+2009-05-13 00:15:38,625 DEBUG - Next step finish
+2009-05-13 00:15:38,793 DEBUG - Next step start
+2009-05-13 00:15:38,793 DEBUG - Next step finish
+2009-05-13 00:15:38,960 DEBUG - Next step start
+2009-05-13 00:15:38,961 DEBUG - Next step finish
+2009-05-13 00:15:39,136 DEBUG - Next step start
+2009-05-13 00:15:39,137 DEBUG - Next step finish
+2009-05-13 00:15:39,304 DEBUG - Next step start
+2009-05-13 00:15:39,305 DEBUG - Next step finish
+2009-05-13 00:15:39,480 DEBUG - Next step start
+2009-05-13 00:15:39,481 DEBUG - Next step finish
+2009-05-13 00:46:30,674 DEBUG - Handler for New: null
+2009-05-13 00:46:35,423 DEBUG - New editor container.
+2009-05-13 00:46:35,448 DEBUG - new vertex view
+2009-05-13 00:46:38,029 INFO - Execute 'debug' action
+2009-05-13 00:46:38,034 DEBUG - Init the interpreter
+2009-05-13 00:46:38,037 DEBUG - rows=1
+2009-05-13 00:46:38,038 DEBUG - columns=1
+2009-05-13 00:46:38,191 DEBUG - Handler for Debug: null
+2009-05-13 00:46:43,428 DEBUG - Next step start
+2009-05-13 00:46:43,428 INFO - Start the next step
+2009-05-13 00:46:43,430 DEBUG - Next step finish
+2009-05-13 00:46:56,739 DEBUG - Next step start
+2009-05-13 00:46:56,739 INFO - Start the next step
+2009-05-13 00:46:56,740 DEBUG - Next step finish
+2009-05-13 00:46:57,787 DEBUG - Next step start
+2009-05-13 00:46:57,787 INFO - Start the next step
+2009-05-13 00:46:57,788 DEBUG - Next step finish
+2009-05-13 00:46:58,507 DEBUG - Next step start
+2009-05-13 00:46:58,507 INFO - Start the next step
+2009-05-13 00:46:58,508 DEBUG - Next step finish
+2009-05-13 00:47:00,179 DEBUG - Next step start
+2009-05-13 00:47:00,179 INFO - Start the next step
+2009-05-13 00:47:00,179 DEBUG - Next step finish
+2009-05-13 00:47:00,756 DEBUG - Next step start
+2009-05-13 00:47:00,756 INFO - Start the next step
+2009-05-13 00:47:00,757 DEBUG - Next step finish
+2009-05-13 00:47:02,699 DEBUG - Next step start
+2009-05-13 00:47:02,699 INFO - Start the next step
+2009-05-13 00:47:02,699 DEBUG - Next step finish
+2009-05-13 00:47:02,955 DEBUG - Next step start
+2009-05-13 00:47:02,955 INFO - Start the next step
+2009-05-13 00:47:02,955 DEBUG - Next step finish
+2009-05-13 00:47:03,363 DEBUG - Next step start
+2009-05-13 00:47:03,363 INFO - Start the next step
+2009-05-13 00:47:03,363 DEBUG - Next step finish
+2009-05-13 00:47:03,915 DEBUG - Next step start
+2009-05-13 00:47:03,915 INFO - Start the next step
+2009-05-13 00:47:03,915 DEBUG - Next step finish
+2009-05-13 00:47:04,131 DEBUG - Next step start
+2009-05-13 00:47:04,131 INFO - Start the next step
+2009-05-13 00:47:04,132 DEBUG - Next step finish
+2009-05-13 00:47:04,459 DEBUG - Next step start
+2009-05-13 00:47:04,459 INFO - Start the next step
+2009-05-13 00:47:04,459 DEBUG - Next step finish
+2009-05-13 00:47:05,595 DEBUG - Next step start
+2009-05-13 00:47:05,595 INFO - Start the next step
+2009-05-13 00:47:05,595 DEBUG - Next step finish
+2009-05-13 00:47:05,859 DEBUG - Next step start
+2009-05-13 00:47:05,860 INFO - Start the next step
+2009-05-13 00:47:05,860 DEBUG - Next step finish
+2009-05-13 00:47:06,459 DEBUG - Next step start
+2009-05-13 00:47:06,459 INFO - Start the next step
+2009-05-13 00:47:06,460 DEBUG - Next step finish
+2009-05-13 00:47:07,787 DEBUG - Next step start
+2009-05-13 00:47:07,787 INFO - Start the next step
+2009-05-13 00:47:07,788 DEBUG - Next step finish
+2009-05-13 00:47:08,114 DEBUG - Next step start
+2009-05-13 00:47:08,115 INFO - Start the next step
+2009-05-13 00:47:08,115 DEBUG - Next step finish
+2009-05-13 00:47:08,530 DEBUG - Next step start
+2009-05-13 00:47:08,531 INFO - Start the next step
+2009-05-13 00:47:08,531 DEBUG - Next step finish
+2009-05-13 00:47:09,418 DEBUG - Next step start
+2009-05-13 00:47:09,419 INFO - Start the next step
+2009-05-13 00:47:09,419 DEBUG - Next step finish
+2009-05-13 00:51:54,755 DEBUG - Handler for New: null
+2009-05-13 00:51:58,017 DEBUG - New editor container.
+2009-05-13 00:51:58,042 DEBUG - new vertex view
+2009-05-13 00:52:02,331 DEBUG - New editor container.
+2009-05-13 00:52:02,335 DEBUG - new vertex view
+2009-05-13 00:52:06,019 INFO - Execute 'debug' action
+2009-05-13 00:52:06,024 DEBUG - Init the interpreter
+2009-05-13 00:52:06,024 DEBUG - Init org.mazur.subrosa.model.elements.XorElement@2d502d by null
+2009-05-13 00:52:06,024 DEBUG - Init org.mazur.subrosa.model.elements.XorElement@eac7c8 by null
+2009-05-13 00:52:06,027 DEBUG - rows=1
+2009-05-13 00:52:06,027 DEBUG - columns=2
+2009-05-13 00:52:06,140 DEBUG - Handler for Debug: null
+2009-05-13 00:52:08,849 DEBUG - Next step start
+2009-05-13 00:52:08,850 INFO - Start the next step
+2009-05-13 00:52:08,850 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@2d502d
+2009-05-13 00:52:08,850 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@eac7c8
+2009-05-13 00:52:08,850 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@2d502d
+2009-05-13 00:52:08,850 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@eac7c8
+2009-05-13 00:52:08,852 DEBUG - Next step finish
+2009-05-13 00:54:46,192 DEBUG - Handler for New: null
+2009-05-13 00:54:48,678 DEBUG - Get null value 0
+2009-05-13 00:54:48,694 DEBUG - New editor container.
+2009-05-13 00:54:48,721 DEBUG - new vertex view
+2009-05-13 00:54:51,657 DEBUG - Get null value 0
+2009-05-13 00:54:51,657 DEBUG - New editor container.
+2009-05-13 00:54:51,662 DEBUG - new vertex view
+2009-05-13 00:54:54,465 INFO - Execute 'debug' action
+2009-05-13 00:54:54,470 DEBUG - Init the interpreter
+2009-05-13 00:54:54,470 DEBUG - Get null value 0
+2009-05-13 00:54:54,470 DEBUG - Init org.mazur.subrosa.model.elements.XorElement@d1a1ab by null
+2009-05-13 00:54:54,470 DEBUG - Get null value 0
+2009-05-13 00:54:54,470 DEBUG - Init org.mazur.subrosa.model.elements.XorElement@cd2192 by null
+2009-05-13 00:54:54,473 DEBUG - rows=1
+2009-05-13 00:54:54,474 DEBUG - columns=2
+2009-05-13 00:54:54,541 DEBUG - Get current value null
+2009-05-13 00:54:54,555 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1852a81
+2009-05-13 00:54:54,575 DEBUG - Handler for Debug: null
+2009-05-13 00:55:22,110 DEBUG - Next step start
+2009-05-13 00:55:22,111 INFO - Start the next step
+2009-05-13 00:55:22,111 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:22,111 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:22,111 DEBUG - Get null value 0
+2009-05-13 00:55:22,111 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:22,111 DEBUG - Get null value 0
+2009-05-13 00:55:22,111 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:22,113 DEBUG - Get current value null
+2009-05-13 00:55:22,114 DEBUG - Get current value null
+2009-05-13 00:55:22,114 DEBUG - Next step finish
+2009-05-13 00:55:23,534 DEBUG - Next step start
+2009-05-13 00:55:23,534 INFO - Start the next step
+2009-05-13 00:55:23,535 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:23,535 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:23,535 DEBUG - Get null value 0
+2009-05-13 00:55:23,535 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:23,535 DEBUG - Get null value 0
+2009-05-13 00:55:23,535 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:23,536 DEBUG - Get current value null
+2009-05-13 00:55:23,536 DEBUG - Get current value null
+2009-05-13 00:55:23,536 DEBUG - Next step finish
+2009-05-13 00:55:24,454 DEBUG - Next step start
+2009-05-13 00:55:24,454 INFO - Start the next step
+2009-05-13 00:55:24,454 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:24,455 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:24,455 DEBUG - Get null value 0
+2009-05-13 00:55:24,455 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:24,455 DEBUG - Get null value 0
+2009-05-13 00:55:24,455 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:24,455 DEBUG - Get current value null
+2009-05-13 00:55:24,455 DEBUG - Get current value null
+2009-05-13 00:55:24,455 DEBUG - Next step finish
+2009-05-13 00:55:25,094 DEBUG - Next step start
+2009-05-13 00:55:25,094 INFO - Start the next step
+2009-05-13 00:55:25,094 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:25,094 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:25,094 DEBUG - Get null value 0
+2009-05-13 00:55:25,095 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:25,095 DEBUG - Get null value 0
+2009-05-13 00:55:25,095 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:25,095 DEBUG - Get current value null
+2009-05-13 00:55:25,095 DEBUG - Get current value null
+2009-05-13 00:55:25,095 DEBUG - Next step finish
+2009-05-13 00:55:26,822 DEBUG - Next step start
+2009-05-13 00:55:26,822 INFO - Start the next step
+2009-05-13 00:55:26,822 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:26,823 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:26,823 DEBUG - Get null value 0
+2009-05-13 00:55:26,823 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:26,823 DEBUG - Get null value 0
+2009-05-13 00:55:26,823 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:26,823 DEBUG - Get current value null
+2009-05-13 00:55:26,823 DEBUG - Get current value null
+2009-05-13 00:55:26,823 DEBUG - Next step finish
+2009-05-13 00:55:27,406 DEBUG - Next step start
+2009-05-13 00:55:27,406 INFO - Start the next step
+2009-05-13 00:55:27,406 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:27,406 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:27,406 DEBUG - Get null value 0
+2009-05-13 00:55:27,406 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:27,406 DEBUG - Get null value 0
+2009-05-13 00:55:27,407 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:27,407 DEBUG - Get current value null
+2009-05-13 00:55:27,407 DEBUG - Get current value null
+2009-05-13 00:55:27,407 DEBUG - Next step finish
+2009-05-13 00:55:28,030 DEBUG - Next step start
+2009-05-13 00:55:28,030 INFO - Start the next step
+2009-05-13 00:55:28,030 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:28,030 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:28,030 DEBUG - Get null value 0
+2009-05-13 00:55:28,030 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:28,030 DEBUG - Get null value 0
+2009-05-13 00:55:28,031 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:28,031 DEBUG - Get current value null
+2009-05-13 00:55:28,031 DEBUG - Get current value null
+2009-05-13 00:55:28,031 DEBUG - Next step finish
+2009-05-13 00:55:28,478 DEBUG - Next step start
+2009-05-13 00:55:28,478 INFO - Start the next step
+2009-05-13 00:55:28,478 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:28,478 DEBUG - Set null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:28,478 DEBUG - Get null value 0
+2009-05-13 00:55:28,478 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@d1a1ab
+2009-05-13 00:55:28,479 DEBUG - Get null value 0
+2009-05-13 00:55:28,479 DEBUG - New value null for org.mazur.subrosa.model.elements.XorElement@cd2192
+2009-05-13 00:55:28,479 DEBUG - Get current value null
+2009-05-13 00:55:28,479 DEBUG - Get current value null
+2009-05-13 00:55:28,479 DEBUG - Next step finish
+2009-05-13 00:56:46,404 DEBUG - Handler for New: null
+2009-05-13 00:56:49,047 DEBUG - Get null value 0
+2009-05-13 00:56:49,063 DEBUG - New editor container.
+2009-05-13 00:56:49,089 DEBUG - new vertex view
+2009-05-13 00:56:51,914 DEBUG - Get null value 0
+2009-05-13 00:56:51,914 DEBUG - New editor container.
+2009-05-13 00:56:51,919 DEBUG - new vertex view
+2009-05-13 00:56:53,818 INFO - Execute 'debug' action
+2009-05-13 00:56:53,823 DEBUG - Init the interpreter
+2009-05-13 00:56:53,823 DEBUG - Get null value 0
+2009-05-13 00:56:53,823 DEBUG - Init org.mazur.subrosa.model.elements.XorElement@12f9924 by org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:53,823 DEBUG - Get null value 0
+2009-05-13 00:56:53,823 DEBUG - Init org.mazur.subrosa.model.elements.XorElement@c07527 by org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:53,826 DEBUG - rows=1
+2009-05-13 00:56:53,827 DEBUG - columns=2
+2009-05-13 00:56:53,905 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:53,928 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:53,960 DEBUG - Handler for Debug: null
+2009-05-13 00:56:55,377 DEBUG - Next step start
+2009-05-13 00:56:55,377 INFO - Start the next step
+2009-05-13 00:56:55,377 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:55,377 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:55,377 DEBUG - Get null value 0
+2009-05-13 00:56:55,377 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:55,378 DEBUG - Get null value 0
+2009-05-13 00:56:55,378 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:55,379 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:55,380 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:55,380 DEBUG - Next step finish
+2009-05-13 00:56:56,073 DEBUG - Next step start
+2009-05-13 00:56:56,073 INFO - Start the next step
+2009-05-13 00:56:56,073 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:56,073 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:56,073 DEBUG - Get null value 0
+2009-05-13 00:56:56,073 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:56,073 DEBUG - Get null value 0
+2009-05-13 00:56:56,073 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:56,074 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:56,074 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:56,074 DEBUG - Next step finish
+2009-05-13 00:56:56,513 DEBUG - Next step start
+2009-05-13 00:56:56,513 INFO - Start the next step
+2009-05-13 00:56:56,513 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:56,513 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:56,513 DEBUG - Get null value 0
+2009-05-13 00:56:56,513 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:56,514 DEBUG - Get null value 0
+2009-05-13 00:56:56,514 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:56,514 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:56,514 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:56,514 DEBUG - Next step finish
+2009-05-13 00:56:56,713 DEBUG - Next step start
+2009-05-13 00:56:56,713 INFO - Start the next step
+2009-05-13 00:56:56,713 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:56,713 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:56,713 DEBUG - Get null value 0
+2009-05-13 00:56:56,713 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:56,713 DEBUG - Get null value 0
+2009-05-13 00:56:56,713 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:56,714 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:56,714 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:56,714 DEBUG - Next step finish
+2009-05-13 00:56:56,929 DEBUG - Next step start
+2009-05-13 00:56:56,929 INFO - Start the next step
+2009-05-13 00:56:56,929 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:56,929 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:56,929 DEBUG - Get null value 0
+2009-05-13 00:56:56,929 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:56,929 DEBUG - Get null value 0
+2009-05-13 00:56:56,929 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:56,929 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:56,930 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:56,930 DEBUG - Next step finish
+2009-05-13 00:56:57,121 DEBUG - Next step start
+2009-05-13 00:56:57,121 INFO - Start the next step
+2009-05-13 00:56:57,121 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:57,121 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:57,121 DEBUG - Get null value 0
+2009-05-13 00:56:57,121 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:57,121 DEBUG - Get null value 0
+2009-05-13 00:56:57,121 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:57,122 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:57,122 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:57,122 DEBUG - Next step finish
+2009-05-13 00:56:57,329 DEBUG - Next step start
+2009-05-13 00:56:57,329 INFO - Start the next step
+2009-05-13 00:56:57,329 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:57,329 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:57,329 DEBUG - Get null value 0
+2009-05-13 00:56:57,329 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:57,329 DEBUG - Get null value 0
+2009-05-13 00:56:57,329 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:57,329 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:57,330 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:57,330 DEBUG - Next step finish
+2009-05-13 00:56:57,793 DEBUG - Next step start
+2009-05-13 00:56:57,793 INFO - Start the next step
+2009-05-13 00:56:57,793 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:57,793 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:57,793 DEBUG - Get null value 0
+2009-05-13 00:56:57,793 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:57,794 DEBUG - Get null value 0
+2009-05-13 00:56:57,794 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:57,794 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:57,794 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:57,794 DEBUG - Next step finish
+2009-05-13 00:56:58,761 DEBUG - Next step start
+2009-05-13 00:56:58,761 INFO - Start the next step
+2009-05-13 00:56:58,761 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:58,761 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:58,761 DEBUG - Get null value 0
+2009-05-13 00:56:58,761 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:56:58,761 DEBUG - Get null value 0
+2009-05-13 00:56:58,762 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:56:58,762 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:58,762 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:56:58,762 DEBUG - Next step finish
+2009-05-13 00:57:36,041 DEBUG - Get null value 0
+2009-05-13 00:57:36,042 DEBUG - New editor container.
+2009-05-13 00:57:36,050 DEBUG - new vertex view
+2009-05-13 00:57:38,190 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 00:57:38,310 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@482bad
+2009-05-13 00:57:38,311 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@46a55e
+2009-05-13 00:57:38,312 DEBUG - Connected. Draw it.
+2009-05-13 00:57:43,194 DEBUG - Get null value 0
+2009-05-13 00:57:43,195 DEBUG - New editor container.
+2009-05-13 00:57:43,216 DEBUG - new vertex view
+2009-05-13 00:57:45,071 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 00:57:45,071 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@5f1c48
+2009-05-13 00:57:45,071 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@39ea58
+2009-05-13 00:57:45,071 DEBUG - Connected. Draw it.
+2009-05-13 00:57:48,030 DEBUG - Get null value 0
+2009-05-13 00:57:48,031 DEBUG - New editor container.
+2009-05-13 00:57:48,037 DEBUG - new vertex view
+2009-05-13 00:57:49,582 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 00:57:49,582 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@1a998c7
+2009-05-13 00:57:49,582 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@16d4b50
+2009-05-13 00:57:49,582 DEBUG - Connected. Draw it.
+2009-05-13 00:57:53,982 DEBUG - Get null value 0
+2009-05-13 00:57:53,983 DEBUG - New editor container.
+2009-05-13 00:57:53,989 DEBUG - new vertex view
+2009-05-13 00:57:55,717 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 00:57:55,718 DEBUG - source = org.mazur.subrosa.model.elements.ConstantElement@1384ed5
+2009-05-13 00:57:55,718 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.utils.ConstantModelValue@1bf8cd5
+2009-05-13 00:57:55,718 DEBUG - Connected. Draw it.
+2009-05-13 00:57:59,343 DEBUG - Get null value 0
+2009-05-13 00:57:59,343 DEBUG - New editor container.
+2009-05-13 00:57:59,347 DEBUG - new vertex view
+2009-05-13 00:58:03,061 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 00:58:03,061 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:58:03,061 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:03,061 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:03,061 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:03,061 DEBUG - Connected. Draw it.
+2009-05-13 00:58:04,035 DEBUG - new vertex view
+2009-05-13 00:58:04,038 DEBUG - new vertex view
+2009-05-13 00:58:04,302 DEBUG - new vertex view
+2009-05-13 00:58:05,717 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 00:58:05,717 DEBUG - source = org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:58:05,717 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:05,717 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:05,717 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:05,717 DEBUG - Connected. Draw it.
+2009-05-13 00:58:05,718 DEBUG - new vertex view
+2009-05-13 00:58:08,791 INFO - Execute 'debug' action
+2009-05-13 00:58:08,793 DEBUG - Init the interpreter
+2009-05-13 00:58:08,793 DEBUG - Get null value 0
+2009-05-13 00:58:08,793 DEBUG - Init org.mazur.subrosa.model.elements.ConstantElement@482bad by org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:08,793 DEBUG - Get null value 0
+2009-05-13 00:58:08,793 DEBUG - Init org.mazur.subrosa.model.elements.XorElement@e86614 by org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:08,793 DEBUG - Get null value 0
+2009-05-13 00:58:08,793 DEBUG - Init org.mazur.subrosa.model.elements.ConstantElement@1384ed5 by org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:08,793 DEBUG - Get null value 0
+2009-05-13 00:58:08,793 DEBUG - Init org.mazur.subrosa.model.elements.ConstantElement@1a998c7 by org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:08,793 DEBUG - Get null value 0
+2009-05-13 00:58:08,793 DEBUG - Init org.mazur.subrosa.model.elements.XorElement@12f9924 by org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:08,793 DEBUG - Get null value 0
+2009-05-13 00:58:08,793 DEBUG - Init org.mazur.subrosa.model.elements.ConstantElement@5f1c48 by org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:08,794 DEBUG - Get null value 0
+2009-05-13 00:58:08,794 DEBUG - Init org.mazur.subrosa.model.elements.XorElement@c07527 by org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:08,798 DEBUG - rows=1
+2009-05-13 00:58:08,800 DEBUG - columns=3
+2009-05-13 00:58:08,943 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:08,959 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:08,964 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:08,985 DEBUG - Handler for Debug: null
+2009-05-13 00:58:17,348 DEBUG - Next step start
+2009-05-13 00:58:17,348 INFO - Start the next step
+2009-05-13 00:58:17,348 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@482bad
+2009-05-13 00:58:17,349 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@e86614
+2009-05-13 00:58:17,349 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@1384ed5
+2009-05-13 00:58:17,349 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@1a998c7
+2009-05-13 00:58:17,350 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:58:17,350 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@5f1c48
+2009-05-13 00:58:17,350 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:58:17,350 DEBUG - Get null value 0
+2009-05-13 00:58:17,350 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@482bad
+2009-05-13 00:58:17,350 DEBUG - New value org.mazur.subrosa.model.utils.ArrayModelValue@1b4df9c for org.mazur.subrosa.model.elements.XorElement@e86614
+2009-05-13 00:58:17,351 DEBUG - Get null value 0
+2009-05-13 00:58:17,351 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@1384ed5
+2009-05-13 00:58:17,351 DEBUG - Get null value 0
+2009-05-13 00:58:17,351 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@1a998c7
+2009-05-13 00:58:17,351 DEBUG - New value org.mazur.subrosa.model.utils.ArrayModelValue@1c4a198 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:58:17,351 DEBUG - Get null value 0
+2009-05-13 00:58:17,351 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@5f1c48
+2009-05-13 00:58:17,351 DEBUG - New value org.mazur.subrosa.model.utils.ArrayModelValue@4d2b11 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:58:17,352 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:17,353 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:17,353 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:17,353 DEBUG - Next step finish
+2009-05-13 00:58:18,276 DEBUG - Next step start
+2009-05-13 00:58:18,276 INFO - Start the next step
+2009-05-13 00:58:18,276 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@482bad
+2009-05-13 00:58:18,277 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@e86614
+2009-05-13 00:58:18,277 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@1384ed5
+2009-05-13 00:58:18,277 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@1a998c7
+2009-05-13 00:58:18,277 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:58:18,277 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@5f1c48
+2009-05-13 00:58:18,277 DEBUG - Set org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:58:18,277 DEBUG - Get null value 0
+2009-05-13 00:58:18,277 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@482bad
+2009-05-13 00:58:18,277 DEBUG - New value org.mazur.subrosa.model.utils.ArrayModelValue@99ff91 for org.mazur.subrosa.model.elements.XorElement@e86614
+2009-05-13 00:58:18,277 DEBUG - Get null value 0
+2009-05-13 00:58:18,277 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@1384ed5
+2009-05-13 00:58:18,277 DEBUG - Get null value 0
+2009-05-13 00:58:18,277 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@1a998c7
+2009-05-13 00:58:18,277 DEBUG - New value org.mazur.subrosa.model.utils.ArrayModelValue@598d00 for org.mazur.subrosa.model.elements.XorElement@12f9924
+2009-05-13 00:58:18,277 DEBUG - Get null value 0
+2009-05-13 00:58:18,278 DEBUG - New value org.mazur.subrosa.model.Interface$1@1ef3212 for org.mazur.subrosa.model.elements.ConstantElement@5f1c48
+2009-05-13 00:58:18,278 DEBUG - New value org.mazur.subrosa.model.utils.ArrayModelValue@13816e0 for org.mazur.subrosa.model.elements.XorElement@c07527
+2009-05-13 00:58:18,278 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:18,278 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:18,278 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@1ef3212
+2009-05-13 00:58:18,278 DEBUG - Next step finish
+2009-05-13 01:02:56,153 DEBUG - Handler for New: null
+2009-05-13 01:03:00,250 DEBUG - Get null value 0
+2009-05-13 01:03:00,266 DEBUG - New editor container.
+2009-05-13 01:03:00,293 DEBUG - new vertex view
+2009-05-13 01:03:09,100 DEBUG - Get null value 0
+2009-05-13 01:03:09,101 DEBUG - New editor container.
+2009-05-13 01:03:09,105 DEBUG - new vertex view
+2009-05-13 01:03:13,052 INFO - Execute 'debug' action
+2009-05-13 01:03:13,057 DEBUG - Init the interpreter
+2009-05-13 01:03:13,058 DEBUG - Get null value 0
+2009-05-13 01:03:13,058 DEBUG - Init Model element[xor(), hasConnections:false] by org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:13,058 DEBUG - Get null value 0
+2009-05-13 01:03:13,058 DEBUG - Init Model element[xor(), hasConnections:false] by org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:13,060 DEBUG - rows=1
+2009-05-13 01:03:13,061 DEBUG - columns=2
+2009-05-13 01:03:13,270 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:13,290 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:13,315 DEBUG - Handler for Debug: null
+2009-05-13 01:03:14,555 DEBUG - Next step start
+2009-05-13 01:03:14,556 INFO - Start the next step
+2009-05-13 01:03:14,556 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:14,557 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:14,557 DEBUG - Get null value 0
+2009-05-13 01:03:14,557 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:14,557 DEBUG - Get null value 0
+2009-05-13 01:03:14,557 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:14,559 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:14,560 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:14,560 DEBUG - Next step finish
+2009-05-13 01:03:15,363 DEBUG - Next step start
+2009-05-13 01:03:15,363 INFO - Start the next step
+2009-05-13 01:03:15,363 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,363 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,364 DEBUG - Get null value 0
+2009-05-13 01:03:15,364 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,364 DEBUG - Get null value 0
+2009-05-13 01:03:15,364 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,364 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:15,364 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:15,364 DEBUG - Next step finish
+2009-05-13 01:03:15,579 DEBUG - Next step start
+2009-05-13 01:03:15,579 INFO - Start the next step
+2009-05-13 01:03:15,579 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,579 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,580 DEBUG - Get null value 0
+2009-05-13 01:03:15,580 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,580 DEBUG - Get null value 0
+2009-05-13 01:03:15,580 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,580 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:15,580 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:15,580 DEBUG - Next step finish
+2009-05-13 01:03:15,763 DEBUG - Next step start
+2009-05-13 01:03:15,763 INFO - Start the next step
+2009-05-13 01:03:15,763 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,764 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,764 DEBUG - Get null value 0
+2009-05-13 01:03:15,764 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,764 DEBUG - Get null value 0
+2009-05-13 01:03:15,764 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,764 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:15,764 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:15,764 DEBUG - Next step finish
+2009-05-13 01:03:15,963 DEBUG - Next step start
+2009-05-13 01:03:15,963 INFO - Start the next step
+2009-05-13 01:03:15,963 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,963 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,964 DEBUG - Get null value 0
+2009-05-13 01:03:15,964 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,964 DEBUG - Get null value 0
+2009-05-13 01:03:15,964 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:15,964 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:15,964 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:15,965 DEBUG - Next step finish
+2009-05-13 01:03:16,139 DEBUG - Next step start
+2009-05-13 01:03:16,139 INFO - Start the next step
+2009-05-13 01:03:16,139 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:16,140 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:16,140 DEBUG - Get null value 0
+2009-05-13 01:03:16,140 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:16,140 DEBUG - Get null value 0
+2009-05-13 01:03:16,140 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:16,140 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:16,140 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:16,140 DEBUG - Next step finish
+2009-05-13 01:03:16,323 DEBUG - Next step start
+2009-05-13 01:03:16,323 INFO - Start the next step
+2009-05-13 01:03:16,324 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:16,324 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:16,324 DEBUG - Get null value 0
+2009-05-13 01:03:16,324 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:16,324 DEBUG - Get null value 0
+2009-05-13 01:03:16,324 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:false]
+2009-05-13 01:03:16,324 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:16,325 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:16,325 DEBUG - Next step finish
+2009-05-13 01:03:24,021 DEBUG - Get null value 0
+2009-05-13 01:03:24,022 DEBUG - New editor container.
+2009-05-13 01:03:24,041 DEBUG - new vertex view
+2009-05-13 01:03:27,787 DEBUG - Get null value 0
+2009-05-13 01:03:27,787 DEBUG - New editor container.
+2009-05-13 01:03:27,793 DEBUG - new vertex view
+2009-05-13 01:03:30,763 DEBUG - Get null value 0
+2009-05-13 01:03:30,764 DEBUG - New editor container.
+2009-05-13 01:03:30,771 DEBUG - new vertex view
+2009-05-13 01:03:34,347 DEBUG - Get null value 0
+2009-05-13 01:03:34,347 DEBUG - New editor container.
+2009-05-13 01:03:34,354 DEBUG - new vertex view
+2009-05-13 01:03:36,890 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 01:03:36,892 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-13 01:03:36,892 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-13 01:03:36,893 DEBUG - Connected. Draw it.
+2009-05-13 01:03:37,688 DEBUG - new vertex view
+2009-05-13 01:03:37,690 DEBUG - new vertex view
+2009-05-13 01:03:37,762 DEBUG - new vertex view
+2009-05-13 01:03:39,258 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 01:03:39,258 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-13 01:03:39,258 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-13 01:03:39,258 DEBUG - Connected. Draw it.
+2009-05-13 01:03:39,259 DEBUG - new vertex view
+2009-05-13 01:03:40,650 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 01:03:40,650 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-13 01:03:40,650 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-13 01:03:40,650 DEBUG - Connected. Draw it.
+2009-05-13 01:03:40,651 DEBUG - new vertex view
+2009-05-13 01:03:42,402 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 01:03:42,402 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-13 01:03:42,402 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-13 01:03:42,402 DEBUG - Connected. Draw it.
+2009-05-13 01:03:42,403 DEBUG - new vertex view
+2009-05-13 01:03:45,274 DEBUG - Get null value 0
+2009-05-13 01:03:45,275 DEBUG - New editor container.
+2009-05-13 01:03:45,280 DEBUG - new vertex view
+2009-05-13 01:03:49,643 DEBUG - Get null value 0
+2009-05-13 01:03:49,644 DEBUG - New editor container.
+2009-05-13 01:03:49,649 DEBUG - new vertex view
+2009-05-13 01:03:51,777 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 01:03:51,777 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-13 01:03:51,777 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-13 01:03:51,777 DEBUG - Connected. Draw it.
+2009-05-13 01:03:53,537 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 01:03:53,537 DEBUG - source = Model element[xor(), hasConnections:true]
+2009-05-13 01:03:53,537 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:53,537 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:53,537 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:53,537 DEBUG - Connected. Draw it.
+2009-05-13 01:03:55,809 DEBUG - Connect cells class org.mazur.subrosa.model.elements.XorElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 01:03:55,809 DEBUG - source = Model element[xor(), hasConnections:true]
+2009-05-13 01:03:55,809 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:55,809 DEBUG - source.getCurrentValue() = org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:55,809 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:55,809 DEBUG - Connected. Draw it.
+2009-05-13 01:03:58,803 INFO - Execute 'debug' action
+2009-05-13 01:03:58,804 DEBUG - Init the interpreter
+2009-05-13 01:03:58,804 DEBUG - Get null value 0
+2009-05-13 01:03:58,805 DEBUG - Init Model element[xor(), hasConnections:true] by org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:58,805 DEBUG - Get null value 0
+2009-05-13 01:03:58,805 DEBUG - Init Model element[xor(), hasConnections:true] by org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:58,805 DEBUG - Get null value 0
+2009-05-13 01:03:58,805 DEBUG - Init Model element[xor(), hasConnections:true] by org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:58,805 DEBUG - Get null value 0
+2009-05-13 01:03:58,805 DEBUG - Init Model element[const(), hasConnections:true] by org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:58,805 DEBUG - Get null value 0
+2009-05-13 01:03:58,805 DEBUG - Init Model element[const(), hasConnections:true] by org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:58,805 DEBUG - Get null value 0
+2009-05-13 01:03:58,805 DEBUG - Init Model element[const(), hasConnections:true] by org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:58,805 DEBUG - Get null value 0
+2009-05-13 01:03:58,805 DEBUG - Init Model element[const(), hasConnections:true] by org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:58,805 DEBUG - Get null value 0
+2009-05-13 01:03:58,805 DEBUG - Init Model element[const(), hasConnections:true] by org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:58,808 DEBUG - rows=1
+2009-05-13 01:03:58,809 DEBUG - columns=3
+2009-05-13 01:03:58,938 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:58,954 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:58,958 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:03:58,973 DEBUG - Handler for Debug: null
+2009-05-13 01:04:04,472 DEBUG - Next step start
+2009-05-13 01:04:04,473 INFO - Start the next step
+2009-05-13 01:04:04,473 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:true]
+2009-05-13 01:04:04,473 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:true]
+2009-05-13 01:04:04,473 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[xor(), hasConnections:true]
+2009-05-13 01:04:04,473 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[const(), hasConnections:true]
+2009-05-13 01:04:04,474 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[const(), hasConnections:true]
+2009-05-13 01:04:04,474 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[const(), hasConnections:true]
+2009-05-13 01:04:04,474 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[const(), hasConnections:true]
+2009-05-13 01:04:04,474 DEBUG - Set org.mazur.subrosa.model.Interface$1@c07527 for Model element[const(), hasConnections:true]
+2009-05-13 01:04:04,475 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-13 01:04:04,475 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-13 01:04:04,475 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-13 01:04:04,475 DEBUG - Get null value 0
+2009-05-13 01:04:04,475 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[const(), hasConnections:true]
+2009-05-13 01:04:04,475 DEBUG - Get null value 0
+2009-05-13 01:04:04,475 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[const(), hasConnections:true]
+2009-05-13 01:04:04,475 DEBUG - Get null value 0
+2009-05-13 01:04:04,475 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[const(), hasConnections:true]
+2009-05-13 01:04:04,475 DEBUG - Get null value 0
+2009-05-13 01:04:04,475 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[const(), hasConnections:true]
+2009-05-13 01:04:04,475 DEBUG - Get null value 0
+2009-05-13 01:04:04,475 DEBUG - New value org.mazur.subrosa.model.Interface$1@c07527 for Model element[const(), hasConnections:true]
+2009-05-13 01:04:04,477 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:04:04,477 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:04:04,477 DEBUG - Get current value org.mazur.subrosa.model.Interface$1@c07527
+2009-05-13 01:04:04,477 DEBUG - Next step finish
+2009-05-13 01:05:56,969 DEBUG - Handler for New: null
+2009-05-13 01:06:05,991 DEBUG - Get null value 0
+2009-05-13 01:06:06,008 DEBUG - New editor container.
+2009-05-13 01:06:06,034 DEBUG - new vertex view
+2009-05-13 01:06:10,229 DEBUG - Get null value 0
+2009-05-13 01:06:10,230 DEBUG - New editor container.
+2009-05-13 01:06:10,241 DEBUG - new vertex view
+2009-05-13 01:06:14,251 DEBUG - Get null value 0
+2009-05-13 01:06:14,253 DEBUG - New editor container.
+2009-05-13 01:06:14,261 DEBUG - new vertex view
+2009-05-13 01:06:16,809 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 01:06:16,810 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-13 01:06:16,811 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-13 01:06:16,812 DEBUG - Connected. Draw it.
+2009-05-13 01:06:18,289 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 01:06:18,289 DEBUG - source = Model element[const(), hasConnections:true]
+2009-05-13 01:06:18,289 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-13 01:06:18,289 DEBUG - Connected. Draw it.
+2009-05-13 01:06:20,051 INFO - Execute 'debug' action
+2009-05-13 01:06:20,057 DEBUG - Init the interpreter
+2009-05-13 01:06:20,057 DEBUG - Get null value 0
+2009-05-13 01:06:20,057 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-13 01:06:20,057 DEBUG - Get null value 0
+2009-05-13 01:06:20,057 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-13 01:06:20,057 DEBUG - Get null value 0
+2009-05-13 01:06:20,057 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-13 01:06:20,060 DEBUG - rows=1
+2009-05-13 01:06:20,062 DEBUG - columns=2
+2009-05-13 01:06:20,214 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-13 01:06:20,230 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-13 01:06:20,256 DEBUG - Handler for Debug: null
+2009-05-13 01:06:21,585 DEBUG - Next step start
+2009-05-13 01:06:21,585 INFO - Start the next step
+2009-05-13 01:06:21,585 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-13 01:06:21,585 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-13 01:06:21,585 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[const(), hasConnections:true]
+2009-05-13 01:06:21,586 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-13 01:06:21,587 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-13 01:06:21,587 DEBUG - Get null value 0
+2009-05-13 01:06:21,587 DEBUG - New value ModelValue[dimension: 0, always false] for Model element[const(), hasConnections:true]
+2009-05-13 01:06:21,589 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-13 01:06:21,589 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-13 01:06:21,589 DEBUG - Next step finish
+2009-05-13 01:08:55,586 DEBUG - Handler for New: null
+2009-05-13 01:08:58,462 DEBUG - Get null value 0
+2009-05-13 01:08:58,478 DEBUG - New editor container.
+2009-05-13 01:08:58,504 DEBUG - new vertex view
+2009-05-13 01:09:01,240 DEBUG - Get null value 0
+2009-05-13 01:09:01,241 DEBUG - New editor container.
+2009-05-13 01:09:01,245 DEBUG - new vertex view
+2009-05-13 01:09:04,115 DEBUG - New editor container.
+2009-05-13 01:09:04,124 DEBUG - new vertex view
+2009-05-13 01:09:06,864 DEBUG - New editor container.
+2009-05-13 01:09:06,870 DEBUG - new vertex view
+2009-05-13 01:09:08,271 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 01:09:08,272 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-13 01:09:08,272 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-13 01:09:08,273 DEBUG - Connected. Draw it.
+2009-05-13 01:09:09,069 DEBUG - new vertex view
+2009-05-13 01:09:09,072 DEBUG - new vertex view
+2009-05-13 01:09:10,343 DEBUG - new vertex view
+2009-05-13 01:09:12,127 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-13 01:09:12,127 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-13 01:09:12,127 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-13 01:09:12,127 DEBUG - Connected. Draw it.
+2009-05-13 01:09:12,128 DEBUG - new vertex view
+2009-05-13 01:09:13,720 INFO - Execute 'debug' action
+2009-05-13 01:09:13,725 DEBUG - Init the interpreter
+2009-05-13 01:09:13,725 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-13 01:09:13,725 DEBUG - Get null value 0
+2009-05-13 01:09:13,725 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-13 01:09:13,725 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-13 01:09:13,725 DEBUG - Get null value 0
+2009-05-13 01:09:13,725 DEBUG - Init Model element[xor(), hasConnections:false] by ModelValue[dimension: 0, always false]
+2009-05-13 01:09:13,728 DEBUG - rows=1
+2009-05-13 01:09:13,729 DEBUG - columns=2
+2009-05-13 01:09:13,806 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-13 01:09:13,826 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-13 01:09:13,845 DEBUG - Handler for Debug: null
+2009-05-13 01:09:15,183 DEBUG - Next step start
+2009-05-13 01:09:15,183 INFO - Start the next step
+2009-05-13 01:09:15,183 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-13 01:09:15,183 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-13 01:09:15,183 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-13 01:09:15,183 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:false]
+2009-05-13 01:09:15,184 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-13 01:09:15,184 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-13 01:09:15,185 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-13 01:09:15,185 DEBUG - Get null value 0
+2009-05-13 01:09:15,185 DEBUG - New value ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:false]
+2009-05-13 01:09:15,186 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-13 01:09:15,187 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-13 01:09:15,187 DEBUG - Next step finish
+2009-05-21 22:47:39,372 DEBUG - Handler for New: null
+2009-05-21 22:47:43,936 DEBUG - New editor container.
+2009-05-21 22:47:44,046 DEBUG - new vertex view
+2009-05-21 22:47:47,998 DEBUG - New editor container.
+2009-05-21 22:47:48,005 DEBUG - new vertex view
+2009-05-21 22:47:52,506 DEBUG - New editor container.
+2009-05-21 22:47:52,513 DEBUG - new vertex view
+2009-05-21 22:47:56,232 DEBUG - New editor container.
+2009-05-21 22:47:56,238 DEBUG - new vertex view
+2009-05-21 22:48:01,062 DEBUG - new vertex view
+2009-05-21 22:48:01,064 DEBUG - new vertex view
+2009-05-21 22:48:01,851 DEBUG - new vertex view
+2009-05-21 22:48:02,962 DEBUG - new vertex view
+2009-05-21 22:48:02,963 DEBUG - new vertex view
+2009-05-21 22:48:05,931 DEBUG - new vertex view
+2009-05-21 22:48:07,232 DEBUG - new vertex view
+2009-05-21 22:48:07,233 DEBUG - new vertex view
+2009-05-21 22:48:09,378 DEBUG - new vertex view
+2009-05-21 22:48:10,918 DEBUG - new vertex view
+2009-05-21 22:48:10,918 DEBUG - new vertex view
+2009-05-21 22:48:13,584 DEBUG - new vertex view
+2009-05-21 22:48:15,516 DEBUG - new vertex view
+2009-05-21 22:48:15,517 DEBUG - new vertex view
+2009-05-21 22:48:18,153 DEBUG - new vertex view
+2009-05-21 22:48:26,003 DEBUG - Get null value 0
+2009-05-21 22:48:26,022 DEBUG - New editor container.
+2009-05-21 22:48:26,051 DEBUG - new vertex view
+2009-05-21 22:48:30,617 DEBUG - Get null value 0
+2009-05-21 22:48:30,617 DEBUG - New editor container.
+2009-05-21 22:48:30,622 DEBUG - new vertex view
+2009-05-21 22:48:34,821 DEBUG - Get null value 0
+2009-05-21 22:48:34,822 DEBUG - New editor container.
+2009-05-21 22:48:34,826 DEBUG - new vertex view
+2009-05-21 22:48:39,058 DEBUG - Get null value 0
+2009-05-21 22:48:39,058 DEBUG - New editor container.
+2009-05-21 22:48:39,075 DEBUG - new vertex view
+2009-05-21 22:48:47,600 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-21 22:48:47,617 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-21 22:48:47,617 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-21 22:48:47,634 DEBUG - Connected. Draw it.
+2009-05-21 22:48:50,328 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-21 22:48:50,328 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-21 22:48:50,328 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-21 22:48:50,328 DEBUG - Connected. Draw it.
+2009-05-21 22:48:53,370 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-21 22:48:53,371 DEBUG - source = Model element[const(), hasConnections:true]
+2009-05-21 22:48:53,371 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-21 22:48:53,371 DEBUG - Connected. Draw it.
+2009-05-21 22:48:55,619 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-21 22:48:55,619 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-21 22:48:55,619 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-21 22:48:55,619 DEBUG - Connected. Draw it.
+2009-05-21 22:48:57,816 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-21 22:48:57,817 DEBUG - source = Model element[const(), hasConnections:true]
+2009-05-21 22:48:57,817 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-21 22:48:57,817 DEBUG - Connected. Draw it.
+2009-05-21 22:49:00,303 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-21 22:49:00,303 DEBUG - source = Model element[const(), hasConnections:false]
+2009-05-21 22:49:00,304 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-21 22:49:00,304 DEBUG - Connected. Draw it.
+2009-05-21 22:49:02,412 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-21 22:49:02,413 DEBUG - source = Model element[const(), hasConnections:true]
+2009-05-21 22:49:02,413 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-21 22:49:02,413 DEBUG - Connected. Draw it.
+2009-05-21 22:49:06,264 DEBUG - Connect cells class org.mazur.subrosa.model.elements.ConstantElement -> class org.mazur.subrosa.model.elements.XorElement
+2009-05-21 22:49:06,264 DEBUG - source = Model element[const(), hasConnections:true]
+2009-05-21 22:49:06,264 DEBUG - source.getCurrentValue() = ModelValue[value=0, dim: 5]
+2009-05-21 22:49:06,264 DEBUG - Connected. Draw it.
+2009-05-21 22:49:09,170 DEBUG - new vertex view
+2009-05-21 22:49:09,170 DEBUG - new vertex view
+2009-05-21 22:49:10,155 DEBUG - new vertex view
+2009-05-21 22:49:11,759 DEBUG - new vertex view
+2009-05-21 22:49:11,759 DEBUG - new vertex view
+2009-05-21 22:49:14,056 DEBUG - new vertex view
+2009-05-21 22:49:15,080 DEBUG - new vertex view
+2009-05-21 22:49:15,080 DEBUG - new vertex view
+2009-05-21 22:49:16,670 DEBUG - new vertex view
+2009-05-21 22:49:38,074 DEBUG - new vertex view
+2009-05-21 22:49:38,075 DEBUG - new vertex view
+2009-05-21 22:49:38,262 DEBUG - new RealElementEditor
+2009-05-21 22:49:38,271 DEBUG - new BusinessElementEditor
+2009-05-21 22:49:38,271 DEBUG - Redraw
+2009-05-21 22:49:38,272 DEBUG - interface: org.mazur.subrosa.model.Interface@a50da4
+2009-05-21 22:49:38,325 DEBUG - interface: org.mazur.subrosa.model.Interface@4dd1b
+2009-05-21 22:49:38,329 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-21 22:49:38,344 DEBUG - new vertex view
+2009-05-21 22:49:38,345 DEBUG - new vertex view
+2009-05-21 22:49:45,748 DEBUG - new vertex view
+2009-05-21 22:49:47,596 DEBUG - new vertex view
+2009-05-21 22:49:47,597 DEBUG - new vertex view
+2009-05-21 22:49:47,735 DEBUG - new RealElementEditor
+2009-05-21 22:49:47,735 DEBUG - new BusinessElementEditor
+2009-05-21 22:49:47,735 DEBUG - Redraw
+2009-05-21 22:49:47,735 DEBUG - interface: org.mazur.subrosa.model.Interface@a50da4
+2009-05-21 22:49:47,739 DEBUG - interface: org.mazur.subrosa.model.Interface@996b65
+2009-05-21 22:49:47,742 DEBUG - Size: java.awt.Dimension[width=201,height=165]
+2009-05-21 22:49:47,750 DEBUG - new vertex view
+2009-05-21 22:49:47,751 DEBUG - new vertex view
+2009-05-21 22:49:53,067 DEBUG - new vertex view
+2009-05-21 22:51:13,972 INFO - Execute 'debug' action
+2009-05-21 22:51:14,127 DEBUG - Init the interpreter
+2009-05-21 22:51:14,128 DEBUG - Get null value 0
+2009-05-21 22:51:14,128 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 22:51:14,128 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 22:51:14,128 DEBUG - Get null value 0
+2009-05-21 22:51:14,128 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 22:51:14,128 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 22:51:14,128 DEBUG - Get null value 0
+2009-05-21 22:51:14,128 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 22:51:14,128 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 22:51:14,129 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 22:51:14,129 DEBUG - Get null value 0
+2009-05-21 22:51:14,129 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 22:51:14,133 DEBUG - rows=2
+2009-05-21 22:51:14,135 DEBUG - columns=4
+2009-05-21 22:51:14,305 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:14,328 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:14,332 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:14,336 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:14,352 DEBUG - Handler for Debug: null
+2009-05-21 22:51:30,449 DEBUG - Next step start
+2009-05-21 22:51:30,449 INFO - Start the next step
+2009-05-21 22:51:30,449 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:30,449 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:30,450 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:30,450 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:30,450 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:30,450 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:30,450 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:30,450 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:30,470 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:30,471 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:30,471 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:30,471 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:30,471 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:30,471 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:30,471 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:30,471 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:30,484 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:30,484 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:30,484 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:30,484 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:30,485 DEBUG - Next step finish
+2009-05-21 22:51:31,345 DEBUG - Next step start
+2009-05-21 22:51:31,346 INFO - Start the next step
+2009-05-21 22:51:31,346 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,346 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,346 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,346 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,346 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,346 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,346 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,346 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,346 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,346 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,346 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,346 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,347 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,347 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,347 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,347 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,347 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:31,347 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:31,347 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:31,347 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:31,347 DEBUG - Next step finish
+2009-05-21 22:51:31,965 DEBUG - Next step start
+2009-05-21 22:51:31,965 INFO - Start the next step
+2009-05-21 22:51:31,965 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,965 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,965 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,965 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:31,966 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:31,967 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:31,967 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:31,967 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:31,968 DEBUG - Next step finish
+2009-05-21 22:51:32,483 DEBUG - Next step start
+2009-05-21 22:51:32,483 INFO - Start the next step
+2009-05-21 22:51:32,483 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,484 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,485 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,485 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,485 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,485 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,485 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,485 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,486 DEBUG - Next step finish
+2009-05-21 22:51:32,646 DEBUG - Next step start
+2009-05-21 22:51:32,646 INFO - Start the next step
+2009-05-21 22:51:32,646 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,646 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,646 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,646 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,646 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,647 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,647 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,648 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,648 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,648 DEBUG - Next step finish
+2009-05-21 22:51:32,823 DEBUG - Next step start
+2009-05-21 22:51:32,823 INFO - Start the next step
+2009-05-21 22:51:32,823 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,824 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,825 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,825 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,825 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,826 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,826 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:32,826 DEBUG - Next step finish
+2009-05-21 22:51:32,999 DEBUG - Next step start
+2009-05-21 22:51:32,999 INFO - Start the next step
+2009-05-21 22:51:32,999 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,999 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:32,999 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:32,999 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - Set ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - Set ModelValue[dimension: 0, always false] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - New value ModelValue[value=0, dim: 5] for Model element[const(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - New value ModelValue[values=[], dim: 0] for Model element[xor(), hasConnections:true]
+2009-05-21 22:51:33,000 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:33,001 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:33,001 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:33,001 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 22:51:33,004 DEBUG - Next step finish
+2009-05-21 23:05:13,136 INFO - Execute 'save' action
+2009-05-21 23:05:13,136 INFO - Execute 'save as' action
+2009-05-21 23:05:21,305 DEBUG - Handler for Save as: null
+2009-05-21 23:05:21,306 DEBUG - Handler for Save: null
+2009-05-21 23:05:28,273 DEBUG - new vertex view
+2009-05-21 23:05:28,274 DEBUG - new vertex view
+2009-05-21 23:05:28,274 DEBUG - new vertex view
+2009-05-21 23:05:28,274 DEBUG - new vertex view
+2009-05-21 23:05:28,275 DEBUG - new vertex view
+2009-05-21 23:05:28,275 DEBUG - new vertex view
+2009-05-21 23:05:28,275 DEBUG - new vertex view
+2009-05-21 23:05:28,276 DEBUG - new vertex view
+2009-05-21 23:05:28,321 DEBUG - Handler for Open: null
+2009-05-21 23:05:33,830 INFO - Execute 'debug' action
+2009-05-21 23:05:33,831 DEBUG - Init the interpreter
+2009-05-21 23:05:33,831 DEBUG - Get null value 0
+2009-05-21 23:05:33,831 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:05:33,831 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:05:33,831 DEBUG - Get null value 0
+2009-05-21 23:05:33,831 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:05:33,832 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:05:33,832 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:05:33,832 DEBUG - Get null value 0
+2009-05-21 23:05:33,832 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:05:33,832 DEBUG - Get null value 0
+2009-05-21 23:05:33,832 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:05:33,833 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:05:33,834 DEBUG - rows=2
+2009-05-21 23:05:33,835 DEBUG - columns=4
+2009-05-21 23:05:34,073 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:05:34,083 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:05:34,087 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:05:34,091 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:05:34,106 DEBUG - Handler for Debug: null
+2009-05-21 23:05:44,836 DEBUG - new vertex view
+2009-05-21 23:05:44,836 DEBUG - new vertex view
+2009-05-21 23:05:44,837 DEBUG - new vertex view
+2009-05-21 23:05:44,837 DEBUG - new vertex view
+2009-05-21 23:05:44,837 DEBUG - new vertex view
+2009-05-21 23:05:44,838 DEBUG - new vertex view
+2009-05-21 23:05:44,844 DEBUG - Handler for Open: null
+2009-05-21 23:11:35,380 DEBUG - new vertex view
+2009-05-21 23:11:35,392 DEBUG - new vertex view
+2009-05-21 23:11:35,393 DEBUG - new vertex view
+2009-05-21 23:11:35,393 DEBUG - new vertex view
+2009-05-21 23:11:35,394 DEBUG - new vertex view
+2009-05-21 23:11:35,394 DEBUG - new vertex view
+2009-05-21 23:11:35,395 DEBUG - new vertex view
+2009-05-21 23:11:35,396 DEBUG - new vertex view
+2009-05-21 23:11:35,467 DEBUG - Handler for Open: null
+2009-05-21 23:11:39,890 INFO - Execute 'debug' action
+2009-05-21 23:11:39,896 DEBUG - Init the interpreter
+2009-05-21 23:11:39,896 DEBUG - Get null value 0
+2009-05-21 23:11:39,896 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:11:39,896 DEBUG - Get null value 0
+2009-05-21 23:11:39,896 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:11:39,896 DEBUG - Get null value 0
+2009-05-21 23:11:39,896 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:11:39,896 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:11:39,897 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:11:39,897 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:11:39,897 DEBUG - Get null value 0
+2009-05-21 23:11:39,897 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:11:39,897 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:11:39,897 DEBUG - Form the list of elements to change.
+2009-05-21 23:13:33,869 DEBUG - new vertex view
+2009-05-21 23:13:33,881 DEBUG - new vertex view
+2009-05-21 23:13:33,882 DEBUG - new vertex view
+2009-05-21 23:13:33,882 DEBUG - new vertex view
+2009-05-21 23:13:33,883 DEBUG - new vertex view
+2009-05-21 23:13:33,883 DEBUG - new vertex view
+2009-05-21 23:13:33,884 DEBUG - new vertex view
+2009-05-21 23:13:33,885 DEBUG - new vertex view
+2009-05-21 23:13:33,915 DEBUG - Handler for Open: null
+2009-05-21 23:13:40,531 INFO - Execute 'debug' action
+2009-05-21 23:13:40,537 DEBUG - Init the interpreter
+2009-05-21 23:13:40,537 DEBUG - Get null value 0
+2009-05-21 23:13:40,538 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:13:40,538 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:13:40,538 DEBUG - Get null value 0
+2009-05-21 23:13:40,538 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:13:40,538 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:13:40,538 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:13:40,538 DEBUG - Get null value 0
+2009-05-21 23:13:40,538 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:13:40,538 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:13:40,538 DEBUG - Get null value 0
+2009-05-21 23:13:40,538 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:13:40,538 DEBUG - Form the list of elements to change.
+2009-05-21 23:13:40,543 DEBUG - rows=2
+2009-05-21 23:13:40,545 DEBUG - columns=4
+2009-05-21 23:13:40,714 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:13:40,735 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:13:40,739 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:13:40,742 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:14:15,176 DEBUG - new vertex view
+2009-05-21 23:14:15,187 DEBUG - new vertex view
+2009-05-21 23:14:15,188 DEBUG - new vertex view
+2009-05-21 23:14:15,189 DEBUG - new vertex view
+2009-05-21 23:14:15,189 DEBUG - new vertex view
+2009-05-21 23:14:15,190 DEBUG - new vertex view
+2009-05-21 23:14:15,190 DEBUG - new vertex view
+2009-05-21 23:14:15,194 DEBUG - new vertex view
+2009-05-21 23:14:15,222 DEBUG - Handler for Open: null
+2009-05-21 23:14:17,040 INFO - Execute 'debug' action
+2009-05-21 23:14:17,049 DEBUG - Init the interpreter
+2009-05-21 23:14:17,049 DEBUG - Get null value 0
+2009-05-21 23:14:17,049 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:14:17,049 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:14:17,050 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:14:17,050 DEBUG - Get null value 0
+2009-05-21 23:14:17,050 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:14:17,050 DEBUG - Get null value 0
+2009-05-21 23:14:17,050 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:14:17,050 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:14:17,050 DEBUG - Get null value 0
+2009-05-21 23:14:17,050 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:14:17,050 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:14:17,050 DEBUG - Form the list of elements to change.
+2009-05-21 23:14:17,052 DEBUG - rows=2
+2009-05-21 23:14:17,052 DEBUG - columns=4
+2009-05-21 23:14:17,269 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:14:17,284 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:14:17,288 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:14:17,291 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:14:17,309 DEBUG - Handler for Debug: null
+2009-05-21 23:18:29,364 DEBUG - new vertex view
+2009-05-21 23:18:29,377 DEBUG - new vertex view
+2009-05-21 23:18:29,377 DEBUG - new vertex view
+2009-05-21 23:18:29,378 DEBUG - new vertex view
+2009-05-21 23:18:29,379 DEBUG - new vertex view
+2009-05-21 23:18:29,380 DEBUG - new vertex view
+2009-05-21 23:18:29,380 DEBUG - new vertex view
+2009-05-21 23:18:29,381 DEBUG - new vertex view
+2009-05-21 23:18:29,413 DEBUG - Handler for Open: null
+2009-05-21 23:18:32,122 INFO - Execute 'debug' action
+2009-05-21 23:18:32,131 DEBUG - Init the interpreter
+2009-05-21 23:18:32,131 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:18:32,131 DEBUG - Get null value 0
+2009-05-21 23:18:32,132 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:18:32,132 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:18:32,132 DEBUG - Get null value 0
+2009-05-21 23:18:32,132 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:18:32,132 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:18:32,132 DEBUG - Get null value 0
+2009-05-21 23:18:32,132 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:18:32,132 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:18:32,132 DEBUG - Get null value 0
+2009-05-21 23:18:32,132 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:18:32,132 DEBUG - Form the list of elements to change.
+2009-05-21 23:18:32,134 DEBUG - rows=2
+2009-05-21 23:18:32,135 DEBUG - columns=4
+2009-05-21 23:18:32,362 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:18:32,378 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:18:32,382 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:18:32,385 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:18:32,408 DEBUG - Handler for Debug: null
+2009-05-21 23:51:44,001 DEBUG - new vertex view
+2009-05-21 23:51:44,018 DEBUG - new vertex view
+2009-05-21 23:51:44,018 DEBUG - new vertex view
+2009-05-21 23:51:44,019 DEBUG - new vertex view
+2009-05-21 23:51:44,020 DEBUG - new vertex view
+2009-05-21 23:51:44,020 DEBUG - new vertex view
+2009-05-21 23:51:44,021 DEBUG - new vertex view
+2009-05-21 23:51:44,021 DEBUG - new vertex view
+2009-05-21 23:51:44,051 DEBUG - Handler for Open: null
+2009-05-21 23:51:46,044 INFO - Execute 'debug' action
+2009-05-21 23:51:46,050 DEBUG - Init the interpreter
+2009-05-21 23:51:46,050 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:51:46,050 DEBUG - Get null value 0
+2009-05-21 23:51:46,050 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:51:46,050 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:51:46,050 DEBUG - Get null value 0
+2009-05-21 23:51:46,050 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:51:46,050 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:51:46,050 DEBUG - Get null value 0
+2009-05-21 23:51:46,050 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:51:46,050 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:51:46,051 DEBUG - Get null value 0
+2009-05-21 23:51:46,051 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:51:46,051 DEBUG - Form the list of elements to change.
+2009-05-21 23:51:46,052 DEBUG - rows=2
+2009-05-21 23:51:46,053 DEBUG - columns=4
+2009-05-21 23:51:46,282 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:51:46,298 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:51:46,302 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:51:46,305 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:51:46,334 DEBUG - Handler for Debug: null
+2009-05-21 23:51:53,667 DEBUG - Next step start
+2009-05-21 23:51:53,667 INFO - Start the next step
+2009-05-21 23:51:53,667 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:51:53,667 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:51:53,667 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:51:53,667 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:51:53,670 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:51:53,671 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:51:53,672 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:51:53,672 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:51:53,672 DEBUG - Next step finish
+2009-05-21 23:52:23,591 INFO - Execute 'debug' action
+2009-05-21 23:52:23,592 DEBUG - Init the interpreter
+2009-05-21 23:52:23,592 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:52:23,592 DEBUG - Get null value 0
+2009-05-21 23:52:23,592 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:52:23,592 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:52:23,592 DEBUG - Get null value 0
+2009-05-21 23:52:23,593 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:52:23,593 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:52:23,593 DEBUG - Get null value 0
+2009-05-21 23:52:23,593 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:52:23,593 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:52:23,593 DEBUG - Get null value 0
+2009-05-21 23:52:23,593 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:52:23,593 DEBUG - Form the list of elements to change.
+2009-05-21 23:52:23,593 DEBUG - rows=2
+2009-05-21 23:52:23,594 DEBUG - columns=4
+2009-05-21 23:52:23,609 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:23,612 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:23,616 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:23,619 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:23,633 DEBUG - Handler for Debug: null
+2009-05-21 23:52:29,788 DEBUG - Next step start
+2009-05-21 23:52:29,788 INFO - Start the next step
+2009-05-21 23:52:29,789 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:29,789 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:29,789 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:29,789 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:29,789 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:29,789 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:29,790 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:29,790 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:29,791 DEBUG - Next step finish
+2009-05-21 23:52:31,190 DEBUG - Next step start
+2009-05-21 23:52:31,190 INFO - Start the next step
+2009-05-21 23:52:31,190 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:31,190 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:31,190 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:31,190 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:31,191 DEBUG - Next step finish
+2009-05-21 23:52:32,717 DEBUG - Next step start
+2009-05-21 23:52:32,717 INFO - Start the next step
+2009-05-21 23:52:32,718 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:32,718 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:32,718 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:32,718 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:52:32,718 DEBUG - Next step finish
+2009-05-21 23:53:03,090 INFO - Execute 'debug' action
+2009-05-21 23:53:08,440 DEBUG - new vertex view
+2009-05-21 23:53:08,456 DEBUG - new vertex view
+2009-05-21 23:53:08,457 DEBUG - new vertex view
+2009-05-21 23:53:08,457 DEBUG - new vertex view
+2009-05-21 23:53:08,458 DEBUG - new vertex view
+2009-05-21 23:53:08,458 DEBUG - new vertex view
+2009-05-21 23:53:08,459 DEBUG - new vertex view
+2009-05-21 23:53:08,459 DEBUG - new vertex view
+2009-05-21 23:53:08,529 DEBUG - Handler for Open: null
+2009-05-21 23:53:10,368 INFO - Execute 'debug' action
+2009-05-21 23:53:10,372 DEBUG - Init the interpreter
+2009-05-21 23:53:10,372 DEBUG - Get null value 0
+2009-05-21 23:53:10,372 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:53:10,372 DEBUG - Get null value 0
+2009-05-21 23:53:10,372 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:53:10,372 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:53:10,373 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:53:10,373 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:53:10,373 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:53:10,373 DEBUG - Get null value 0
+2009-05-21 23:53:10,373 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:53:10,373 DEBUG - Get null value 0
+2009-05-21 23:53:10,373 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:53:10,373 DEBUG - Form the list of elements to change.
+2009-05-21 23:53:10,376 DEBUG - rows=2
+2009-05-21 23:53:10,377 DEBUG - columns=4
+2009-05-21 23:53:10,513 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:10,528 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:10,532 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:10,538 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:10,558 DEBUG - Handler for Debug: null
+2009-05-21 23:53:17,405 DEBUG - new vertex view
+2009-05-21 23:53:17,408 DEBUG - new vertex view
+2009-05-21 23:53:17,525 DEBUG - new RealElementEditor
+2009-05-21 23:53:17,525 DEBUG - new BusinessElementEditor
+2009-05-21 23:53:17,529 DEBUG - New editor container.
+2009-05-21 23:53:17,546 DEBUG - Redraw
+2009-05-21 23:53:17,547 DEBUG - interface: org.mazur.subrosa.model.Interface@98cbf7
+2009-05-21 23:53:17,551 DEBUG - interface: org.mazur.subrosa.model.Interface@12ef4c6
+2009-05-21 23:53:17,556 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-21 23:53:17,572 DEBUG - new vertex view
+2009-05-21 23:53:17,572 DEBUG - new vertex view
+2009-05-21 23:53:23,878 DEBUG - new vertex view
+2009-05-21 23:53:25,565 DEBUG - new vertex view
+2009-05-21 23:53:25,565 DEBUG - new vertex view
+2009-05-21 23:53:25,716 DEBUG - new RealElementEditor
+2009-05-21 23:53:25,716 DEBUG - new BusinessElementEditor
+2009-05-21 23:53:25,716 DEBUG - New editor container.
+2009-05-21 23:53:25,722 DEBUG - Redraw
+2009-05-21 23:53:25,722 DEBUG - interface: org.mazur.subrosa.model.Interface@1ad093c
+2009-05-21 23:53:25,725 DEBUG - interface: org.mazur.subrosa.model.Interface@1395dab
+2009-05-21 23:53:25,729 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-21 23:53:25,739 DEBUG - new vertex view
+2009-05-21 23:53:25,740 DEBUG - new vertex view
+2009-05-21 23:53:31,484 DEBUG - new vertex view
+2009-05-21 23:53:33,251 DEBUG - new vertex view
+2009-05-21 23:53:33,251 DEBUG - new vertex view
+2009-05-21 23:53:33,994 DEBUG - new vertex view
+2009-05-21 23:53:33,995 DEBUG - new vertex view
+2009-05-21 23:53:33,995 DEBUG - new vertex view
+2009-05-21 23:53:33,996 DEBUG - new vertex view
+2009-05-21 23:53:34,046 DEBUG - new RealElementEditor
+2009-05-21 23:53:34,046 DEBUG - new BusinessElementEditor
+2009-05-21 23:53:34,046 DEBUG - New editor container.
+2009-05-21 23:53:34,053 DEBUG - Redraw
+2009-05-21 23:53:34,054 DEBUG - interface: org.mazur.subrosa.model.Interface@b5d05b
+2009-05-21 23:53:34,058 DEBUG - interface: org.mazur.subrosa.model.Interface@232697
+2009-05-21 23:53:34,062 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-21 23:53:34,070 DEBUG - new vertex view
+2009-05-21 23:53:34,071 DEBUG - new vertex view
+2009-05-21 23:53:39,235 DEBUG - new vertex view
+2009-05-21 23:53:40,609 DEBUG - new vertex view
+2009-05-21 23:53:40,609 DEBUG - new vertex view
+2009-05-21 23:53:40,760 DEBUG - new RealElementEditor
+2009-05-21 23:53:40,760 DEBUG - new BusinessElementEditor
+2009-05-21 23:53:40,760 DEBUG - New editor container.
+2009-05-21 23:53:40,767 DEBUG - Redraw
+2009-05-21 23:53:40,768 DEBUG - interface: org.mazur.subrosa.model.Interface@b80f1c
+2009-05-21 23:53:40,771 DEBUG - interface: org.mazur.subrosa.model.Interface@1e80f3a
+2009-05-21 23:53:40,774 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-21 23:53:40,783 DEBUG - new vertex view
+2009-05-21 23:53:40,784 DEBUG - new vertex view
+2009-05-21 23:53:41,909 DEBUG - new vertex view
+2009-05-21 23:53:45,141 INFO - Execute 'debug' action
+2009-05-21 23:53:45,141 DEBUG - Init the interpreter
+2009-05-21 23:53:45,141 DEBUG - Get null value 0
+2009-05-21 23:53:45,141 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:53:45,141 DEBUG - Get null value 0
+2009-05-21 23:53:45,141 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:53:45,141 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=2, dim: 5]
+2009-05-21 23:53:45,142 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=6, dim: 5]
+2009-05-21 23:53:45,142 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=1, dim: 5]
+2009-05-21 23:53:45,142 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-21 23:53:45,142 DEBUG - Get null value 0
+2009-05-21 23:53:45,142 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:53:45,142 DEBUG - Get null value 0
+2009-05-21 23:53:45,142 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-21 23:53:45,142 DEBUG - Form the list of elements to change.
+2009-05-21 23:53:45,142 DEBUG - rows=2
+2009-05-21 23:53:45,142 DEBUG - columns=4
+2009-05-21 23:53:45,154 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:45,157 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:45,161 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:45,164 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:45,181 DEBUG - Handler for Debug: null
+2009-05-21 23:53:54,317 DEBUG - Next step start
+2009-05-21 23:53:54,317 INFO - Start the next step
+2009-05-21 23:53:54,317 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:54,317 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:54,317 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:54,317 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-21 23:53:54,320 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:53:54,321 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:53:54,321 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:53:54,321 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:53:54,322 DEBUG - Next step finish
+2009-05-21 23:54:00,310 DEBUG - Next step start
+2009-05-21 23:54:00,311 INFO - Start the next step
+2009-05-21 23:54:00,311 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:00,311 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:00,311 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:00,311 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:00,312 DEBUG - Next step finish
+2009-05-21 23:54:01,106 DEBUG - Next step start
+2009-05-21 23:54:01,106 INFO - Start the next step
+2009-05-21 23:54:01,106 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,106 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,107 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,107 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,107 DEBUG - Next step finish
+2009-05-21 23:54:01,586 DEBUG - Next step start
+2009-05-21 23:54:01,586 INFO - Start the next step
+2009-05-21 23:54:01,586 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,586 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,586 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,587 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,587 DEBUG - Next step finish
+2009-05-21 23:54:01,852 DEBUG - Next step start
+2009-05-21 23:54:01,852 INFO - Start the next step
+2009-05-21 23:54:01,852 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,852 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,852 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,852 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:01,853 DEBUG - Next step finish
+2009-05-21 23:54:02,028 DEBUG - Next step start
+2009-05-21 23:54:02,028 INFO - Start the next step
+2009-05-21 23:54:02,028 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,028 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,028 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,028 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,028 DEBUG - Next step finish
+2009-05-21 23:54:02,217 DEBUG - Next step start
+2009-05-21 23:54:02,217 INFO - Start the next step
+2009-05-21 23:54:02,218 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,218 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,218 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,218 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,218 DEBUG - Next step finish
+2009-05-21 23:54:02,393 DEBUG - Next step start
+2009-05-21 23:54:02,393 INFO - Start the next step
+2009-05-21 23:54:02,393 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,394 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,394 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,394 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-21 23:54:02,394 DEBUG - Next step finish
+2009-05-22 00:05:42,067 DEBUG - new vertex view
+2009-05-22 00:05:42,079 DEBUG - new vertex view
+2009-05-22 00:05:42,079 DEBUG - new vertex view
+2009-05-22 00:05:42,080 DEBUG - new vertex view
+2009-05-22 00:05:42,080 DEBUG - new vertex view
+2009-05-22 00:05:42,081 DEBUG - new vertex view
+2009-05-22 00:05:42,081 DEBUG - new vertex view
+2009-05-22 00:05:42,082 DEBUG - new vertex view
+2009-05-22 00:05:42,113 DEBUG - Handler for Open: null
+2009-05-22 00:05:45,332 INFO - Execute 'debug' action
+2009-05-22 00:05:45,337 DEBUG - Init the interpreter
+2009-05-22 00:05:45,337 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 00:05:45,338 DEBUG - Get null value 0
+2009-05-22 00:05:45,338 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 00:05:45,338 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 00:05:45,338 DEBUG - Get null value 0
+2009-05-22 00:05:45,338 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 00:05:45,338 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 00:05:45,338 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 00:05:45,338 DEBUG - Get null value 0
+2009-05-22 00:05:45,338 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 00:05:45,338 DEBUG - Get null value 0
+2009-05-22 00:05:45,338 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 00:05:45,338 DEBUG - Form the list of elements to change.
+2009-05-22 00:05:45,340 DEBUG - rows=2
+2009-05-22 00:05:45,341 DEBUG - columns=4
+2009-05-22 00:05:45,560 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:05:45,583 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:05:45,587 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:05:45,590 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:05:45,608 DEBUG - Handler for Debug: null
+2009-05-22 00:05:53,025 DEBUG - Next step start
+2009-05-22 00:05:53,025 INFO - Start the next step
+2009-05-22 00:05:53,025 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:05:53,025 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:05:53,025 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:05:53,025 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:05:53,026 INFO - Xor intputs: [org.mazur.subrosa.model.Interface@95c5ec, org.mazur.subrosa.model.Interface@f52a14]
+2009-05-22 00:05:53,026 INFO - Result: ModelValue[values=[], dim: 0]
+2009-05-22 00:05:53,026 INFO - Xor intputs: [org.mazur.subrosa.model.Interface@7056d5, org.mazur.subrosa.model.Interface@154c054]
+2009-05-22 00:05:53,026 INFO - Result: ModelValue[values=[], dim: 0]
+2009-05-22 00:05:53,026 INFO - Xor intputs: [org.mazur.subrosa.model.Interface@11edceb, org.mazur.subrosa.model.Interface@139d115]
+2009-05-22 00:05:53,027 INFO - Result: ModelValue[values=[], dim: 0]
+2009-05-22 00:05:53,027 INFO - Xor intputs: [org.mazur.subrosa.model.Interface@cdba53, org.mazur.subrosa.model.Interface@83de21]
+2009-05-22 00:05:53,027 INFO - Result: ModelValue[values=[], dim: 0]
+2009-05-22 00:05:53,028 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-22 00:05:53,030 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-22 00:05:53,030 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-22 00:05:53,030 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-22 00:05:53,031 DEBUG - Next step finish
+2009-05-22 00:07:12,110 DEBUG - new vertex view
+2009-05-22 00:07:12,121 DEBUG - new vertex view
+2009-05-22 00:07:12,122 DEBUG - new vertex view
+2009-05-22 00:07:12,122 DEBUG - new vertex view
+2009-05-22 00:07:12,123 DEBUG - new vertex view
+2009-05-22 00:07:12,125 DEBUG - new vertex view
+2009-05-22 00:07:12,126 DEBUG - new vertex view
+2009-05-22 00:07:12,126 DEBUG - new vertex view
+2009-05-22 00:07:12,157 DEBUG - Handler for Open: null
+2009-05-22 00:07:13,934 INFO - Execute 'debug' action
+2009-05-22 00:07:13,943 DEBUG - Init the interpreter
+2009-05-22 00:07:13,943 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 00:07:13,944 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 00:07:13,944 DEBUG - Get null value 0
+2009-05-22 00:07:13,944 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 00:07:13,944 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 00:07:13,944 DEBUG - Get null value 0
+2009-05-22 00:07:13,944 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 00:07:13,944 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 00:07:13,944 DEBUG - Get null value 0
+2009-05-22 00:07:13,944 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 00:07:13,944 DEBUG - Get null value 0
+2009-05-22 00:07:13,944 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 00:07:13,944 DEBUG - Form the list of elements to change.
+2009-05-22 00:07:13,946 DEBUG - rows=2
+2009-05-22 00:07:13,947 DEBUG - columns=4
+2009-05-22 00:07:14,165 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:07:14,180 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:07:14,183 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:07:14,187 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:07:14,207 DEBUG - Handler for Debug: null
+2009-05-22 00:07:16,356 DEBUG - Next step start
+2009-05-22 00:07:16,357 INFO - Start the next step
+2009-05-22 00:07:16,357 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:07:16,357 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:07:16,357 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:07:16,357 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 00:07:16,357 DEBUG - Xor intputs: [org.mazur.subrosa.model.Interface@57f57f, org.mazur.subrosa.model.Interface@b68e0e]
+2009-05-22 00:07:16,358 DEBUG - Dimension: 0
+2009-05-22 00:07:16,358 DEBUG - Result: ModelValue[values=[], dim: 0]
+2009-05-22 00:07:16,358 DEBUG - Xor intputs: [org.mazur.subrosa.model.Interface@1feaf06, org.mazur.subrosa.model.Interface@194ba17]
+2009-05-22 00:07:16,358 DEBUG - Dimension: 0
+2009-05-22 00:07:16,359 DEBUG - Result: ModelValue[values=[], dim: 0]
+2009-05-22 00:07:16,359 DEBUG - Xor intputs: [org.mazur.subrosa.model.Interface@14562c5, org.mazur.subrosa.model.Interface@577c5e]
+2009-05-22 00:07:16,359 DEBUG - Dimension: 0
+2009-05-22 00:07:16,359 DEBUG - Result: ModelValue[values=[], dim: 0]
+2009-05-22 00:07:16,359 DEBUG - Xor intputs: [org.mazur.subrosa.model.Interface@1a631c2, org.mazur.subrosa.model.Interface@ce796]
+2009-05-22 00:07:16,359 DEBUG - Dimension: 0
+2009-05-22 00:07:16,359 DEBUG - Result: ModelValue[values=[], dim: 0]
+2009-05-22 00:07:16,361 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-22 00:07:16,362 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-22 00:07:16,362 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-22 00:07:16,363 DEBUG - Get current value ModelValue[values=[], dim: 0]
+2009-05-22 00:07:16,363 DEBUG - Next step finish
+2009-05-22 01:36:39,290 DEBUG - new vertex view
+2009-05-22 01:36:39,304 DEBUG - new vertex view
+2009-05-22 01:36:39,305 DEBUG - new vertex view
+2009-05-22 01:36:39,305 DEBUG - new vertex view
+2009-05-22 01:36:39,306 DEBUG - new vertex view
+2009-05-22 01:36:39,306 DEBUG - new vertex view
+2009-05-22 01:36:39,307 DEBUG - new vertex view
+2009-05-22 01:36:39,307 DEBUG - new vertex view
+2009-05-22 01:36:39,337 DEBUG - Handler for Open: null
+2009-05-22 01:36:41,587 INFO - Execute 'debug' action
+2009-05-22 01:36:41,592 DEBUG - Init the interpreter
+2009-05-22 01:36:41,592 DEBUG - Get null value 0
+2009-05-22 01:36:41,592 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:36:41,592 DEBUG - Get null value 0
+2009-05-22 01:36:41,592 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:36:41,592 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 01:36:41,593 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 01:36:41,593 DEBUG - Get null value 0
+2009-05-22 01:36:41,593 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:36:41,593 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 01:36:41,593 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 01:36:41,593 DEBUG - Get null value 0
+2009-05-22 01:36:41,593 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:36:41,593 DEBUG - Form the list of elements to change.
+2009-05-22 01:36:41,594 DEBUG - rows=2
+2009-05-22 01:36:41,595 DEBUG - columns=4
+2009-05-22 01:36:41,812 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:36:41,827 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:36:41,831 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:36:41,835 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:36:41,862 DEBUG - Handler for Debug: null
+2009-05-22 01:36:50,230 DEBUG - Next step start
+2009-05-22 01:36:50,230 INFO - Start the next step
+2009-05-22 01:36:50,230 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:36:50,230 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:36:50,231 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:36:50,231 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:36:50,231 DEBUG - Xor intputs: [org.mazur.subrosa.model.Interface@1532fc, org.mazur.subrosa.model.Interface@1c64ed8]
+2009-05-22 01:36:50,231 DEBUG - Dimension: 5
+2009-05-22 01:36:50,232 DEBUG - Result: ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:36:50,232 DEBUG - Xor intputs: [org.mazur.subrosa.model.Interface@9b777a, org.mazur.subrosa.model.Interface@c12978]
+2009-05-22 01:36:50,232 DEBUG - Dimension: 5
+2009-05-22 01:36:50,232 DEBUG - Result: ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:36:50,232 DEBUG - Xor intputs: [org.mazur.subrosa.model.Interface@189c12a, org.mazur.subrosa.model.Interface@e8c7db]
+2009-05-22 01:36:50,232 DEBUG - Dimension: 5
+2009-05-22 01:36:50,232 DEBUG - Result: ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:36:50,232 DEBUG - Xor intputs: [org.mazur.subrosa.model.Interface@992fa5, org.mazur.subrosa.model.Interface@10718b7]
+2009-05-22 01:36:50,232 DEBUG - Dimension: 5
+2009-05-22 01:36:50,232 DEBUG - Result: ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:36:50,234 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:36:50,235 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:36:50,236 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:36:50,236 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:36:50,236 DEBUG - Next step finish
+2009-05-22 01:38:09,935 DEBUG - new vertex view
+2009-05-22 01:38:09,947 DEBUG - new vertex view
+2009-05-22 01:38:09,948 DEBUG - new vertex view
+2009-05-22 01:38:09,948 DEBUG - new vertex view
+2009-05-22 01:38:09,949 DEBUG - new vertex view
+2009-05-22 01:38:09,950 DEBUG - new vertex view
+2009-05-22 01:38:09,950 DEBUG - new vertex view
+2009-05-22 01:38:09,951 DEBUG - new vertex view
+2009-05-22 01:38:09,982 DEBUG - Handler for Open: null
+2009-05-22 01:38:11,377 INFO - Execute 'debug' action
+2009-05-22 01:38:11,386 DEBUG - Init the interpreter
+2009-05-22 01:38:11,386 DEBUG - Get null value 0
+2009-05-22 01:38:11,386 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:38:11,386 DEBUG - Get null value 0
+2009-05-22 01:38:11,386 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:38:11,386 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 01:38:11,387 DEBUG - Get null value 0
+2009-05-22 01:38:11,387 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:38:11,387 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 01:38:11,387 DEBUG - Get null value 0
+2009-05-22 01:38:11,387 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:38:11,387 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 01:38:11,387 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=0, dim: 5]
+2009-05-22 01:38:11,387 DEBUG - Form the list of elements to change.
+2009-05-22 01:38:11,389 DEBUG - rows=2
+2009-05-22 01:38:11,389 DEBUG - columns=4
+2009-05-22 01:38:11,613 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:38:11,628 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:38:11,631 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:38:11,635 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:38:11,655 DEBUG - Handler for Debug: null
+2009-05-22 01:38:17,354 DEBUG - Next step start
+2009-05-22 01:38:17,354 INFO - Start the next step
+2009-05-22 01:38:17,354 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:38:17,354 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:38:17,354 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:38:17,354 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:38:17,354 DEBUG - Xor intputs: [Interface, value: ModelValue[value=0, dim: 5], Interface, value: ModelValue[value=0, dim: 5]]
+2009-05-22 01:38:17,355 DEBUG - Dimension: 5
+2009-05-22 01:38:17,355 DEBUG - Result: ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:38:17,355 DEBUG - Xor intputs: [Interface, value: ModelValue[value=0, dim: 5], Interface, value: ModelValue[value=0, dim: 5]]
+2009-05-22 01:38:17,355 DEBUG - Dimension: 5
+2009-05-22 01:38:17,356 DEBUG - Result: ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:38:17,356 DEBUG - Xor intputs: [Interface, value: ModelValue[value=0, dim: 5], Interface, value: ModelValue[value=0, dim: 5]]
+2009-05-22 01:38:17,356 DEBUG - Dimension: 5
+2009-05-22 01:38:17,356 DEBUG - Result: ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:38:17,356 DEBUG - Xor intputs: [Interface, value: ModelValue[value=0, dim: 5], Interface, value: ModelValue[value=0, dim: 5]]
+2009-05-22 01:38:17,356 DEBUG - Dimension: 5
+2009-05-22 01:38:17,356 DEBUG - Result: ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:38:17,358 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:38:17,359 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:38:17,360 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:38:17,360 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:38:17,360 DEBUG - Next step finish
+2009-05-22 01:38:41,176 DEBUG - new vertex view
+2009-05-22 01:38:41,176 DEBUG - new vertex view
+2009-05-22 01:38:41,177 DEBUG - new vertex view
+2009-05-22 01:38:41,177 DEBUG - new vertex view
+2009-05-22 01:38:41,177 DEBUG - new vertex view
+2009-05-22 01:38:41,177 DEBUG - new vertex view
+2009-05-22 01:38:41,177 DEBUG - new vertex view
+2009-05-22 01:38:41,177 DEBUG - new vertex view
+2009-05-22 01:38:41,185 DEBUG - new vertex view
+2009-05-22 01:38:41,185 DEBUG - new vertex view
+2009-05-22 01:38:41,185 DEBUG - new vertex view
+2009-05-22 01:38:41,186 DEBUG - new vertex view
+2009-05-22 01:38:41,186 DEBUG - new vertex view
+2009-05-22 01:38:41,186 DEBUG - new vertex view
+2009-05-22 01:38:41,186 DEBUG - new vertex view
+2009-05-22 01:38:41,186 DEBUG - new vertex view
+2009-05-22 01:38:46,172 DEBUG - new vertex view
+2009-05-22 01:38:46,172 DEBUG - new vertex view
+2009-05-22 01:38:46,172 DEBUG - new vertex view
+2009-05-22 01:38:46,172 DEBUG - new vertex view
+2009-05-22 01:38:46,172 DEBUG - new vertex view
+2009-05-22 01:38:46,172 DEBUG - new vertex view
+2009-05-22 01:38:46,173 DEBUG - new vertex view
+2009-05-22 01:38:46,173 DEBUG - new vertex view
+2009-05-22 01:38:49,994 DEBUG - new vertex view
+2009-05-22 01:38:49,995 DEBUG - new vertex view
+2009-05-22 01:38:50,097 DEBUG - new vertex view
+2009-05-22 01:38:51,042 DEBUG - new vertex view
+2009-05-22 01:38:51,043 DEBUG - new vertex view
+2009-05-22 01:38:51,043 DEBUG - new vertex view
+2009-05-22 01:38:51,044 DEBUG - new vertex view
+2009-05-22 01:38:51,092 DEBUG - new RealElementEditor
+2009-05-22 01:38:51,095 DEBUG - new BusinessElementEditor
+2009-05-22 01:38:51,099 DEBUG - New editor container.
+2009-05-22 01:38:51,119 DEBUG - Redraw
+2009-05-22 01:38:51,119 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:38:51,123 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:38:51,128 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-22 01:38:51,141 DEBUG - new vertex view
+2009-05-22 01:38:51,142 DEBUG - new vertex view
+2009-05-22 01:38:58,506 DEBUG - new vertex view
+2009-05-22 01:38:59,953 DEBUG - new vertex view
+2009-05-22 01:38:59,953 DEBUG - new vertex view
+2009-05-22 01:39:00,079 DEBUG - new RealElementEditor
+2009-05-22 01:39:00,079 DEBUG - new BusinessElementEditor
+2009-05-22 01:39:00,079 DEBUG - New editor container.
+2009-05-22 01:39:00,084 DEBUG - Redraw
+2009-05-22 01:39:00,085 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:39:00,088 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:39:00,091 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-22 01:39:00,097 DEBUG - new vertex view
+2009-05-22 01:39:00,097 DEBUG - new vertex view
+2009-05-22 01:39:04,347 DEBUG - new vertex view
+2009-05-22 01:39:06,630 DEBUG - new vertex view
+2009-05-22 01:39:06,630 DEBUG - new vertex view
+2009-05-22 01:39:06,769 DEBUG - new RealElementEditor
+2009-05-22 01:39:06,769 DEBUG - new BusinessElementEditor
+2009-05-22 01:39:06,769 DEBUG - New editor container.
+2009-05-22 01:39:06,774 DEBUG - Redraw
+2009-05-22 01:39:06,774 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:39:06,778 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:39:06,782 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-22 01:39:06,787 DEBUG - new vertex view
+2009-05-22 01:39:06,788 DEBUG - new vertex view
+2009-05-22 01:39:13,057 DEBUG - new vertex view
+2009-05-22 01:39:14,683 DEBUG - new vertex view
+2009-05-22 01:39:14,683 DEBUG - new vertex view
+2009-05-22 01:39:14,834 DEBUG - new RealElementEditor
+2009-05-22 01:39:14,835 DEBUG - new BusinessElementEditor
+2009-05-22 01:39:14,835 DEBUG - New editor container.
+2009-05-22 01:39:14,839 DEBUG - Redraw
+2009-05-22 01:39:14,840 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:39:14,845 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:39:14,849 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-22 01:39:14,855 DEBUG - new vertex view
+2009-05-22 01:39:14,855 DEBUG - new vertex view
+2009-05-22 01:39:18,395 DEBUG - new vertex view
+2009-05-22 01:39:22,220 INFO - Execute 'debug' action
+2009-05-22 01:39:22,224 DEBUG - Init the interpreter
+2009-05-22 01:39:22,224 DEBUG - Get null value 0
+2009-05-22 01:39:22,224 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:39:22,224 DEBUG - Get null value 0
+2009-05-22 01:39:22,224 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:39:22,224 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=4, dim: 5]
+2009-05-22 01:39:22,224 DEBUG - Get null value 0
+2009-05-22 01:39:22,225 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:39:22,225 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=3, dim: 5]
+2009-05-22 01:39:22,225 DEBUG - Get null value 0
+2009-05-22 01:39:22,225 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:39:22,225 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=1, dim: 5]
+2009-05-22 01:39:22,225 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=2, dim: 5]
+2009-05-22 01:39:22,225 DEBUG - Form the list of elements to change.
+2009-05-22 01:39:22,229 DEBUG - rows=2
+2009-05-22 01:39:22,230 DEBUG - columns=4
+2009-05-22 01:39:22,382 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:39:22,394 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:39:22,398 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:39:22,401 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:39:22,419 DEBUG - Handler for Debug: null
+2009-05-22 01:39:28,833 DEBUG - Next step start
+2009-05-22 01:39:28,833 INFO - Start the next step
+2009-05-22 01:39:28,833 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:39:28,833 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:39:28,834 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:39:28,834 DEBUG - Get current value ModelValue[values=[false, false, false, false, false], dim: 5]
+2009-05-22 01:39:28,834 DEBUG - Xor intputs: [Interface, value: ModelValue[value=2, dim: 5], Interface, value: ModelValue[value=4, dim: 5]]
+2009-05-22 01:39:28,834 DEBUG - Dimension: 5
+2009-05-22 01:39:28,834 DEBUG - Result: ModelValue[values=[false, true, true, false, false], dim: 5]
+2009-05-22 01:39:28,834 DEBUG - Xor intputs: [Interface, value: ModelValue[value=3, dim: 5], Interface, value: ModelValue[value=2, dim: 5]]
+2009-05-22 01:39:28,834 DEBUG - Dimension: 5
+2009-05-22 01:39:28,834 DEBUG - Result: ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:39:28,834 DEBUG - Xor intputs: [Interface, value: ModelValue[value=1, dim: 5], Interface, value: ModelValue[value=3, dim: 5]]
+2009-05-22 01:39:28,834 DEBUG - Dimension: 5
+2009-05-22 01:39:28,834 DEBUG - Result: ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:39:28,834 DEBUG - Xor intputs: [Interface, value: ModelValue[value=4, dim: 5], Interface, value: ModelValue[value=1, dim: 5]]
+2009-05-22 01:39:28,834 DEBUG - Dimension: 5
+2009-05-22 01:39:28,834 DEBUG - Result: ModelValue[values=[true, false, true, false, false], dim: 5]
+2009-05-22 01:39:28,835 DEBUG - Get current value ModelValue[values=[false, true, true, false, false], dim: 5]
+2009-05-22 01:39:28,836 DEBUG - Get current value ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:39:28,836 DEBUG - Get current value ModelValue[values=[true, false, true, false, false], dim: 5]
+2009-05-22 01:39:28,837 DEBUG - Get current value ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:39:28,837 DEBUG - Next step finish
+2009-05-22 01:39:33,970 DEBUG - Next step start
+2009-05-22 01:39:33,970 INFO - Start the next step
+2009-05-22 01:39:33,971 DEBUG - Get current value ModelValue[values=[false, true, true, false, false], dim: 5]
+2009-05-22 01:39:33,971 DEBUG - Get current value ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:39:33,971 DEBUG - Get current value ModelValue[values=[true, false, true, false, false], dim: 5]
+2009-05-22 01:39:33,971 DEBUG - Get current value ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:39:33,972 DEBUG - Next step finish
+2009-05-22 01:39:35,295 DEBUG - Next step start
+2009-05-22 01:39:35,295 INFO - Start the next step
+2009-05-22 01:39:35,295 DEBUG - Get current value ModelValue[values=[false, true, true, false, false], dim: 5]
+2009-05-22 01:39:35,295 DEBUG - Get current value ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:39:35,295 DEBUG - Get current value ModelValue[values=[true, false, true, false, false], dim: 5]
+2009-05-22 01:39:35,296 DEBUG - Get current value ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:39:35,296 DEBUG - Next step finish
+2009-05-22 01:39:36,077 DEBUG - Next step start
+2009-05-22 01:39:36,078 INFO - Start the next step
+2009-05-22 01:39:36,078 DEBUG - Get current value ModelValue[values=[false, true, true, false, false], dim: 5]
+2009-05-22 01:39:36,078 DEBUG - Get current value ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:39:36,078 DEBUG - Get current value ModelValue[values=[true, false, true, false, false], dim: 5]
+2009-05-22 01:39:36,079 DEBUG - Get current value ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:39:36,079 DEBUG - Next step finish
+2009-05-22 01:40:53,024 DEBUG - new vertex view
+2009-05-22 01:40:53,036 DEBUG - new vertex view
+2009-05-22 01:40:53,037 DEBUG - new vertex view
+2009-05-22 01:40:53,037 DEBUG - new vertex view
+2009-05-22 01:40:53,038 DEBUG - new vertex view
+2009-05-22 01:40:53,039 DEBUG - new vertex view
+2009-05-22 01:40:53,039 DEBUG - new vertex view
+2009-05-22 01:40:53,040 DEBUG - new vertex view
+2009-05-22 01:40:53,071 DEBUG - Handler for Open: null
+2009-05-22 01:41:12,595 DEBUG - new vertex view
+2009-05-22 01:41:12,595 DEBUG - new vertex view
+2009-05-22 01:41:12,595 DEBUG - new vertex view
+2009-05-22 01:41:12,595 DEBUG - new vertex view
+2009-05-22 01:41:12,595 DEBUG - new vertex view
+2009-05-22 01:41:12,595 DEBUG - new vertex view
+2009-05-22 01:41:12,595 DEBUG - new vertex view
+2009-05-22 01:41:12,596 DEBUG - new vertex view
+2009-05-22 01:41:12,606 DEBUG - new vertex view
+2009-05-22 01:41:12,606 DEBUG - new vertex view
+2009-05-22 01:41:12,606 DEBUG - new vertex view
+2009-05-22 01:41:12,606 DEBUG - new vertex view
+2009-05-22 01:41:12,606 DEBUG - new vertex view
+2009-05-22 01:41:12,606 DEBUG - new vertex view
+2009-05-22 01:41:12,607 DEBUG - new vertex view
+2009-05-22 01:41:12,607 DEBUG - new vertex view
+2009-05-22 01:41:16,404 DEBUG - new vertex view
+2009-05-22 01:41:16,404 DEBUG - new vertex view
+2009-05-22 01:41:16,404 DEBUG - new vertex view
+2009-05-22 01:41:16,404 DEBUG - new vertex view
+2009-05-22 01:41:16,404 DEBUG - new vertex view
+2009-05-22 01:41:16,404 DEBUG - new vertex view
+2009-05-22 01:41:16,404 DEBUG - new vertex view
+2009-05-22 01:41:16,404 DEBUG - new vertex view
+2009-05-22 01:41:42,330 DEBUG - new vertex view
+2009-05-22 01:41:42,330 DEBUG - new vertex view
+2009-05-22 01:41:42,469 DEBUG - new RealElementEditor
+2009-05-22 01:41:42,469 DEBUG - new BusinessElementEditor
+2009-05-22 01:41:42,479 DEBUG - New editor container.
+2009-05-22 01:41:42,499 DEBUG - Redraw
+2009-05-22 01:41:42,499 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:41:42,504 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:41:42,508 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-22 01:41:42,521 DEBUG - new vertex view
+2009-05-22 01:41:42,521 DEBUG - new vertex view
+2009-05-22 01:41:46,080 DEBUG - new vertex view
+2009-05-22 01:41:47,316 DEBUG - new vertex view
+2009-05-22 01:41:47,316 DEBUG - new vertex view
+2009-05-22 01:41:47,479 DEBUG - new RealElementEditor
+2009-05-22 01:41:47,479 DEBUG - new BusinessElementEditor
+2009-05-22 01:41:47,480 DEBUG - New editor container.
+2009-05-22 01:41:47,485 DEBUG - Redraw
+2009-05-22 01:41:47,485 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:41:47,489 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:41:47,492 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-22 01:41:47,498 DEBUG - new vertex view
+2009-05-22 01:41:47,499 DEBUG - new vertex view
+2009-05-22 01:41:50,650 DEBUG - new vertex view
+2009-05-22 01:41:52,592 DEBUG - new vertex view
+2009-05-22 01:41:52,593 DEBUG - new vertex view
+2009-05-22 01:41:52,730 DEBUG - new RealElementEditor
+2009-05-22 01:41:52,730 DEBUG - new BusinessElementEditor
+2009-05-22 01:41:52,730 DEBUG - New editor container.
+2009-05-22 01:41:52,735 DEBUG - Redraw
+2009-05-22 01:41:52,736 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:41:52,740 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:41:52,743 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-22 01:41:52,749 DEBUG - new vertex view
+2009-05-22 01:41:52,749 DEBUG - new vertex view
+2009-05-22 01:41:58,173 DEBUG - new vertex view
+2009-05-22 01:41:59,661 DEBUG - new vertex view
+2009-05-22 01:41:59,661 DEBUG - new vertex view
+2009-05-22 01:41:59,811 DEBUG - new RealElementEditor
+2009-05-22 01:41:59,811 DEBUG - new BusinessElementEditor
+2009-05-22 01:41:59,811 DEBUG - New editor container.
+2009-05-22 01:41:59,818 DEBUG - Redraw
+2009-05-22 01:41:59,818 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:41:59,821 DEBUG - interface: Interface, value: ModelValue[value=0, dim: 5]
+2009-05-22 01:41:59,824 DEBUG - Size: java.awt.Dimension[width=159,height=185]
+2009-05-22 01:41:59,831 DEBUG - new vertex view
+2009-05-22 01:41:59,831 DEBUG - new vertex view
+2009-05-22 01:42:02,830 DEBUG - new vertex view
+2009-05-22 01:42:07,117 INFO - Execute 'save' action
+2009-05-22 01:42:07,183 DEBUG - Handler for Save: null
+2009-05-22 01:42:15,850 INFO - Execute 'debug' action
+2009-05-22 01:42:15,859 DEBUG - Init the interpreter
+2009-05-22 01:42:15,859 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=3, dim: 5]
+2009-05-22 01:42:15,859 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=2, dim: 5]
+2009-05-22 01:42:15,859 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=2, dim: 5]
+2009-05-22 01:42:15,859 DEBUG - Init Model element[const(), hasConnections:true] by ModelValue[value=1, dim: 5]
+2009-05-22 01:42:15,859 DEBUG - Get null value 0
+2009-05-22 01:42:15,859 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:42:15,859 DEBUG - Get null value 0
+2009-05-22 01:42:15,860 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:42:15,860 DEBUG - Get null value 0
+2009-05-22 01:42:15,860 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:42:15,860 DEBUG - Get null value 0
+2009-05-22 01:42:15,860 DEBUG - Init Model element[xor(), hasConnections:true] by ModelValue[dimension: 0, always false]
+2009-05-22 01:42:15,860 DEBUG - Form the list of elements to change.
+2009-05-22 01:42:15,863 DEBUG - rows=2
+2009-05-22 01:42:15,865 DEBUG - columns=4
+2009-05-22 01:42:16,014 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:42:16,034 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:42:16,038 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:42:16,041 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:42:16,060 DEBUG - Handler for Debug: null
+2009-05-22 01:42:22,055 DEBUG - Next step start
+2009-05-22 01:42:22,055 INFO - Start the next step
+2009-05-22 01:42:22,055 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:42:22,056 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:42:22,056 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:42:22,056 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-22 01:42:22,056 DEBUG - Xor intputs: [Interface, value: ModelValue[value=2, dim: 5], Interface, value: ModelValue[value=3, dim: 5]]
+2009-05-22 01:42:22,056 DEBUG - Dimension: 5
+2009-05-22 01:42:22,057 DEBUG - Result: ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:42:22,057 DEBUG - Xor intputs: [Interface, value: ModelValue[value=1, dim: 5], Interface, value: ModelValue[value=2, dim: 5]]
+2009-05-22 01:42:22,057 DEBUG - Dimension: 5
+2009-05-22 01:42:22,057 DEBUG - Result: ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:42:22,057 DEBUG - Xor intputs: [Interface, value: ModelValue[value=2, dim: 5], Interface, value: ModelValue[value=2, dim: 5]]
+2009-05-22 01:42:22,057 DEBUG - Dimension: 5
+2009-05-22 01:42:22,057 DEBUG - Result: ModelValue[values=[false, true, false, false, false], dim: 5]
+2009-05-22 01:42:22,057 DEBUG - Xor intputs: [Interface, value: ModelValue[value=3, dim: 5], Interface, value: ModelValue[value=1, dim: 5]]
+2009-05-22 01:42:22,057 DEBUG - Dimension: 5
+2009-05-22 01:42:22,057 DEBUG - Result: ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:42:22,059 DEBUG - Get current value ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:42:22,061 DEBUG - Get current value ModelValue[values=[false, true, false, false, false], dim: 5]
+2009-05-22 01:42:22,061 DEBUG - Get current value ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:42:22,062 DEBUG - Get current value ModelValue[values=[true, true, false, false, false], dim: 5]
+2009-05-22 01:42:22,062 DEBUG - Next step finish
+2009-05-22 01:42:35,959 DEBUG - new vertex view
+2009-05-22 01:42:35,959 DEBUG - new vertex view
+2009-05-22 01:42:36,130 DEBUG - new RealElementEditor
+2009-05-22 01:42:36,130 DEBUG - new BusinessElementEditor
+2009-05-22 01:42:36,130 DEBUG - Redraw
+2009-05-22 01:42:36,130 DEBUG - interface: Interface, value: ModelValue[value=2, dim: 5]
+2009-05-22 01:42:36,133 DEBUG - interface: Interface, value: ModelValue[value=2, dim: 5]
+2009-05-22 01:42:36,136 DEBUG - Size: java.awt.Dimension[width=309,height=235]
+2009-05-22 01:42:36,141 DEBUG - new vertex view
+2009-05-22 01:42:36,141 DEBUG - new vertex view
+2009-05-22 01:42:37,911 DEBUG - new vertex view
+2009-05-22 01:42:39,311 DEBUG - new vertex view
+2009-05-22 01:42:39,312 DEBUG - new vertex view
+2009-05-22 01:42:39,439 DEBUG - new vertex view
+2009-05-22 01:42:40,649 DEBUG - new vertex view
+2009-05-22 01:42:40,650 DEBUG - new vertex view
+2009-05-22 01:42:42,140 DEBUG - new vertex view
+2009-05-22 01:42:43,048 DEBUG - new vertex view
+2009-05-22 01:42:43,049 DEBUG - new vertex view
+2009-05-22 01:42:43,049 DEBUG - new vertex view
+2009-05-22 01:42:43,049 DEBUG - new vertex view
+2009-05-22 01:42:43,098 DEBUG - new RealElementEditor
+2009-05-22 01:42:43,099 DEBUG - new BusinessElementEditor
+2009-05-22 01:42:43,099 DEBUG - Redraw
+2009-05-22 01:42:43,099 DEBUG - interface: Interface, value: ModelValue[value=2, dim: 5]
+2009-05-22 01:42:43,103 DEBUG - interface: Interface, value: ModelValue[value=2, dim: 5]
+2009-05-22 01:42:43,107 DEBUG - Size: java.awt.Dimension[width=309,height=235]
+2009-05-22 01:42:43,115 DEBUG - new vertex view
+2009-05-22 01:42:43,116 DEBUG - new vertex view
+2009-05-22 01:42:44,892 DEBUG - new vertex view
+2009-05-22 01:42:46,520 DEBUG - new vertex view
+2009-05-22 01:42:46,521 DEBUG - new vertex view
+2009-05-22 01:42:46,671 DEBUG - new RealElementEditor
+2009-05-22 01:42:46,672 DEBUG - new BusinessElementEditor
+2009-05-22 01:42:46,672 DEBUG - Redraw
+2009-05-22 01:42:46,672 DEBUG - interface: Interface, value: ModelValue[value=2, dim: 5]
+2009-05-22 01:42:46,675 DEBUG - interface: Interface, value: ModelValue[value=2, dim: 5]
+2009-05-22 01:42:46,678 DEBUG - Size: java.awt.Dimension[width=309,height=235]
+2009-05-22 01:42:46,681 DEBUG - new vertex view
+2009-05-22 01:42:46,682 DEBUG - new vertex view
+2009-05-22 01:42:47,986 DEBUG - new vertex view
+2009-05-26 00:23:28,216 DEBUG - Handler for New: null
+2009-05-26 00:23:32,327 DEBUG - Get null value 0
+2009-05-26 00:26:11,280 DEBUG - Handler for New: null
+2009-05-26 00:26:15,377 DEBUG - Get null value 0
+2009-05-26 00:28:39,440 DEBUG - Handler for New: null
+2009-05-26 00:28:43,901 DEBUG - Get null value 0
+2009-05-26 00:28:43,942 DEBUG - New editor container.
+2009-05-26 00:28:44,016 DEBUG - new vertex view
+2009-05-26 00:28:48,008 DEBUG - Get null value 0
+2009-05-26 00:28:48,024 DEBUG - New editor container.
+2009-05-26 00:30:09,506 DEBUG - Handler for New: null
+2009-05-26 00:30:11,746 DEBUG - Get null value 0
+2009-05-26 00:30:11,776 DEBUG - New editor container.
+2009-05-26 00:51:05,687 DEBUG - Handler for New: null
+2009-05-26 00:51:14,125 DEBUG - Get null value 0
+2009-05-26 00:51:14,155 DEBUG - New editor container.
+2009-05-26 00:54:54,026 DEBUG - Handler for New: null
+2009-05-26 00:54:57,773 DEBUG - Get null value 0
+2009-05-26 00:54:57,803 DEBUG - New editor container.
+2009-05-26 00:56:00,515 DEBUG - Handler for New: null
+2009-05-26 00:56:02,923 DEBUG - Get null value 0
+2009-05-26 00:56:02,954 DEBUG - New editor container.
+2009-05-26 00:57:17,498 DEBUG - Handler for New: null
+2009-05-26 00:57:21,025 DEBUG - Get null value 0
+2009-05-26 00:57:21,054 DEBUG - New editor container.
+2009-05-26 01:17:41,987 DEBUG - Handler for New: null
+2009-05-26 01:17:45,633 DEBUG - Get null value 0
+2009-05-26 01:17:45,660 DEBUG - New editor container.
+2009-05-26 01:17:45,731 DEBUG - new vertex view
+2009-05-26 01:18:18,870 DEBUG - Handler for New: null
+2009-05-26 01:18:21,336 DEBUG - Get null value 0
+2009-05-26 01:18:21,363 DEBUG - New editor container.
+2009-05-26 01:18:21,432 DEBUG - new vertex view
+2009-05-26 01:19:50,348 DEBUG - Get null value 0
+2009-05-26 01:19:50,349 DEBUG - New editor container.
+2009-05-26 01:19:50,359 DEBUG - new vertex view
+2009-05-26 01:19:53,431 DEBUG - new vertex view
+2009-05-26 01:19:53,437 DEBUG - new vertex view
+2009-05-26 01:19:57,939 DEBUG - Connect cells class org.mazur.subrosa.model.elements.FunctionElement -> class org.mazur.subrosa.model.elements.FunctionElement
+2009-05-26 01:19:57,953 DEBUG - source = Model element[Func(), hasConnections:false]
+2009-05-26 01:19:57,953 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-26 01:19:57,953 DEBUG - source.getCurrentValue() = ModelValue[dimension: 0, always false]
+2009-05-26 01:19:57,971 DEBUG - Get current value ModelValue[dimension: 0, always false]
+2009-05-26 01:19:57,971 DEBUG - Connected. Draw it.
+2009-05-26 01:19:58,011 DEBUG - new vertex view
+2009-05-26 01:19:58,507 DEBUG - new vertex view
+2009-05-26 01:19:58,508 DEBUG - new vertex view
+2009-05-26 01:20:02,151 DEBUG - new vertex view
+2009-05-26 01:20:02,152 DEBUG - new vertex view
+2009-05-26 01:20:02,972 DEBUG - new vertex view
+2009-05-26 01:20:03,956 DEBUG - new vertex view
+2009-05-26 01:20:03,957 DEBUG - new vertex view
+2009-05-26 01:20:03,957 DEBUG - new vertex view
+2009-05-26 01:20:03,957 DEBUG - new vertex view
+2009-05-26 01:20:04,131 DEBUG - new vertex view
+2009-05-26 01:20:04,131 DEBUG - new vertex view
+2009-05-26 01:20:04,132 DEBUG - new vertex view
+2009-05-26 01:20:04,132 DEBUG - new vertex view
+2009-05-26 01:20:05,596 DEBUG - new vertex view
+2009-05-26 01:20:05,596 DEBUG - new vertex view
+2009-05-26 01:20:05,596 DEBUG - new vertex view
+2009-05-26 01:20:05,597 DEBUG - new vertex view
+2009-05-26 01:20:05,664 DEBUG - new RealElementEditor
+2009-05-26 01:20:05,684 DEBUG - new BusinessElementEditor
+2009-05-26 01:20:05,774 DEBUG - new vertex view
+2009-05-26 01:20:05,774 DEBUG - new vertex view
+2009-05-26 01:20:05,775 DEBUG - new vertex view
+2009-05-26 01:20:05,775 DEBUG - new vertex view
+2009-05-26 01:21:03,708 DEBUG - Handler for New: null
+2009-05-26 01:21:07,006 DEBUG - Get null value 0
+2009-05-26 01:21:07,032 DEBUG - New editor container.
+2009-05-26 01:21:07,101 DEBUG - new vertex view
+2009-05-26 01:21:09,574 DEBUG - new vertex view
+2009-05-26 01:21:09,576 DEBUG - new vertex view
+2009-05-26 01:21:09,746 DEBUG - new RealElementEditor
+2009-05-26 01:21:09,746 DEBUG - new BusinessElementEditor
+2009-05-26 01:21:09,871 DEBUG - new vertex view
+2009-05-26 01:21:09,871 DEBUG - new vertex view
+2009-05-26 01:21:09,871 DEBUG - new vertex view
+2009-05-26 01:21:09,872 DEBUG - new vertex view
+2009-05-26 01:21:10,956 DEBUG - new vertex view
+2009-05-26 01:21:10,957 DEBUG - new vertex view
+2009-05-26 01:21:10,957 DEBUG - new vertex view
+2009-05-26 01:21:10,957 DEBUG - new vertex view
+2009-05-26 01:21:11,006 DEBUG - new RealElementEditor
+2009-05-26 01:21:11,006 DEBUG - new BusinessElementEditor
+2009-05-26 01:21:11,132 DEBUG - new vertex view
+2009-05-26 01:21:11,132 DEBUG - new vertex view
+2009-05-26 01:21:11,132 DEBUG - new vertex view
+2009-05-26 01:21:11,133 DEBUG - new vertex view
+2009-05-26 01:21:12,949 DEBUG - new vertex view
+2009-05-26 01:22:31,687 DEBUG - Handler for New: null
+2009-05-26 01:22:35,848 DEBUG - Get null value 0
+2009-05-26 01:22:35,875 DEBUG - New editor container.
+2009-05-26 01:22:35,944 DEBUG - new vertex view
+2009-05-26 01:22:36,869 DEBUG - new vertex view
+2009-05-26 01:22:36,871 DEBUG - new vertex view
+2009-05-26 01:22:37,027 DEBUG - new RealElementEditor
+2009-05-26 01:22:37,028 DEBUG - new BusinessElementEditor
+2009-05-26 01:22:37,029 DEBUG - Redraw
+2009-05-26 01:22:37,029 DEBUG - Size: java.awt.Dimension[width=39,height=125]
+2009-05-26 01:22:37,034 DEBUG - new vertex view
+2009-05-26 01:22:37,034 DEBUG - new vertex view
+2009-05-26 01:23:33,411 DEBUG - Handler for New: null
+2009-05-26 01:23:38,621 DEBUG - Get null value 0
+2009-05-26 01:23:38,649 DEBUG - New editor container.
+2009-05-26 01:23:38,726 DEBUG - new vertex view
+2009-05-26 01:23:40,093 DEBUG - new vertex view
+2009-05-26 01:23:40,096 DEBUG - new vertex view
+2009-05-26 01:23:40,263 DEBUG - new RealElementEditor
+2009-05-26 01:23:40,263 DEBUG - new BusinessElementEditor
+2009-05-26 01:23:40,264 DEBUG - Redraw
+2009-05-26 01:23:40,264 DEBUG - Size: java.awt.Dimension[width=39,height=115]
+2009-05-26 01:23:40,268 DEBUG - new vertex view
+2009-05-26 01:23:40,268 DEBUG - new vertex view
+2009-05-26 18:36:34,192 DEBUG - Handler for New: null
+2009-05-26 18:36:44,185 DEBUG - Get null value 0
+2009-05-26 18:36:44,294 DEBUG - New editor container.
+2009-05-26 18:36:44,536 DEBUG - new vertex view
+2009-05-26 18:36:54,943 DEBUG - new vertex view
+2009-05-26 18:36:54,945 DEBUG - new vertex view
+2009-05-26 18:36:55,681 DEBUG - new vertex view
+2009-05-26 18:37:00,321 DEBUG - new vertex view
+2009-05-26 18:37:00,321 DEBUG - new vertex view
+2009-05-26 18:37:04,001 DEBUG - new vertex view
+2009-05-26 18:37:07,232 DEBUG - new vertex view
+2009-05-26 18:37:07,233 DEBUG - new vertex view
+2009-05-26 18:37:07,462 DEBUG - new RealElementEditor
+2009-05-26 18:37:07,483 DEBUG - new BusinessElementEditor
+2009-05-26 18:37:07,484 DEBUG - Redraw
+2009-05-26 18:37:07,484 DEBUG - Size: java.awt.Dimension[width=39,height=115]
+2009-05-26 18:37:07,491 DEBUG - new vertex view
+2009-05-26 18:37:07,491 DEBUG - new vertex view
+2009-05-26 18:37:08,634 DEBUG - new vertex view
+2009-05-26 18:50:05,875 DEBUG - Handler for New: null
+2009-05-26 18:50:08,255 DEBUG - Get null value 0
+2009-05-26 18:50:08,298 DEBUG - New editor container.
+2009-05-26 18:50:08,375 DEBUG - new vertex view
+2009-05-26 18:50:09,405 DEBUG - new vertex view
+2009-05-26 18:50:09,408 DEBUG - new vertex view
+2009-05-26 18:50:09,597 DEBUG - new RealElementEditor
+2009-05-26 18:50:09,598 DEBUG - new BusinessElementEditor
+2009-05-26 18:50:09,598 DEBUG - Redraw
+2009-05-26 18:50:09,599 DEBUG - Size: java.awt.Dimension[width=39,height=131]
+2009-05-26 18:50:09,606 DEBUG - new vertex view
+2009-05-26 18:50:09,606 DEBUG - new vertex view
+2009-05-26 18:58:26,239 DEBUG - Handler for New: null
+2009-05-26 18:58:31,887 DEBUG - Get null value 0
+2009-05-26 18:58:31,973 DEBUG - New editor container.
+2009-05-26 18:58:32,230 DEBUG - new vertex view
+2009-05-26 18:58:34,245 DEBUG - new vertex view
+2009-05-26 18:58:34,248 DEBUG - new vertex view
+2009-05-26 18:58:34,400 DEBUG - new RealElementEditor
+2009-05-26 18:58:34,401 DEBUG - new BusinessElementEditor
+2009-05-26 18:58:34,401 DEBUG - Redraw
+2009-05-26 18:58:34,402 DEBUG - Size: java.awt.Dimension[width=39,height=134]
+2009-05-26 18:58:34,410 DEBUG - new vertex view
+2009-05-26 18:58:34,411 DEBUG - new vertex view
+2009-05-26 19:04:23,166 DEBUG - Handler for New: null
+2009-05-26 19:04:31,298 DEBUG - Get null value 0
+2009-05-26 19:04:31,403 DEBUG - New editor container.
+2009-05-26 19:04:31,570 DEBUG - new vertex view
+2009-05-26 19:04:32,926 DEBUG - new vertex view
+2009-05-26 19:04:32,928 DEBUG - new vertex view
+2009-05-26 19:04:33,136 DEBUG - new RealElementEditor
+2009-05-26 19:04:33,157 DEBUG - new BusinessElementEditor
+2009-05-26 19:04:33,157 DEBUG - Redraw
+2009-05-26 19:04:33,158 DEBUG - Size: java.awt.Dimension[width=104,height=144]
+2009-05-26 19:04:33,162 DEBUG - new vertex view
+2009-05-26 19:04:33,162 DEBUG - new vertex view

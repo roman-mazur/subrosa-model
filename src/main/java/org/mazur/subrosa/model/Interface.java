@@ -83,13 +83,17 @@ public class Interface implements Serializable, ModelValue {
   
   public static ModelValue nullValue(final int dimension) {
     ModelValue mv = NULL_VALUES_CACHE.get(dimension);
-    if (mv != null) { return null; }
+    if (mv != null) { return mv; }
     mv = new ModelValue() {
       private static final long serialVersionUID = -2300679701642884695L;
       @Override
       public int dimension() { return dimension; }
       @Override
       public boolean get(int index) { return false; }
+      @Override
+      public String toString() {
+        return "ModelValue[dimension: " + dimension + ", always false]";
+      }
     };
     NULL_VALUES_CACHE.put(dimension, mv);
     return mv;
@@ -97,15 +101,18 @@ public class Interface implements Serializable, ModelValue {
 
   @Override
   public int dimension() {
-    // TODO Auto-generated method stub
-    return 0;
+    return sourceRange.size();
   }
 
   @Override
   public boolean get(final int index) {
-    // TODO Auto-generated method stub
-    return false;
+    return source.getCurrentValue().get(index);
   }
   
   public Object getView() { return view; }
+  
+  @Override
+  public String toString() {
+    return "Interface, value: " + source.getCurrentValue();
+  }
 }

@@ -58,4 +58,7 @@ public class ConstantElement extends AbstractModelElement {
 
   @Override
   public ModelValue getCurrentValue() { return calculate(null); }
+  
+  @Override
+  public ModelValue nullValue() { return calculate(null); }
 }
