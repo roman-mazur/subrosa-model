@@ -67,7 +67,7 @@ public abstract class CommonEditorContainer {
     JPanel commonPanel = new JPanel();
     commonPanel.setLayout(new BorderLayout());
     JComponent topC = createTopComponent();
-    commonPanel.add(BorderLayout.NORTH, topC);
+    commonPanel.add(BorderLayout.CENTER, topC);
     JPanel bottomPanel = new JPanel();
     bottomPanel.setLayout(new BorderLayout());
     bottomPanel.add(BorderLayout.NORTH, new JLabel(" Notes:"));
