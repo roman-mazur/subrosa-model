@@ -185,6 +185,8 @@ public abstract class CommonEditorContainer {
     return mainPanel; 
   }
 
+  protected AbstractModelElement getElement() { return element; }
+  
   private static class SpinnersPair {
     private JSpinner fromSpinner, toSpinner;
     private Interface i;

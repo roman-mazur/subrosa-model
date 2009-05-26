@@ -48,7 +48,7 @@ public class ConstantCell extends ElementCell {
   private final class EditorContainer extends CommonEditorContainer {
     private JSpinner valueSpinner, dimensionSpinner;
     EditorContainer() {
-      super(getElement());
+      super(ConstantCell.this.getElement());
       final ConstantElement ce = (ConstantElement)getElement();
       valueSpinner.setValue(ce.getValue());
       dimensionSpinner.setValue(ce.getDimension());

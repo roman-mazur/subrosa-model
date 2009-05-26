@@ -128,7 +128,7 @@ public class MainFrameState {
    * Start generator editor.
    */
   void startGenEditor() {
-    def editor = new Generator(controller : activeDocument.controller)
+    def editor = new Generator(controller : activeDocument.controller, cconf : compilerConf)
     editor.prepare()
     editor.showFrame()
   }
@@ -137,7 +137,12 @@ public class MainFrameState {
    * Start generator.
    */
   void startGenerator() {
-    
+    def editor = new Generator(controller : activeDocument.controller, cconf : compilerConf)
+    try {
+      editor.grun()
+    } catch (InterpreterException e) {
+      displayCompileErrors(e)
+    }
   }
   
 }
