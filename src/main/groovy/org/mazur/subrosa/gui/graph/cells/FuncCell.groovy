@@ -49,10 +49,12 @@ public class FuncCell extends ElementCell {
 
 private class EditorContainer extends CommonEditorContainer {
   private def codeArea
+  private def nameField
   protected EditorContainer(final FunctionElement element) {
     super(element)
     getApplyButton().addActionListener(new SimpleActionListener(closure : {
       element.code = codeArea.text
+      element.name = nameField.text
     }))
   }
 
@@ -62,13 +64,20 @@ private class EditorContainer extends CommonEditorContainer {
     SwingBuilder.build() {
       result = panel() {
         borderLayout()
-        label(text : ' Code:', constraints : BL.NORTH)
+        panel(constraints : BL.NORTH) {
+          label(text : 'Name:')
+          nameField = textField(text : getElement().name, columns : 7)
+        }
         panel(constraints : BL.CENTER) {
           borderLayout()
-          scrollPane(constraints : BL.CENTER, preferredSize : [230, 100]) {
-            codeArea = textArea()
+          label(text : ' Code:', constraints : BL.NORTH)
+          panel(constraints : BL.CENTER) {
+            borderLayout()
+            scrollPane(constraints : BL.CENTER, preferredSize : [230, 100]) {
+              codeArea = textArea()
+            }
+            widget(applyButton, constraints : BL.EAST)
           }
-          widget(applyButton, constraints : BL.EAST)
         }
       }
     }

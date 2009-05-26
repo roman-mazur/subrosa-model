@@ -54,7 +54,7 @@ public class XorCell extends ElementCell {
     
     /** Constructor. */
     EditorContainer() {
-      super(getElement());
+      super(XorCell.this.getElement());
       final XorElement xe = (XorElement)getElement();
       inputsCountSpinner.setValue(xe.getMaxInputCount());
       getApplyButton().addActionListener(new ActionListener() {

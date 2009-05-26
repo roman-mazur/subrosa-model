@@ -1,6 +1,6 @@
 package org.mazur.subrosa.gui
 
-import org.apache.log4j.Loggerimport org.mazur.subrosa.model.ModelControllerimport groovy.swing.SwingBuilderimport java.awt.BorderLayout as BL
+import org.apache.log4j.Loggerimport org.mazur.subrosa.model.ModelControllerimport groovy.swing.SwingBuilderimport java.awt.BorderLayout as BLimport org.mazur.subrosa.model.elements.CompilationElementimport org.codehaus.groovy.control.CompilerConfigurationimport org.codehaus.groovy.control.CompilationFailedExceptionimport org.mazur.subrosa.InterpreterExceptionimport org.mazur.subrosa.model.utils.ConstantModelValue
 
 /**
  * Version: $Id$
@@ -13,6 +13,9 @@ public class Generator {
   
   /** Controller. */
   ModelController controller
+  
+  /** Compiler conf. */
+  CompilerConfiguration cconf
   
   /** Generator frame. */
   private def gframe
@@ -40,6 +43,29 @@ public class Generator {
       gframe.visible = false
     }
   )
+  /** 'Run' action. */
+  private def runAction = swing.action(
+    name : 'Run',
+    closure : {
+      log.info "Execute 'run' action"
+      controller.generatorCode = codeArea.text
+      grun()
+    }
+  )
+  
+  private def constValueClouse = { val, dim ->
+    return new ConstantModelValue(val, dim)
+  }
+  
+  private void extendFuncElement(final String name, String funcName, def func) {
+    log.info "Extending $name by $funcName"
+    Binding b = controller.compileBindings[name]
+    if (!b) {
+      b = new Binding() 
+      controller.compileBindings[name] = b
+    }
+    b[funcName] = func
+  }
   
   public void showFrame() { gframe.visible = true }
   
@@ -53,8 +79,27 @@ public class Generator {
       panel(constraints : BL.SOUTH) {
         button(action : okAction)
         button(action : cancelAction)
+        button(action : runAction)
       }
     }
   }
   
+  public void grun() {
+    controller.compileBindings.clear()
+    log.info 'Generator is working'
+    Binding gb = new Binding()
+    gb['extend'] = this.&extendFuncElement
+    GroovyShell shell = new GroovyShell(gb, cconf);
+    try {
+      shell.evaluate(controller.generatorCode)
+    } catch (CompilationFailedException e) {
+      throw new InterpreterException('Error in generator code.', e)
+    }
+    controller.compileBindings.each() {
+      String name = it.key
+      CompilationElement el = it.value
+      extendFuncElement(name, 'constValue', constValueClouse)
+    }
+    log.info 'Generator has finished'
+  }
 }
