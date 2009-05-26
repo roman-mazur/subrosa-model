@@ -1,5 +1,7 @@
 package org.mazur.subrosa.model;
 
+import groovy.lang.Binding;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
@@ -8,12 +10,16 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.Map.Entry;
 
 import org.apache.log4j.Logger;
 import org.mazur.subrosa.gui.graph.ElementView;
 import org.mazur.subrosa.gui.graph.GraphComponent;
+import org.mazur.subrosa.model.elements.CompilationElement;
 import org.mazur.subrosa.model.elements.ConstantElement;
 
 /**
@@ -34,6 +40,11 @@ public class ModelController {
   private HashMap<ElementView, AbstractModelElement> elementsMap = new HashMap<ElementView, AbstractModelElement>(),
           inputsMap = new HashMap<ElementView, AbstractModelElement>();
   
+  /** Elements to compile. */
+  private Map<String, CompilationElement> compileElements = new HashMap<String, CompilationElement>();
+  /** Compile bindings. */
+  private Map<String, Binding> compileBindings = new HashMap<String, Binding>();
+  
   /** Generator code. */
   private String generatorCode;
   
@@ -47,6 +58,9 @@ public class ModelController {
   public void addElement(final AbstractModelElement e) {
     elementsMap.put(e.getView(), e);
     if (e instanceof ConstantElement) { inputsMap.put(e.getView(), e); }
+    if (e instanceof CompilationElement) { 
+      compileElements.put(((CompilationElement)e).getName(), (CompilationElement)e); 
+    }
   }
   
   public void saveModel(final OutputStream out) throws IOException {
@@ -114,4 +128,7 @@ public class ModelController {
   
   public String getGeneratorCode() { return generatorCode; }
   public void setGeneratorCode(final String generatorCode) { this.generatorCode = generatorCode; }
+  
+  public Map<String, CompilationElement> getCompileElements() { return compileElements; }
+  public Map<String, Binding> getCompileBindings() { return compileBindings; }
 }

@@ -20,7 +20,7 @@ import org.mazur.subrosa.model.elements.FunctionElement
  *
  */
 public class FuncCell extends ElementCell {
-  private static final long serialVersionUID = -284985315549259958L
+  private static final long serialVersionUID = -284585315549259958L
 
   /** Cell size. */
   private static final Dimension SIZE = new Dimension(30, 30)
