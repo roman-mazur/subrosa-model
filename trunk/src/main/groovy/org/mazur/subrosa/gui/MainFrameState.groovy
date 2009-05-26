@@ -110,4 +110,21 @@ public class MainFrameState {
     debugger.prepare()
     debugger.showFrame()
   }
+  
+  /**
+   * Start generator editor.
+   */
+  void startGenEditor() {
+    def editor = new Generator(controller : activeDocument.controller)
+    editor.prepare()
+    editor.showFrame()
+  }
+
+  /**
+   * Start generator.
+   */
+  void startGenerator() {
+    
+  }
+  
 }
