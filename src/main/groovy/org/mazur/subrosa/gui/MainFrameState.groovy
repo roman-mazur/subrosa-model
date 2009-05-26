@@ -1,6 +1,6 @@
 package org.mazur.subrosa.gui
 
-import groovy.swing.SwingBuilderimport java.io.Fileimport java.io.FileWriterimport org.mazur.subrosa.model.ModelControllerimport javax.swing.text.rtf.MockAttributeSetimport java.io.FileInputStreamimport java.io.FileOutputStream
+import groovy.swing.SwingBuilderimport java.io.Fileimport java.io.FileWriterimport org.mazur.subrosa.model.ModelControllerimport javax.swing.text.rtf.MockAttributeSetimport java.io.FileInputStreamimport java.io.FileOutputStreamimport org.codehaus.groovy.control.CompilerConfigurationimport org.mazur.subrosa.InterpreterException
 /**
  * State of the main frame.
  * 
@@ -23,9 +23,15 @@ public class MainFrameState {
   /** Editor builder. */
   EditorBuilder editorBuilder
   
+  /** Compiler configuration. */
+  def CompilerConfiguration compilerConf
+  
   /** Last index for the pain. */
   private int lastIndex = -1
 
+  /** Closure. */
+  def displayCompileErrors
+  
   /**
    * @return active code area
    */
@@ -106,8 +112,15 @@ public class MainFrameState {
    * Start debugger.
    */
   void startDebugger() {
-    def debugger = new Debugger(controller : activeDocument.controller)
-    debugger.prepare()
+    def debugger = new Debugger(
+      controller : activeDocument.controller,
+      compilerConfiguration : compilerConf
+    )
+    try {
+      debugger.prepare()
+    } catch (InterpreterException e) {
+      displayCompileErrors(e)
+    }
     debugger.showFrame()
   }
   

@@ -1,5 +1,8 @@
 package org.mazur.subrosa;
 
+import groovy.lang.Binding;
+import groovy.lang.GroovyShell;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -7,11 +10,14 @@ import java.util.Set;
 import java.util.Map.Entry;
 
 import org.apache.log4j.Logger;
+import org.codehaus.groovy.control.CompilationFailedException;
+import org.codehaus.groovy.control.CompilerConfiguration;
 import org.mazur.subrosa.gui.graph.ElementView;
 import org.mazur.subrosa.model.AbstractModelElement;
 import org.mazur.subrosa.model.Interface;
 import org.mazur.subrosa.model.ModelController;
 import org.mazur.subrosa.model.ModelValue;
+import org.mazur.subrosa.model.elements.CompilationElement;
 
 /**
  * Version: $Id$
@@ -84,4 +90,22 @@ public class Interpreter {
     elementsToChange = newCahnges;
     results.add(outs);
   }
+  
+  public void compile(final CompilerConfiguration conf) {
+    LOG.info("Compile the scheme.");
+    for (Entry<String, CompilationElement> e : controller.getCompileElements().entrySet()) {
+      String code = e.getValue().getCode();
+      Binding binding = controller.getCompileBindings().get(e.getKey());
+      if (binding == null) { 
+        throw new InterpreterException("No bindings found for '" + e.getKey() + "'. Try to start generator at first."); 
+      }
+      GroovyShell shell = new GroovyShell(binding, conf);
+      try {
+        e.getValue().setScript(shell.parse(code));
+      } catch (CompilationFailedException ex) {
+        throw new InterpreterException("Error in compiling '" + e.getKey() + "' element.", ex);
+      }
+    }
+  }
+  
 }

@@ -11,10 +11,11 @@ import org.mazur.subrosa.gui.graph.cells.FuncCell
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
  *
  */
-public class FunctionElement extends AbstractModelElement {
+public class FunctionElement extends CompilationElement {
+  private static final long serialVersionUID = -6145375989893458994L;
   
   /** Code. */
-  def code
+  String code
   
   private FuncCell view = new FuncCell(this)
   
@@ -25,6 +26,7 @@ public class FunctionElement extends AbstractModelElement {
   public boolean validateConnection(AbstractModelElement source) { return true }
   
   public ModelValue calculate(final List values) {
-    
+    script.binding['inputs'] = values
+    return script.run() as ModelValue
   }
 }

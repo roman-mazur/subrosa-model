@@ -1,6 +1,6 @@
 package org.mazur.subrosa.gui
 
-import org.mazur.subrosa.model.ModelControllerimport org.mazur.subrosa.Interpreterimport groovy.swing.SwingBuilderimport org.apache.log4j.Loggerimport java.awt.BorderLayout as BLimport java.awt.Color/**
+import org.mazur.subrosa.model.ModelControllerimport org.mazur.subrosa.Interpreterimport groovy.swing.SwingBuilderimport org.apache.log4j.Loggerimport java.awt.BorderLayout as BLimport java.awt.Colorimport org.codehaus.groovy.control.CompilerConfiguration/**
  * Version: $Id$
  *
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
@@ -13,6 +13,9 @@ public class Debugger {
   
   /** Controller. */
   ModelController controller
+  
+  /** Compiler configuration. */
+  CompilerConfiguration compilerConfiguration
   
   /** Interpreter. */
   private Interpreter interpreter
@@ -28,7 +31,9 @@ public class Debugger {
   
   void prepare() {
     this.interpreter = new Interpreter(controller : this.controller)
+    this.interpreter.compile(compilerConfiguration)
     this.interpreter.init()
+    
     def de = controller.debugElements
     debugElements = new HashMap(de.size())
     int s = de.size()

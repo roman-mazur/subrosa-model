@@ -4,7 +4,7 @@ import groovy.swing.SwingBuilder
 import javax.swing.WindowConstants as WCimport java.awt.BorderLayout as BLimport org.apache.log4j.Loggerimport javax.swing.JToolBarimport javax.swing.JSplitPaneimport java.awt.Fontimport java.awt.Colorimport org.mazur.subrosa.model.ModelControllerimport org.mazur.subrosa.model.ElementsFactory
 import java.awt.event.MouseAdapterimport org.mazur.subrosa.gui.listeners.SimpleMouseListener
 import org.mazur.subrosa.gui.listeners.SimpleChangeListener
-import javax.swing.JFileChooserimport javax.swing.filechooser.FileNameExtensionFilter/**
+import javax.swing.JFileChooserimport javax.swing.filechooser.FileNameExtensionFilterimport org.codehaus.groovy.control.CompilerConfigurationimport java.io.StringWriterimport java.io.PrintWriter/**
  * Starter script.
  * @author Roman Mazur (mailto:mazur.roman@gmail.com)
  */
@@ -28,6 +28,12 @@ Config configuration = new Config()
 
 /** Main frame. */
 def mainFrame
+
+/** Compiler configuration. */
+def compilerConfiguration = new CompilerConfiguration()
+compilerConfiguration.debug = true
+compilerConfiguration.recompileGroovySource = true
+
 
 SwingBuilder.build() {
   
@@ -98,6 +104,13 @@ SwingBuilder.build() {
     }
     documentTabs.add(panel, state.activeDocument.name)
     documentTabs.selectedIndex = state.activeDocument.index
+  }
+  /** Log exception. */
+  def logException = {
+    StringWriter out = new StringWriter()
+    it.printStackTrace(new PrintWriter(out))
+    logError(out.toString())
+    errorStatus('An exception was thrown!');
   }
   
   // =================================== ACTIONS ====================================
@@ -223,7 +236,9 @@ SwingBuilder.build() {
         // add a new element when clicking on the graph
         clicked : addNewElement
       )
-    )
+    ),
+    compilerConf : compilerConfiguration,
+    displayCompileErrors : logException
   )
   
   /** Main frame of the program. */
