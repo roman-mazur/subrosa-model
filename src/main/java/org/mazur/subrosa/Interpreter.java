@@ -95,6 +95,9 @@ public class Interpreter {
     LOG.info("Compile the scheme.");
     for (Entry<String, CompilationElement> e : controller.getCompileElements().entrySet()) {
       String code = e.getValue().getCode();
+      if (code == null || code.trim().length() == 0) {
+        code = "constValue(0, 1)";
+      }
       Binding binding = controller.getCompileBindings().get(e.getKey());
       if (binding == null) { 
         throw new InterpreterException("No bindings found for '" + e.getKey() + "'. Try to start generator at first."); 
@@ -103,7 +106,7 @@ public class Interpreter {
       try {
         e.getValue().setScript(shell.parse(code));
       } catch (CompilationFailedException ex) {
-        throw new InterpreterException("Error in compiling '" + e.getKey() + "' element.", ex);
+        throw new InterpreterException("Error in compiling '" + e.getKey() + "' element. "+ ex.getMessage(), ex);
       }
     }
   }

@@ -87,15 +87,17 @@ public class Generator {
   public void grun() {
     controller.compileBindings.clear()
     log.info 'Generator is working'
-    Binding gb = new Binding()
-    gb['extend'] = this.&extendFuncElement
-    GroovyShell shell = new GroovyShell(gb, cconf);
-    try {
-      shell.evaluate(controller.generatorCode)
-    } catch (CompilationFailedException e) {
-      throw new InterpreterException('Error in generator code.', e)
+    if (controller.generatorCode) {
+      Binding gb = new Binding()
+      gb['extend'] = this.&extendFuncElement
+      GroovyShell shell = new GroovyShell(gb, cconf);
+      try {
+        shell.evaluate(controller.generatorCode)
+      } catch (CompilationFailedException e) {
+        throw new InterpreterException('Error in generator code.', e)
+      }
     }
-    controller.compileBindings.each() {
+    controller.compileElements.each() {
       String name = it.key
       CompilationElement el = it.value
       extendFuncElement(name, 'constValue', constValueClouse)

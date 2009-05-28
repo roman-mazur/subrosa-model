@@ -38,4 +38,5 @@ public abstract class CompilationElement extends AbstractModelElement {
   protected Script getScript() { return script; }
   
   public abstract String getCode();
+  public abstract void setCode(final String code);
 }
