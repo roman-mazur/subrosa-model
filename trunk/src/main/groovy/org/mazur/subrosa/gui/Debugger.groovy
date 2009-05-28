@@ -62,7 +62,7 @@ public class Debugger {
             debugElements[el] = ec
             vbox() {
               lineBorder(color : Color.GREEN, thickness : 3, roundedCorners : true);
-              label(text : el.label)
+              label(text : el.label + (el.name ? " '${el.name}'" : ''))
               label(text : el.notes)
               widget(ec.valueLabel)
             }

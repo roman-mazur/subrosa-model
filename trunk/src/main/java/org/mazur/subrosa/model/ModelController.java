@@ -10,10 +10,8 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.Map.Entry;
 
 import org.apache.log4j.Logger;
@@ -34,7 +32,7 @@ public class ModelController {
   private static final Logger LOG = Logger.getLogger(ModelController.class);
   
   /** Current format version. */
-  private static final int CURRENT_VERSION = 1;
+  private static final int CURRENT_VERSION = 2;
   
   /** Elements map. */
   private HashMap<ElementView, AbstractModelElement> elementsMap = new HashMap<ElementView, AbstractModelElement>(),
@@ -63,19 +61,40 @@ public class ModelController {
     }
   }
   
+  private void writeString(final ObjectOutputStream out, final String v) throws IOException {
+    LOG.debug("write: " + v);
+    byte[] bytes = null;
+    int bytesLen = 0;
+    if (v != null) {
+      bytes = v.getBytes();
+      bytesLen = bytes.length;
+    }
+    out.writeInt(bytesLen);
+    if (bytesLen > 0) { out.write(bytes); }
+  }
+  
+  private String readString(final ObjectInputStream input) throws IOException {
+    String res = null;
+    int bytesLen = input.readInt();
+    if (bytesLen > 0) {
+      byte[] bytes = new byte[bytesLen];
+      input.read(bytes);
+      res = new String(bytes);
+    }
+    LOG.debug("Read " + res);
+    return res;
+  }
+  
   public void saveModel(final OutputStream out) throws IOException {
     ObjectOutputStream output = new ObjectOutputStream(out);
     output.writeInt(CURRENT_VERSION);
-    byte[] bytes = null;
-    int bytesLen = 0;
-    if (generatorCode != null) {
-      bytes = generatorCode.getBytes();
-      bytesLen = bytes.length;
-    }
-    output.writeInt(bytesLen);
-    if (bytesLen > 0) { output.write(bytes); }
+    writeString(output, generatorCode);
     for (Entry<ElementView, AbstractModelElement> e : elementsMap.entrySet()) {
-      output.writeObject(e.getValue());
+      AbstractModelElement ame = e.getValue();
+      output.writeObject(ame);
+      if (ame instanceof CompilationElement) {
+        writeString(output, ((CompilationElement)ame).getCode());
+      }
       output.flush();
     }
     output.close();
@@ -85,16 +104,14 @@ public class ModelController {
     ObjectInputStream input = new ObjectInputStream(in);
     int v = input.readInt();
     LOG.info("Version: " + v);
-    int bytesLen = input.readInt();
-    if (bytesLen > 0) {
-      byte[] bytes = new byte[bytesLen];
-      input.read(bytes);
-      generatorCode = new String(bytes);
-    }
+    generatorCode = readString(input);
     while (true) {
       try {
         AbstractModelElement e = (AbstractModelElement)input.readObject();
         addElement(e);
+        if (e instanceof CompilationElement) {
+          ((CompilationElement)e).setCode(readString(input));
+        }
       } catch (Exception e) {
         LOG.debug("Exception in read", e);
         break;

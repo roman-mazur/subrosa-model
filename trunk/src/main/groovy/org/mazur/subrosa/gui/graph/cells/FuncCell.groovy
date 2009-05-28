@@ -66,7 +66,7 @@ private class EditorContainer extends CommonEditorContainer {
         borderLayout()
         panel(constraints : BL.NORTH) {
           label(text : 'Name:')
-          nameField = textField(text : getElement().name, columns : 7)
+          nameField = textField(text : element.name, columns : 7)
         }
         panel(constraints : BL.CENTER) {
           borderLayout()
@@ -74,7 +74,7 @@ private class EditorContainer extends CommonEditorContainer {
           panel(constraints : BL.CENTER) {
             borderLayout()
             scrollPane(constraints : BL.CENTER, preferredSize : [230, 100]) {
-              codeArea = textArea()
+              codeArea = textArea(text : element.code)
             }
             widget(applyButton, constraints : BL.EAST)
           }

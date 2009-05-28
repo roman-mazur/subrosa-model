@@ -15,7 +15,7 @@ public class FunctionElement extends CompilationElement {
   private static final long serialVersionUID = -6145375989893458994L;
   
   /** Code. */
-  String code
+  transient String code
   
   private FuncCell view = new FuncCell(this)
   

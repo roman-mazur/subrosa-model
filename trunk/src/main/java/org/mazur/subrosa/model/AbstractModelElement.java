@@ -90,4 +90,6 @@ public abstract class AbstractModelElement implements ModelElement {
   public String toString() {
     return "Model element[" + getLabel() + "(" + getNotes() + "), hasConnections:" + hasConnections() + "]";
   }
+  
+  public String getName() { return ""; }
 }
