@@ -21,12 +21,9 @@ import org.mazur.subrosa.model.elements.CompilationElement;
 
 /**
  * Version: $Id$
- *
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
- *
  */
 public class Interpreter {
-  
   /** Logger. */
   private static final Logger LOG = Logger.getLogger(Interpreter.class);
   
@@ -38,10 +35,8 @@ public class Interpreter {
   /** Elements to recalculate. */
   private Set<AbstractModelElement> elementsToChange = new HashSet<AbstractModelElement>();
   
-  public void setController(final ModelController controller) {
-    this.controller = controller;
-  }
-  
+  public void setController(final ModelController controller) { this.controller = controller; }
+
   public String getNextStepDescription() {
     StringBuilder result = new StringBuilder("Next elements to calculate: [");
     if (!elementsToChange.isEmpty()) { 
@@ -110,5 +105,13 @@ public class Interpreter {
       }
     }
   }
-  
+
+  public void calculate(final CompilerConfiguration conf) {
+    compile(conf);
+    LOG.info("Compilation finished. Start calculating.");
+    do {
+      next();
+    } while (elementsToChange != null && !elementsToChange.isEmpty());
+    LOG.info("Calculation is finished");
+  }
 }

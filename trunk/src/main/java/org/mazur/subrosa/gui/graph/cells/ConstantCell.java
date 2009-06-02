@@ -46,17 +46,19 @@ public class ConstantCell extends ElementCell {
   }
 
   private final class EditorContainer extends CommonEditorContainer {
-    private JSpinner valueSpinner, dimensionSpinner;
+    private JSpinner valueSpinner, dimensionSpinner, numberSpinner;
     EditorContainer() {
       super(ConstantCell.this.getElement());
       final ConstantElement ce = (ConstantElement)getElement();
       valueSpinner.setValue(ce.getValue());
       dimensionSpinner.setValue(ce.getDimension());
+      numberSpinner.setValue(ce.getNumber());
       getApplyButton().addActionListener(new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
           ce.setValue((Integer)valueSpinner.getValue());
           ce.setDimension((Integer)dimensionSpinner.getValue());
+          ce.setNumber((Number)numberSpinner.getValue());
         }
       });
     }
@@ -65,6 +67,7 @@ public class ConstantCell extends ElementCell {
     protected JComponent createTopComponent() { 
       valueSpinner = new JSpinner();
       dimensionSpinner = new JSpinner();
+      numberSpinner = new JSpinner();
       JPanel topPanel = new JPanel();
       topPanel.setLayout(new BorderLayout());
       JPanel tmp = new JPanel();
@@ -77,7 +80,14 @@ public class ConstantCell extends ElementCell {
       tmp.add(new JLabel("Dimension:"));
       tmp.add(dimensionSpinner);
       leftP.add(BorderLayout.SOUTH, tmp);
-      topPanel.add(BorderLayout.CENTER, leftP);
+      JPanel leftC = new JPanel();
+      leftC.setLayout(new BorderLayout());
+      tmp = new JPanel();
+      tmp.add(new JLabel("Number"));
+      tmp.add(numberSpinner);
+      leftC.add(BorderLayout.NORTH, tmp);
+      leftC.add(BorderLayout.SOUTH, leftP);
+      topPanel.add(BorderLayout.CENTER, leftC);
       topPanel.add(BorderLayout.EAST, getApplyButton());
       return topPanel;
     }

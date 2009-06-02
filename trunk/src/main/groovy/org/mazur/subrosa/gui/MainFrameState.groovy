@@ -1,6 +1,6 @@
 package org.mazur.subrosa.gui
 
-import groovy.swing.SwingBuilderimport java.io.Fileimport java.io.FileWriterimport org.mazur.subrosa.model.ModelControllerimport javax.swing.text.rtf.MockAttributeSetimport java.io.FileInputStreamimport java.io.FileOutputStreamimport org.codehaus.groovy.control.CompilerConfigurationimport org.mazur.subrosa.InterpreterException
+import groovy.swing.SwingBuilderimport java.io.Fileimport java.io.FileWriterimport org.mazur.subrosa.model.ModelControllerimport java.io.FileInputStreamimport java.io.FileOutputStreamimport org.codehaus.groovy.control.CompilerConfigurationimport org.mazur.subrosa.InterpreterException
 /**
  * State of the main frame.
  * 
@@ -145,4 +145,16 @@ public class MainFrameState {
     }
   }
   
+  /**
+   * Show graphs.
+   */
+  void showGraphs() {
+    def gc = new Graphs(controller : activeDocument.controller, compilerConfiguration : compilerConf)
+    try {
+      gc.prepare()
+      gc.show()
+    } catch (InterpreterException e) {
+      displayCompileErrors(e)
+    }
+  }
 }

@@ -5,6 +5,7 @@ import java.util.List;
 import org.mazur.subrosa.gui.graph.ElementView;
 import org.mazur.subrosa.gui.graph.cells.ConstantCell;
 import org.mazur.subrosa.model.AbstractModelElement;
+import org.mazur.subrosa.model.MarginElement;
 import org.mazur.subrosa.model.ModelValue;
 import org.mazur.subrosa.model.utils.ConstantModelValue;
 
@@ -13,7 +14,7 @@ import org.mazur.subrosa.model.utils.ConstantModelValue;
  * Version: $Id$
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
  */
-public class ConstantElement extends AbstractModelElement {
+public class ConstantElement extends MarginElement {
   private static final long serialVersionUID = 7121956549721419752L;
 
   /** Value. */

@@ -218,12 +218,21 @@ SwingBuilder.build() {
   
   /** Start generator. */
   def startGeneratorAction = userAction(
-    name : 'Start generator', mnemonic : 'G',
+    name : 'Start generator', mnemonic : 'S',
     accelerator : 'ctrl shift G',
     keyStroke : 'ctrl shift G',
     closure : {
       log.info "Execute 'start generator' action"
       state.startGenerator()
+    }
+  )
+  
+  /** Graph action. */
+  def graphAction = userAction(
+    name : 'Graphs', mnemonic : 'G',
+    closure : {
+      log.info "Execute 'graph' action"
+      state.showGraphs()
     }
   )
   
@@ -252,10 +261,11 @@ SwingBuilder.build() {
       }
       menu(text : 'Edit') {
         menuItem(action : genEditorAction)
+        menuItem(action : startGeneratorAction)
       }
       menu(text : 'Analyze') {
         menuItem(action : debugAction)
-        menuItem(action : startGeneratorAction)
+        menuItem(action : graphAction)
       }
       menu(text : 'Options')
       menu(text : 'Help')

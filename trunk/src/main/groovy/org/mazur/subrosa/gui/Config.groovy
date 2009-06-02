@@ -14,7 +14,8 @@ public class Config {
   private final static def ELEMENTS_LIST = [
     'xor' : 'org.mazur.subrosa.model.elements.XorElement',                                            
     'const' : 'org.mazur.subrosa.model.elements.ConstantElement',                                            
-    'func' : 'org.mazur.subrosa.model.elements.FunctionElement'                                            
+    'func' : 'org.mazur.subrosa.model.elements.FunctionElement',                                            
+    'out' : 'org.mazur.subrosa.model.elements.OutElement'                                            
   ]
   
   public def elements() { return ELEMENTS_LIST }
