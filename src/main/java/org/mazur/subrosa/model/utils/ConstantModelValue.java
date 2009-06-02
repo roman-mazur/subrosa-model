@@ -18,6 +18,14 @@ public class ConstantModelValue implements ModelValue {
     this.dimension = dimension;
   }
   
+  public ConstantModelValue(final ModelValue v) {
+    this.dimension = v.dimension();
+    this.value = 0;
+    for (int i = 0; i < dimension; i++) {
+      if (v.get(i)) { value |= (1 << i); }
+    }
+  }
+  
   @Override
   public int dimension() { return dimension; }
 

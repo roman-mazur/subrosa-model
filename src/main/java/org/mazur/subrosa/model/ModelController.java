@@ -19,6 +19,7 @@ import org.mazur.subrosa.gui.graph.ElementView;
 import org.mazur.subrosa.gui.graph.GraphComponent;
 import org.mazur.subrosa.model.elements.CompilationElement;
 import org.mazur.subrosa.model.elements.ConstantElement;
+import org.mazur.subrosa.model.elements.OutElement;
 
 /**
  * Version: $Id$
@@ -37,6 +38,7 @@ public class ModelController {
   /** Elements map. */
   private HashMap<ElementView, AbstractModelElement> elementsMap = new HashMap<ElementView, AbstractModelElement>(),
           inputsMap = new HashMap<ElementView, AbstractModelElement>();
+  private HashMap<ElementView, OutElement> outputsMap = new HashMap<ElementView, OutElement>();
   
   /** Elements to compile. */
   private Map<String, CompilationElement> compileElements = new HashMap<String, CompilationElement>();
@@ -45,6 +47,9 @@ public class ModelController {
   
   /** Generator code. */
   private String generatorCode;
+  
+  /** Counter for outs. */
+  private int outsCounter = 0, inputsCounter = 0;
   
   /**
    * @return the elementsMap
@@ -55,9 +60,18 @@ public class ModelController {
 
   public void addElement(final AbstractModelElement e) {
     elementsMap.put(e.getView(), e);
-    if (e instanceof ConstantElement) { inputsMap.put(e.getView(), e); }
+    if (e instanceof ConstantElement) {
+      ConstantElement el = (ConstantElement)e;
+      inputsMap.put(el.getView(), el); 
+      if (el.getNumber() == null) { el.setNumber(++inputsCounter); }
+    }
     if (e instanceof CompilationElement) { 
       compileElements.put(((CompilationElement)e).getName(), (CompilationElement)e); 
+    }
+    if (e instanceof OutElement) {
+      OutElement el = (OutElement)e;
+      outputsMap.put(e.getView(), el);
+      if (el.getNumber() == null)  { el.setNumber(++outsCounter); }
     }
   }
   
@@ -125,6 +139,9 @@ public class ModelController {
     for (Entry<ElementView, AbstractModelElement> e : inputsMap.entrySet()) {
       result.remove(e.getValue());
     }
+    for (Entry<ElementView, OutElement> e : outputsMap.entrySet()) {
+      result.remove(e.getValue());
+    }
     return result;
   }
   
@@ -141,6 +158,9 @@ public class ModelController {
   
   public Collection<AbstractModelElement> getInputs() {
     return inputsMap.values();
+  }
+  public Collection<OutElement> getOuputs() {
+    return outputsMap.values();
   }
   
   public String getGeneratorCode() { return generatorCode; }
