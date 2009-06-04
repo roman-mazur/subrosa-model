@@ -3,7 +3,8 @@
  */
 package org.mazur.subrosa.gui
 
-import org.codehaus.groovy.control.CompilationFailedExceptionimport org.mazur.subrosa.InterpreterExceptionimport org.mazur.subrosa.Interpreter
+import org.codehaus.groovy.control.CompilationFailedExceptionimport org.mazur.subrosa.InterpreterExceptionimport org.mazur.subrosa.Interpreter
+import org.mazur.subrosa.utils.ScriptUtils
 /**
  * @author Roman Mazur
  *
@@ -31,6 +32,11 @@ public class Console extends Generator {
     def elements = { name ->
       if (!this."$name") { this."$name" = controller."$name".sort() { it.number } }
       this."$name"
+    }
+    baseBinding['allInputVars'] = { handler ->
+      ScriptUtils.iterateAllInputVars(elements('inputs')) {
+        handler(it)
+      }
     }
     ['inputs', 'outputs'].each() { bName -> baseBinding[bName] = { elements(bName) } }
     ['extend'].each() {
