@@ -8,7 +8,7 @@ import org.mazur.subrosa.model.ModelValue;
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
  *
  */
-public class ConstantModelValue implements ModelValue {
+public class ConstantModelValue extends ModelValue {
   private static final long serialVersionUID = 3065096792986847600L;
   /** Value and dimension. */
   private int value, dimension;
@@ -20,9 +20,13 @@ public class ConstantModelValue implements ModelValue {
   
   public ConstantModelValue(final ModelValue v) {
     this.dimension = v.dimension();
-    this.value = 0;
-    for (int i = 0; i < dimension; i++) {
-      if (v.get(i)) { value |= (1 << i); }
+    if (v instanceof ConstantModelValue) {
+      this.value = ((ConstantModelValue)v).value;
+    } else {
+      this.value = 0;
+      for (int i = 0; i < dimension; i++) {
+        if (v.get(i)) { value |= (1 << i); }
+      }
     }
   }
   
@@ -35,5 +39,14 @@ public class ConstantModelValue implements ModelValue {
   @Override
   public String toString() {
     return "ModelValue[value=" + value + ", dim: " + dimension() + "]";
+  }
+  
+  public int getValue() { return value; }
+  
+  @Override
+  public boolean equals(final Object obj) {
+    if (!(obj instanceof ConstantModelValue)) { return super.equals(obj); }
+    ConstantModelValue o = (ConstantModelValue)obj;
+    return dimension == o.dimension && value == o.value;
   }
 }

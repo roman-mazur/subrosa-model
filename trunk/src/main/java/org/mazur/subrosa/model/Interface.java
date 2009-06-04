@@ -1,6 +1,5 @@
 package org.mazur.subrosa.model;
 
-import java.io.Serializable;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -8,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.jgraph.graph.DefaultPort;
 import org.mazur.subrosa.gui.graph.ElementCell;
 import org.mazur.subrosa.gui.graph.InterfaceView;
+import org.mazur.subrosa.model.utils.ConstantModelValue;
 import org.mazur.subrosa.model.utils.Range;
 
 /**
@@ -16,8 +16,7 @@ import org.mazur.subrosa.model.utils.Range;
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
  *
  */
-public class Interface implements Serializable, ModelValue {
-
+public class Interface extends ModelValue {
   private static final long serialVersionUID = -143376295176661749L;
   
   /** Logger. */
@@ -101,7 +100,7 @@ public class Interface implements Serializable, ModelValue {
 
   @Override
   public int dimension() {
-    return sourceRange.size();
+    return source.getCurrentValue().dimension();
   }
 
   @Override
@@ -109,10 +108,12 @@ public class Interface implements Serializable, ModelValue {
     return source.getCurrentValue().get(index);
   }
   
+  public ConstantModelValue constValue() { return new ConstantModelValue(source.getCurrentValue()); }
+  
   public Object getView() { return view; }
   
   @Override
   public String toString() {
-    return "Interface, value: " + source.getCurrentValue();
+    return "Interface, value: " + source.getCurrentValue() + "(source: " + source + ")";
   }
 }

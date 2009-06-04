@@ -11,7 +11,7 @@ public abstract class MarginElement extends AbstractModelElement {
   private static final long serialVersionUID = -5059311026315690642L;
 
   /** Number. */
-  private Number number;
+  private Number number = 0;
   
   public Number getNumber() { return number; }
   public void setNumber(final Number number) { this.number = number; }

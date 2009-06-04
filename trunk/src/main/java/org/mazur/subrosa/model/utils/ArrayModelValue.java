@@ -10,7 +10,7 @@ import org.mazur.subrosa.model.ModelValue;
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
  *
  */
-public class ArrayModelValue implements ModelValue {
+public class ArrayModelValue extends ModelValue {
   private static final long serialVersionUID = 5538198965199323043L;
   /** Values. */
   private boolean[] v;

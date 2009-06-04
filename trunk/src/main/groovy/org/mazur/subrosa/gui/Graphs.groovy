@@ -1,6 +1,6 @@
 package org.mazur.subrosa.gui
 
-import org.mazur.subrosa.model.ModelControllerimport org.apache.log4j.Loggerimport groovy.swing.SwingBuilderimport javax.xml.ws.BindingTypeimport java.awt.BorderLayout as BLimport groovy.lang.Bindingimport groovy.lang.GroovyShellimport org.codehaus.groovy.control.CompilerConfigurationimport org.mazur.subrosa.Interpreterimport groovy.lang.Scriptimport javax.swing.JOptionPaneimport org.jfree.chart.JFreeChartimport org.mazur.subrosa.model.utils.ConstantModelValueimport org.jfree.data.xy.XYSeriesCollectionimport org.jfree.data.xy.XYSeriesimport org.jfree.chart.ChartPanelimport org.jfree.chart.ChartFactoryimport org.jfree.chart.plot.PlotOrientation
+import org.mazur.subrosa.model.ModelControllerimport org.apache.log4j.Loggerimport groovy.swing.SwingBuilderimport javax.xml.ws.BindingTypeimport java.awt.BorderLayout as BLimport groovy.lang.Bindingimport groovy.lang.GroovyShellimport org.codehaus.groovy.control.CompilerConfigurationimport org.mazur.subrosa.Interpreterimport groovy.lang.Scriptimport javax.swing.JOptionPaneimport org.jfree.chart.JFreeChartimport org.mazur.subrosa.model.utils.ConstantModelValueimport org.jfree.data.xy.XYSeriesCollectionimport org.jfree.data.xy.XYSeriesimport org.jfree.chart.ChartPanelimport org.jfree.chart.ChartFactoryimport org.jfree.chart.plot.PlotOrientationimport java.math.BigInteger
 
 /**
  * Version: $Id$
@@ -30,12 +30,33 @@ public class Graphs {
   /** Charts. */
   private JFreeChart mainChart
   
+  /** Separate graphs flag. */
+  private boolean separateGraphs = true
+  
+  /** Status label. */
+  private def statusLabel
+ 
+  private void setStatus(final String msg) {
+    statusLabel.text = msg
+    statusLabel.visible = !!msg
+  }
+  
+  private BigInteger mergeOutputs() {
+    BigInteger result = new BigInteger('0')
+    outputs.each() {
+      def v = new ConstantModelValue(it.currentValue)
+      result += v.value
+      result *= 2 ** v.dimension()
+    }
+    return result
+  }
+  
   void prepare() {
     outputs = controller.ouputs.findAll() { it.includeInStats }
-    outputs.sort() { it.number }
+    outputs = (outputs.sort() { it.number }).reverse()
     if (log.debugEnabled) { log.debug "List of outputs: $outputs" }
     inputs = new ArrayList(controller.inputs)
-    inputs.sort() { it.number }
+    inputs = inputs.sort() { it.number }
     if (log.debugEnabled) { log.debug "List of inputs: $inputs" }
     
     def expBinding = new Binding()
@@ -43,6 +64,10 @@ public class Graphs {
       log.debug "Calculate the function value"
       interpreter.init()
       interpreter.calculate(compilerConfiguration)
+      if (!separateGraphs) {
+        log.debug 'Calculating the single output'
+        return mergeOutputs() 
+      }
     }
     expBinding['x'] = 3
     shell = new GroovyShell(expBinding)
@@ -60,35 +85,46 @@ public class Graphs {
     d.show()
   }
 
-  private void incValues(def inValues) {
+  private boolean incValues(def inValues) {
     int index = inValues.size() - 1
     while (index >= 0) {
       def v = ++inValues[index]
       if (v >= (1 << inputs[index].dimension)) {
         inValues[index--] = 0
       } else {
-        break
+        return true
       }
     }
+    return false
   }
   
   private void draw() {
+    setStatus('Start calculations...')
+    this.separateGraphs = funcExp.trim() == 'f(x)'
     try {
       mainChartData.removeAllSeries()
       Script calcScript = shell.parse(funcExp)
-      def series = { new XYSeries() }
-      def inValues = [0] * inputs.size(), outValues = [0] * outputs.size(),
-          outSeries = [series()] * outputs.size()
+      def inValues = [0] * inputs.size(), outValues = [0] * outputs.size();
+      def outSeries = []
+      (separateGraphs ? outputs.size() : 1).times() {
+        outSeries += new XYSeries(outputs[it].label + outputs[it].number)
+      }
       int maxValue = 1 << inputs[0].dimension
       int counter = 0
-      while (inValues[0] < maxValue) {
-        if (log.debugEnabled) { log.info "inValues: $inValues" }
+      boolean continueFlag = true
+      while (continueFlag) {
+        //if (log.debugEnabled) { log.debug "inValues: $inValues" }
+        log.info "inValues: $inValues"
         inputs.eachWithIndex() { def item, int index -> item.value = inValues[index] }
-        calcScript.run()
-        incValues(inValues)
-        outputs.eachWithIndex() { def item, int index -> 
-          outValues[index] = new ConstantModelValue(item.currentValue).value
-          outSeries[index].add(counter, outValues[index])
+        def sResult = calcScript.run()
+        continueFlag = incValues(inValues)
+        if (separateGraphs) {
+          outputs.eachWithIndex() { def item, int index -> 
+            outValues[index] = new ConstantModelValue(item.currentValue).value
+            outSeries[index].add(counter, outValues[index])
+          }
+        } else {
+          outSeries[0].add(counter, sResult)
         }
         if (log.debugEnabled) { log.info "outValues: $outValues" }
         counter++
@@ -98,6 +134,8 @@ public class Graphs {
       errorDlg('Error happened. ${e.message}')
       log.error 'Incorect expression', e
       return
+    } finally {
+      setStatus('')
     }
   }
   
@@ -118,12 +156,15 @@ public class Graphs {
             name : 'Draw',
             closure : { 
               funcExp = expField.text
-              draw()
+              new Thread(new ClosureRunnable() {
+                draw()
+              }).start()
             }
           ))
         }
         panel(constraints : BL.CENTER) {
           borderLayout()
+          statusLabel = label(constraints : BL.NORTH)
           widget(mcp)
         }
       }
