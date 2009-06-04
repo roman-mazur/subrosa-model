@@ -31,6 +31,9 @@ public class Interpreter {
   private ModelController controller;
   
   private LinkedList<HashMap<AbstractModelElement, ModelValue>> results = new LinkedList<HashMap<AbstractModelElement,ModelValue>>();
+  private HashMap<AbstractModelElement, ModelValue> lastInputs = new HashMap<AbstractModelElement, ModelValue>();
+  
+  private boolean compiled = false, initedState = false;
   
   /** Elements to recalculate. */
   private Set<AbstractModelElement> elementsToChange = new HashSet<AbstractModelElement>();
@@ -52,19 +55,21 @@ public class Interpreter {
     LOG.debug("Init the interpreter");
     elementsToChange.clear();
     HashMap<AbstractModelElement, ModelValue> outs = new HashMap<AbstractModelElement, ModelValue>(controller.getElementsMap().size());
-    for (Entry<ElementView, AbstractModelElement> e : controller.getElementsMap().entrySet()) {
-      AbstractModelElement k = e.getValue();
-      ModelValue v = k.nullValue();
-      LOG.debug("Init " + k + " by " + v);
-      outs.put(k, v);
+    for (AbstractModelElement e : controller.getDebugElements()) {
+      ModelValue v = initedState ? e.getCurrentValue() : e.nullValue();
+      e.setCurrentValue(v);
+      LOG.debug("Init " + e + " by " + v);
+      outs.put(e, v);
     }
     results.add(outs);
     LOG.debug("Form the list of elements to change.");
     for (AbstractModelElement e : controller.getInputs()) {
-      for (Interface i : e.getOutputs()) {
-        elementsToChange.add(i.getTarget()); 
+      if (!initedState || !lastInputs.get(e).equals(e.getCurrentValue())) {
+        for (Interface i : e.getOutputs()) { elementsToChange.add(i.getTarget()); }
       }
+      lastInputs.put(e, e.getCurrentValue());
     }
+    initedState = true;
   }
   
   public void next() {
@@ -76,11 +81,16 @@ public class Interpreter {
       outs.put(el, el.getCurrentValue());
     }
     HashSet<AbstractModelElement> newCahnges = new HashSet<AbstractModelElement>(elementsToChange.size());
+    if (LOG.isDebugEnabled()) {
+      LOG.debug("Inputs: " + controller.getInputs());
+    }
     for (AbstractModelElement e : elementsToChange) {
       ModelValue v = e.calculate();
       outs.put(e, v);
+      if (!v.equals(e.getCurrentValue())) {
+        for (Interface i : e.getOutputs()) { newCahnges.add(i.getTarget()); }
+      }
       e.setCurrentValue(v);
-      for (Interface i : e.getOutputs()) { newCahnges.add(i.getTarget()); }
     }
     elementsToChange = newCahnges;
     results.add(outs);
@@ -104,10 +114,11 @@ public class Interpreter {
         throw new InterpreterException("Error in compiling '" + e.getKey() + "' element. "+ ex.getMessage(), ex);
       }
     }
+    compiled = true;
   }
 
   public void calculate(final CompilerConfiguration conf) {
-    compile(conf);
+    if (!compiled) { compile(conf); }
     LOG.info("Compilation finished. Start calculating.");
     do {
       next();

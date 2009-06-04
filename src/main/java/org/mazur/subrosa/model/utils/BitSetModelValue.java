@@ -10,7 +10,7 @@ import org.mazur.subrosa.model.ModelValue;
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
  *
  */
-public class BitSetModelValue implements ModelValue {
+public class BitSetModelValue extends ModelValue {
   private static final long serialVersionUID = 4084212021292376016L;
 
   /** Set. */
@@ -35,5 +35,13 @@ public class BitSetModelValue implements ModelValue {
   @Override
   public String toString() {
     return "ModelValue[values=" + set + ", dim: " + dimension() + "]";
+  }
+  
+  @Override
+  public boolean equals(final Object obj) {
+    if (!(obj instanceof BitSetModelValue)) { return super.equals(obj); }
+    BitSetModelValue o = (BitSetModelValue)obj;
+    if (o.size != size) { return false; }
+    return set.equals(o.set);
   }
 }

@@ -39,7 +39,10 @@ public class XorElement extends AbstractModelElement {
     ArrayModelValue mv = new ArrayModelValue(d);
     for (int i = 0; i < d; i++) {
       boolean temp = false;
-      for (ModelValue in : input) { temp |= in.get(i); }
+      for (ModelValue in : input) {
+        if (LOG.isDebugEnabled()) { LOG.debug("in.get(" + i + ") = " + in.get(i)); }
+        temp ^= in.get(i); 
+      }
       mv.set(i, temp);
     }
     LOG.debug("Result: " + mv);

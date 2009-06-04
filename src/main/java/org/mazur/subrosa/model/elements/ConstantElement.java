@@ -2,6 +2,7 @@ package org.mazur.subrosa.model.elements;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.mazur.subrosa.gui.graph.ElementView;
 import org.mazur.subrosa.gui.graph.cells.ConstantCell;
 import org.mazur.subrosa.model.AbstractModelElement;
@@ -16,7 +17,10 @@ import org.mazur.subrosa.model.utils.ConstantModelValue;
  */
 public class ConstantElement extends MarginElement {
   private static final long serialVersionUID = 7121956549721419752L;
-
+  
+  /** Logger. */
+  private static final Logger LOG = Logger.getLogger(ConstantElement.class);
+  
   /** Value. */
   private int value = 0, dimension = 5;
   
@@ -58,7 +62,10 @@ public class ConstantElement extends MarginElement {
   }
 
   @Override
-  public ModelValue getCurrentValue() { return calculate(null); }
+  public ModelValue getCurrentValue() {
+    LOG.debug("get current value from const element");
+    return calculate(null); 
+  }
   
   @Override
   public ModelValue nullValue() { return calculate(null); }
