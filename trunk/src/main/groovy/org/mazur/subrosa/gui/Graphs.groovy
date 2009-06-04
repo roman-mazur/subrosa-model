@@ -113,8 +113,7 @@ public class Graphs {
       int counter = 0
       boolean continueFlag = true
       while (continueFlag) {
-        //if (log.debugEnabled) { log.debug "inValues: $inValues" }
-        log.info "inValues: $inValues"
+        if (log.debugEnabled) { log.debug "inValues: $inValues" }
         inputs.eachWithIndex() { def item, int index -> item.value = inValues[index] }
         def sResult = calcScript.run()
         continueFlag = incValues(inValues)

@@ -1,6 +1,6 @@
 package org.mazur.subrosa.gui
 
-
+import java.awt.Font
 
 /**
  * Version: $Id$
@@ -10,6 +10,8 @@ package org.mazur.subrosa.gui
  */
 public class Config {
 
+  static Config instance = new Config()
+  
   /** List of elements. */
   private final static def ELEMENTS_LIST = [
     'xor' : 'org.mazur.subrosa.model.elements.XorElement',                                            
@@ -17,6 +19,8 @@ public class Config {
     'func' : 'org.mazur.subrosa.model.elements.FunctionElement',                                            
     'out' : 'org.mazur.subrosa.model.elements.OutElement'                                            
   ]
+
+  def codeFont = new Font(Font.MONOSPACED, 0, 12)
   
   public def elements() { return ELEMENTS_LIST }
   
