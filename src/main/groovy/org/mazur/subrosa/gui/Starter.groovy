@@ -24,7 +24,7 @@ MainFrameState state
 ElementsFactory eFactory = new ElementsFactory()
 
 /** Configuration object. */
-Config configuration = new Config()
+Config configuration = Config.instance
 
 /** Main frame. */
 def mainFrame
@@ -80,7 +80,7 @@ SwingBuilder.build() {
   }
   /** Log an error. */
   def logError = { textMessageToArea(errorsTextArea, it) }
-  /** Log an error. */
+  /** Log an info. */
   def logInfo = { textMessageToArea(logTextArea, it) }
   /** Create a user action. */
   def userAction = { Map args ->
@@ -230,12 +230,25 @@ SwingBuilder.build() {
   /** Graph action. */
   def graphAction = userAction(
     name : 'Graphs', mnemonic : 'G',
+    accelerator : 'alt shift G',
+    keyStroke : 'alt shift G',
     closure : {
       log.info "Execute 'graph' action"
       state.showGraphs()
     }
   )
   
+  /** Consolse action. */
+  def consoleAction = userAction(
+    name : 'Console', mnemonic : 'C',
+    accelerator : 'ctrl shift C',
+    keyStroke : 'ctrl shift C',
+    closure : {
+      log.info "Execute 'console' action"
+      state.showConsole()
+    }
+  )
+
   // ===================================== MAIN =====================================
   
   // actions are formed -> create the state instance
@@ -247,7 +260,8 @@ SwingBuilder.build() {
       )
     ),
     compilerConf : compilerConfiguration,
-    displayCompileErrors : logException
+    displayCompileErrors : logException,
+    infoLog : logInfo 
   )
   
   /** Main frame of the program. */
@@ -262,6 +276,7 @@ SwingBuilder.build() {
       menu(text : 'Edit') {
         menuItem(action : genEditorAction)
         menuItem(action : startGeneratorAction)
+        menuItem(action : consoleAction)
       }
       menu(text : 'Analyze') {
         menuItem(action : debugAction)

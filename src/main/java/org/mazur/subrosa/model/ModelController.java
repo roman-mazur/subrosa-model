@@ -33,7 +33,7 @@ public class ModelController {
   private static final Logger LOG = Logger.getLogger(ModelController.class);
   
   /** Current format version. */
-  private static final int CURRENT_VERSION = 2;
+  private static final int CURRENT_VERSION = 3;
   
   /** Elements map. */
   private HashMap<ElementView, AbstractModelElement> elementsMap = new HashMap<ElementView, AbstractModelElement>(),
@@ -46,7 +46,7 @@ public class ModelController {
   private Map<String, Binding> compileBindings = new HashMap<String, Binding>();
   
   /** Generator code. */
-  private String generatorCode;
+  private String generatorCode, experimentsCode;
   
   /** Counter for outs. */
   private int outsCounter = 0, inputsCounter = 0;
@@ -63,7 +63,7 @@ public class ModelController {
     if (e instanceof ConstantElement) {
       ConstantElement el = (ConstantElement)e;
       inputsMap.put(el.getView(), el); 
-      if (el.getNumber() == null) { el.setNumber(++inputsCounter); }
+      if (el.getNumber() == null || el.getNumber().equals(0)) { el.setNumber(++inputsCounter); }
     }
     if (e instanceof CompilationElement) { 
       compileElements.put(((CompilationElement)e).getName(), (CompilationElement)e); 
@@ -103,6 +103,7 @@ public class ModelController {
     ObjectOutputStream output = new ObjectOutputStream(out);
     output.writeInt(CURRENT_VERSION);
     writeString(output, generatorCode);
+    writeString(output, experimentsCode);
     for (Entry<ElementView, AbstractModelElement> e : elementsMap.entrySet()) {
       AbstractModelElement ame = e.getValue();
       output.writeObject(ame);
@@ -119,6 +120,7 @@ public class ModelController {
     int v = input.readInt();
     LOG.info("Version: " + v);
     generatorCode = readString(input);
+    if (v == CURRENT_VERSION) { experimentsCode = readString(input); }
     while (true) {
       try {
         AbstractModelElement e = (AbstractModelElement)input.readObject();
@@ -159,12 +161,14 @@ public class ModelController {
   public Collection<AbstractModelElement> getInputs() {
     return inputsMap.values();
   }
-  public Collection<OutElement> getOuputs() {
+  public Collection<OutElement> getOutputs() {
     return outputsMap.values();
   }
   
   public String getGeneratorCode() { return generatorCode; }
   public void setGeneratorCode(final String generatorCode) { this.generatorCode = generatorCode; }
+  public void setExperimentsCode(final String experimentsCode) { this.experimentsCode = experimentsCode; }
+  public String getExperimentsCode() { return experimentsCode; }
   
   public Map<String, CompilationElement> getCompileElements() { return compileElements; }
   public Map<String, Binding> getCompileBindings() { return compileBindings; }

@@ -4,9 +4,7 @@ import org.mazur.subrosa.model.ModelValue;
 
 /**
  * Version: $Id$
- *
  * @author Roman Mazur (mailto: mazur.roman@gmail.com)
- *
  */
 public class ConstantModelValue extends ModelValue {
   private static final long serialVersionUID = 3065096792986847600L;

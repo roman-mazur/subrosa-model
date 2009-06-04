@@ -9,7 +9,7 @@ import org.apache.log4j.Loggerimport org.mazur.subrosa.model.ModelControllerim
 public class Generator {
 
   /** Logger. */
-  private Logger log = Logger.getLogger(Generator.class)
+  protected Logger log = Logger.getLogger(getClass())
   
   /** Controller. */
   ModelController controller
@@ -17,26 +17,32 @@ public class Generator {
   /** Compiler conf. */
   CompilerConfiguration cconf
   
+  /** Base binding. */
+  Binding baseBinding
+  
+  /** Main frame state. */
+  MainFrameState state
+  
   /** Generator frame. */
-  private def gframe
+  protected def gframe
 
   /** Code area. */
-  private def codeArea
+  protected def codeArea
   
   /** Builder. */
-  private SwingBuilder swing = new SwingBuilder()
+  protected SwingBuilder swing = new SwingBuilder()
   
   /** 'Ok' action. */
-  private def okAction = swing.action(
+  protected def okAction = swing.action(
     name : 'OK',
     closure : {
       log.info "Execute 'ok' action"
-      controller.generatorCode = codeArea.text
+      setCode(codeArea.text)
       gframe.visible = false
     }
   )
   /** 'Cancel' action. */
-  private def cancelAction = swing.action(
+  protected def cancelAction = swing.action(
     name : 'Cancel',
     closure : {
       log.info "Execute 'cancel' action"
@@ -44,16 +50,16 @@ public class Generator {
     }
   )
   /** 'Run' action. */
-  private def runAction = swing.action(
+  protected def runAction = swing.action(
     name : 'Run',
     closure : {
       log.info "Execute 'run' action"
-      controller.generatorCode = codeArea.text
-      grun()
+      setCode(codeArea.text)
+      runCode()
     }
   )
   
-  private def constValueClouse = { val, dim ->
+  protected def constValueClouse = { val, dim ->
     return new ConstantModelValue(val, dim)
   }
   
@@ -69,12 +75,16 @@ public class Generator {
   
   public void showFrame() { gframe.visible = true }
   
+  protected String getCode() { return controller.generatorCode }
+  protected String setCode(final String code) { return controller.generatorCode = code }
+  protected String getTitle() { return 'Generator code' }
+  
   public void prepare() {
-    gframe = swing.frame(title : 'Generator code', pack : true) {
+    gframe = swing.frame(title : getTitle(), pack : true) {
       borderLayout()
-      label(text : 'Enter the generator code here', constraints : BL.NORTH)
-      scrollPane(constraints : BL.CENTER, preferredSize : [300, 200]) {
-        codeArea = textArea(text : controller.generatorCode)
+      label(text : 'Enter the code here', constraints : BL.NORTH)
+      scrollPane(constraints : BL.CENTER, preferredSize : [400, 250]) {
+        codeArea = textArea(text : getCode(), font : Config.instance.codeFont)
       }
       panel(constraints : BL.SOUTH) {
         button(action : okAction)
@@ -84,24 +94,37 @@ public class Generator {
     }
   }
   
-  public void grun() {
+  protected void prepareBindings() {
+    if (!baseBinding) { baseBinding = new Binding() }
+    baseBinding['extend'] = this.&extendFuncElement
+    baseBinding['log'] = {msg -> state.logMessage(msg)}
+  }
+  
+  protected extendAllElements(def extMap) {
+    extMap.put('constValue', constValueClouse)
+    extMap.put('log', {msg -> state.logMessage(msg)})
+    extMap.each() { extEntry ->
+      controller.compileElements.each() {
+        String name = it.key
+        CompilationElement el = it.value
+        extendFuncElement(name, extEntry.key, extEntry.value)
+      }
+    }
+  }
+  
+  public void runCode() {
     controller.compileBindings.clear()
     log.info 'Generator is working'
     if (controller.generatorCode) {
-      Binding gb = new Binding()
-      gb['extend'] = this.&extendFuncElement
-      GroovyShell shell = new GroovyShell(gb, cconf);
+      prepareBindings()
+      GroovyShell shell = new GroovyShell(baseBinding, cconf);
       try {
         shell.evaluate(controller.generatorCode)
       } catch (CompilationFailedException e) {
         throw new InterpreterException('Error in generator code.', e)
       }
     }
-    controller.compileElements.each() {
-      String name = it.key
-      CompilationElement el = it.value
-      extendFuncElement(name, 'constValue', constValueClouse)
-    }
+    extendAllElements([:])
     log.info 'Generator has finished'
   }
 }

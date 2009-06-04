@@ -73,7 +73,7 @@ public class Interpreter {
   }
   
   public void next() {
-    LOG.info("Start the next step");
+    LOG.debug("Start the next step");
     if (elementsToChange == null || elementsToChange.isEmpty()) { return; }
     HashMap<AbstractModelElement, ModelValue> outs = new HashMap<AbstractModelElement, ModelValue>(controller.getElementsMap().size());
     for (Entry<ElementView, AbstractModelElement> e : controller.getElementsMap().entrySet()) {
@@ -119,10 +119,10 @@ public class Interpreter {
 
   public void calculate(final CompilerConfiguration conf) {
     if (!compiled) { compile(conf); }
-    LOG.info("Compilation finished. Start calculating.");
+    LOG.debug("Start calculating.");
     do {
       next();
     } while (elementsToChange != null && !elementsToChange.isEmpty());
-    LOG.info("Calculation is finished");
+    LOG.debug("Calculation is finished");
   }
 }

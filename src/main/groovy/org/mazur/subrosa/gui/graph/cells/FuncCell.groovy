@@ -3,7 +3,7 @@ package org.mazur.subrosa.gui.graph.cells
 import java.awt.Dimension
 import java.awt.event.ActionEvent
 import java.awt.event.ActionListener
-import groovy.swing.SwingBuilderimport java.awt.BorderLayout as BLimport org.jgraph.graph.GraphConstants
+import groovy.swing.SwingBuilderimport java.awt.BorderLayout as BLimport org.jgraph.graph.GraphConstantsimport org.mazur.subrosa.gui.Config
 import javax.swing.JComponent
 import javax.swing.JTextArea
 
@@ -74,7 +74,7 @@ private class EditorContainer extends CommonEditorContainer {
           panel(constraints : BL.CENTER) {
             borderLayout()
             scrollPane(constraints : BL.CENTER, preferredSize : [230, 100]) {
-              codeArea = textArea(text : element.code)
+              codeArea = textArea(text : element.code, font : Config.instance.codeFont)
             }
             widget(applyButton, constraints : BL.EAST)
           }

@@ -30,7 +30,7 @@ public class MainFrameState {
   private int lastIndex = -1
 
   /** Closure. */
-  def displayCompileErrors
+  def displayCompileErrors, infoLog
   
   /**
    * @return active code area
@@ -108,6 +108,10 @@ public class MainFrameState {
     }
   }
   
+  void logMessage(final def message) {
+    if (infoLog) { infoLog(message?.toString()) }
+  }
+  
   /**
    * Start debugger.
    */
@@ -128,7 +132,7 @@ public class MainFrameState {
    * Start generator editor.
    */
   void startGenEditor() {
-    def editor = new Generator(controller : activeDocument.controller, cconf : compilerConf)
+    def editor = new Generator(controller : activeDocument.controller, cconf : compilerConf, state : this)
     editor.prepare()
     editor.showFrame()
   }
@@ -137,9 +141,9 @@ public class MainFrameState {
    * Start generator.
    */
   void startGenerator() {
-    def editor = new Generator(controller : activeDocument.controller, cconf : compilerConf)
+    def editor = new Generator(controller : activeDocument.controller, cconf : compilerConf, state : this)
     try {
-      editor.grun()
+      editor.runCode()
     } catch (InterpreterException e) {
       displayCompileErrors(e)
     }
@@ -157,4 +161,18 @@ public class MainFrameState {
       displayCompileErrors(e)
     }
   }
+  
+  /**
+   * Show console.
+   */
+  void showConsole() {
+    def cc = new Console(controller : activeDocument.controller, cconf : compilerConf, state : this)
+    try {
+      cc.prepare()
+      cc.showFrame()
+    } catch (InterpreterException e) {
+      displayCompileErrors(e)
+    }
+  }
+  
 }
