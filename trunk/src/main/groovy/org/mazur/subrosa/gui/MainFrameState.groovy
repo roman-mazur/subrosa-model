@@ -143,6 +143,7 @@ public class MainFrameState {
   void startGenerator() {
     def editor = new Generator(controller : activeDocument.controller, cconf : compilerConf, state : this)
     try {
+      editor.prepare()
       editor.runCode()
     } catch (InterpreterException e) {
       displayCompileErrors(e)

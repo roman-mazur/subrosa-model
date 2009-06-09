@@ -34,7 +34,7 @@ public class Debugger {
     this.interpreter.compile(compilerConfiguration)
     this.interpreter.init()
     
-    def de = controller.debugElements
+    def de = controller.debugElements.sort() { it.label }
     debugElements = new HashMap(de.size())
     int s = de.size()
     int r = (int)Math.floor(Math.sqrt(s))

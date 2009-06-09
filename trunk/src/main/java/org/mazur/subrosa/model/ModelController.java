@@ -76,26 +76,29 @@ public class ModelController {
   }
   
   private void writeString(final ObjectOutputStream out, final String v) throws IOException {
-    LOG.debug("write: " + v);
-    byte[] bytes = null;
-    int bytesLen = 0;
-    if (v != null) {
-      bytes = v.getBytes();
-      bytesLen = bytes.length;
-    }
-    out.writeInt(bytesLen);
-    if (bytesLen > 0) { out.write(bytes); }
+    LOG.info("write: " + v);
+//    byte[] bytes = null;
+//    int bytesLen = 0;
+//    if (v != null) {
+//      bytes = v.getBytes();
+//      bytesLen = bytes.length;
+//    }
+//    out.writeInt(bytesLen);
+//    LOG.info("Write " + bytesLen + " bytes");
+//    if (bytesLen > 0) { out.write(bytes, 0, bytesLen); }
+    out.writeObject(v);
   }
   
-  private String readString(final ObjectInputStream input) throws IOException {
-    String res = null;
-    int bytesLen = input.readInt();
-    if (bytesLen > 0) {
-      byte[] bytes = new byte[bytesLen];
-      input.read(bytes);
-      res = new String(bytes);
-    }
-    LOG.debug("Read " + res);
+  private String readString(final ObjectInputStream input) throws IOException, ClassNotFoundException {
+    String res = (String)input.readObject();
+//    int bytesLen = input.readInt();
+//    if (bytesLen > 0) {
+//      LOG.info("Count of bytes: " + bytesLen);
+//      byte[] bytes = new byte[bytesLen];
+//      input.read(bytes, 0, bytesLen);
+//      res = new String(bytes);
+//    }
+    LOG.info("Read " + res + "\n" + (res != null ? res.length() : "0"));
     return res;
   }
   
@@ -115,12 +118,18 @@ public class ModelController {
     output.close();
   }
   
-  public void loadModel(final InputStream in) throws IOException {
+  public void loadModel(final InputStream in) throws IOException, ClassNotFoundException {
     ObjectInputStream input = new ObjectInputStream(in);
     int v = input.readInt();
     LOG.info("Version: " + v);
     generatorCode = readString(input);
-    if (v == CURRENT_VERSION) { experimentsCode = readString(input); }
+    if (v == CURRENT_VERSION) {
+//      for (int i = 0; i < 30; i++) {
+//        byte b = input.readByte();
+//        LOG.info("Next: " + b + " " + (char)b); 
+//      }
+      experimentsCode = readString(input); 
+    }
     while (true) {
       try {
         AbstractModelElement e = (AbstractModelElement)input.readObject();

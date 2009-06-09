@@ -1,0 +1,7 @@
+log 'start console'
+startGenerator()
+log inputs()
+log outputs()
+allInputVars() {
+  log it
+}
