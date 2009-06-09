@@ -93,6 +93,7 @@ public class Graphs {
     setStatus('Start calculations...')
     this.separateGraphs = funcExp.trim() == 'f(x)'
     try {
+      def p1Count = 0, p2Count = 0
       mainChartData.removeAllSeries()
       Script calcScript = shell.parse(funcExp)
       def outValues = [0] * outputs.size(), outSeries = [];

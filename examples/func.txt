@@ -1,0 +1,2 @@
+def vc = inputs[0].constValue()
+constValue(tblFunc(vc.value), vc.dimension)

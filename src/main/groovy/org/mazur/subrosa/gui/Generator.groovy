@@ -32,6 +32,9 @@ public class Generator {
   /** Builder. */
   protected SwingBuilder swing = new SwingBuilder()
   
+  /** Sorted inputs. */
+  private def inputs
+  
   /** 'Ok' action. */
   protected def okAction = swing.action(
     name : 'OK',
@@ -92,12 +95,20 @@ public class Generator {
         button(action : runAction)
       }
     }
+    inputs = controller.inputs.sort() { it.number }
   }
   
   protected void prepareBindings() {
     if (!baseBinding) { baseBinding = new Binding() }
     baseBinding['extend'] = this.&extendFuncElement
-    baseBinding['log'] = {msg -> state.logMessage(msg)}
+    baseBinding['log'] = { msg -> state.logMessage(msg) }
+    baseBinding['randValues'] = {
+      def result = new ArrayList(inputs.size())
+      inputs.each() {
+        result += (int)(Math.random() * (2 ** it.dimension))
+      }
+      return result
+    }
   }
   
   protected extendAllElements(def extMap) {

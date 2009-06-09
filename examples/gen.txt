@@ -1,0 +1,93 @@
+log "Start generator"
+int H = 3
+def phiFuncs = []
+H.times() {
+  phiFuncs.add([null] * 8)
+}
+log "Phi-functions are set to null"
+def x1 = randValues()
+log "X1: $x1"
+
+def calcSimple = { inputValues ->
+  def prev = inputValues, next = []
+  H.times() {
+    H.times() { // phi(X)
+      def v = phiFuncs[it][prev[it]]
+      if (v == null) {
+        v = (int)(Math.random() * 8)
+        phiFuncs[it][prev[it]] = v
+      }
+      next += v
+    }
+    H.times() { // XOR
+      next[it] ^= prev[(it + H - 1) % H]
+    }
+    prev = next
+  }
+  return next
+}
+def firstCalc = calcSimple(x1)
+log "First calc: $firstCalc"
+
+def x2 = randValues()
+int mergeLayer = (int)(Math.random() * H)
+log "X2: $x2, merge layer: $mergeLayer"
+
+def findNull = { func, exclude ->
+  def indexes = []
+  for (i in 0..(func.size() - 1)) {
+    if (func[i] == null && exclude != i) { indexes += i }
+  }
+  if (indexes.empty) { return -1 }
+  return indexes[(int)(Math.random() * indexes.size())]
+}
+def calcTest = { inputValues ->
+  def prev = inputValues, next = []
+  def sigmaSet = [:]
+  H.times() { level ->
+    if (level > mergeLayer) { return }
+    H.times() { // phi(X)
+      def v = phiFuncs[it][prev[it]]
+      if (level == mergeLayer) {
+        if (v == null) {
+          v = findNull(phiFuncs[it], prev[it])
+          if (v >= 0) {
+            v ^= prev[it]
+            phiFuncs[it][prev[it]] = v
+          } else {
+            v = 0
+          }
+          sigmaSet.put(it, prev[it])
+        }
+      } else {
+        if (v == null) {
+          v = (int)(Math.random() * 8)
+          sigmaSet.put(it, prev[it])
+          phiFuncs[it][prev[it]] = v
+        }
+      }
+      next += v
+    }
+    H.times() { // XOR
+      next[it] ^= prev[(it + H - 1) % H]
+    }
+    if (level != mergeLayer) { prev = next }
+  }
+  
+  boolean ok = false
+  H.times() { ok &= phiFuncs[it][prev[it]] == null }
+  log "Ok: $ok"
+  return next
+}
+
+calcTest(x2)
+log "Phi: $phiFuncs"
+
+def simpleTable = []
+8.times() { simpleTable += (int)(Math.random() * 8) }
+log "Simple table: ${simpleTable}"
+def tblFunc = { x -> simpleTable[x % 8] }
+
+3.times() {
+  extend("f${it + 1}", "tblFunc", tblFunc)
+}
